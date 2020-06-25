@@ -1,0 +1,7 @@
+#Required
+version: 2
+
+#Required
+sphinx:
+  configuration: docs/conf.py
+

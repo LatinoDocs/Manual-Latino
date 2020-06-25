@@ -1,0 +1,1 @@
+html_logo = '_media/Latino-logo.svg'
