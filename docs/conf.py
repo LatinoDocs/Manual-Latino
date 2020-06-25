@@ -1,1 +1,1 @@
-html_logo = '_media/Latino-logo.svg'
+html_logo = '/_media/Latino-logo.svg'
