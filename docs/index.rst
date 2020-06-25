@@ -36,12 +36,12 @@ Si desea colaborar, mire el articulo de `guía de colaboración`_
 
 .. Tabla de contenido (TOC)
 
-..toctree::
+.. toctree::
    :maxdepth: 1
-
+   
    Introducción 
 
-..toctree::
+.. toctree::
    :maxdepth: 2
    :caption: Instalar Latino
    :caption: Editores de textos
