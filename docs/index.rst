@@ -18,6 +18,8 @@ Otras Documentaciones
 
 ----
 
+.. note:: Esta documentación esta sujeta a actualizaciones y modificaciones, ya que aún se encuentra en un proceso de desarrollo. Gracias.
+
 ==================
 ¿Deseas colaborar?
 ==================
@@ -38,12 +40,26 @@ Si desea colaborar, mire el articulo de `guía de colaboración`_
 
 .. toctree::
    :maxdepth: 1
+   :hidden:
    
    Introducción 
 
 .. toctree::
    :maxdepth: 2
+   :hidden:
    :caption: Instalar Latino
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
    :caption: Editores de textos
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
    :caption: Primeros pasos
-   :caption: sintaxis
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Sintaxis

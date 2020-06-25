@@ -1,7 +1,16 @@
 source_suffix = '.rst'
+
 master_doc = 'index'
-html_logo = '_media/Latino-logo.svg'
+
+project = u'Manual Latino'
+author = u'Melvin Guerrero'
+copyright = '2015-{}, Lenguaje Latino'.format(
+    timezone.now().year
+)
+
+html_favicon = '_media/favicon.ico'
+html_logo = '_media/ManualLatino-Logo.svg'
 html_theme_options = {
     'logo_only': True,
-    'display_version': False,
+    'display_version': False
 }
