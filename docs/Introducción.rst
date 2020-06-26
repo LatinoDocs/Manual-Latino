@@ -1,3 +1,6 @@
+.. meta::
+   :description: Introducción a la documentación
+
 Introducción
 ============
 
