@@ -93,5 +93,5 @@ html_favicon = "_static/_media/favicon.ico"
 html_logo = "_static/_media/ManualLatino-Logo(White).svg"
 html_theme_options = {
     'logo_only': True,
-    'display_version': True
+    'display_version': False
 }

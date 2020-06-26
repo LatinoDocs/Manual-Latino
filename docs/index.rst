@@ -43,13 +43,13 @@ Si desea colaborar, mire el articulo de `guía de colaboración`_
 .. Tabla de contenido (TOC)
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :hidden:
    
    Introducción 
 
 .. toctree::
-   :maxdepth: 0
+   :maxdepth: 2
    :hidden:
    :caption: Instalar Latino
 
@@ -62,6 +62,13 @@ Si desea colaborar, mire el articulo de `guía de colaboración`_
    :maxdepth: 2
    :hidden:
    :caption: Editores de textos
+
+   editores/Atom
+   editores/Notepad++
+   editores/Sublime-Text
+   editores/TextMate
+   editores/Vim
+   editores/VS-Code 
 
 .. toctree::
    :maxdepth: 2
