@@ -4,5 +4,5 @@ env/
 _build/
 
 #Ignorar archivos
-make.bat
-Makefile
+docs/make.bat
+docs/Makefile
