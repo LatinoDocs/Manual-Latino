@@ -13,10 +13,10 @@ Para poder usar la sintaxis de Latino en Atom, estos son los pasos a seguir una 
 * Clic en Install > En el buscador escribimos **Latino** y presionamos Enter y por último **Install**
 * **y Listo!** Ya podremos programar en Atom con sintaxis de Latino
 
-.. figure:: ../_static/_media/editores-Instalacion/Atom/Settings.PNG
+.. figure:: ../_static/_media/editores-Instalacion/Atom/Settings.png
    :figwidth: 100%
-   :target: ../_static/_media/editores-Instalacion/Atom/Settings.PNG
+   :target: ../_static/_media/editores-Instalacion/Atom/Settings.png
 
-.. figure:: ../_static/_media/editores-Instalacion/Atom/InstalarLatino.PNG
+.. figure:: ../_static/_media/editores-Instalacion/Atom/InstalarLatino.png
    :figwidth: 100%
-   :target: ../_static/_media/editores-Instalacion/Atom/InstalarLatino.PNG
+   :target: ../_static/_media/editores-Instalacion/Atom/InstalarLatino.png
