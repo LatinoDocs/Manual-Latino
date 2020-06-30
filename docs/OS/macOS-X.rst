@@ -7,7 +7,7 @@ macOS-X
 =======
 .. admonition:: Descargar
 
-   :download:`Descargar Latino <https://github.com/MelvinG24/Latino/releases/latest>`  Sólo para Mac con procesador **Intel**, requiere el sistemas **Mac OS X 10.4** o posteriores.
+   :download:`Descargar Latino <https://github.com/lenguaje-latino/Latino/releases/latest>`  Sólo para Mac con procesador **Intel**, requiere el sistemas **Mac OS X 10.4** o posteriores.
 
 1. Una vez descargada la instalación de Latino procedemos con la instalación
 2. Doble-clic en nuestro paquete de instalación Latino-XXX-Darwin.pkg

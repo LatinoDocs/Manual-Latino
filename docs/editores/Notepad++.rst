@@ -37,7 +37,10 @@ Para poder usar la sintaxis de Latino en Notepad++, estos son los pasos a seguir
    :figwidth: 100%
    :target: ../_static/_media/editores-Instalacion/Notepad/Successful.png
 
-.. important:: LLegado a este punto, **reinicie Notepad++**
+.. container:: nota
+
+  |  **Importante**
+  |  LLegado a este punto, **reinicie Notepad++**
 
 .. figure:: ../_static/_media/editores-Instalacion/Notepad/Tinar_Settings.png
    :figwidth: 100%

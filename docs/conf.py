@@ -69,7 +69,6 @@ exclude_patterns = []
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
 
-
 # -- Options for HTML output -------------------------------------------------
 
 # Add any paths that contain custom static files (such as style sheets) here,
@@ -79,8 +78,6 @@ html_static_path = ['_static']
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-#
-
 html_theme = "sphinx_rtd_theme"
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 html_css_files = ["css/custom.css"]
@@ -95,3 +92,5 @@ html_theme_options = {
     'logo_only': True,
     'display_version': False
 }
+
+# %%

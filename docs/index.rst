@@ -75,6 +75,8 @@ Si desea colaborar, mire el articulo de `guía de colaboración`_
    :hidden:
    :caption: Primeros pasos
 
+   ejemplos/Mi Primer Programa
+
 .. toctree::
    :maxdepth: 2
    :hidden:

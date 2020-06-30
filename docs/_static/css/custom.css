@@ -1,10 +1,10 @@
 /* Main logo width */
 .wy-side-nav-search > a {width: 100% !important;}
 
-.highlight {
-    background: #f8f8f8 !important;
-}
-.highlight > pre {font-size: 16px !important;}
+.highlight {background: #f8f8f8 !important;}
+.highlight-latino {border-left: 10px solid #358ccb !important;}
+.highlight > pre, .linenodiv > pre {font-size: 16px !important;}
+.linenodiv pre {padding-left: 20px !important; color: #999 !important;}
 
 .nota > div {
     background-color: #ffffcc;
