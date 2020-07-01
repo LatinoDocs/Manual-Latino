@@ -46,7 +46,7 @@ Si desea colaborar, mire el articulo de `guía de colaboración`_
    :maxdepth: 2
    :hidden:
    
-   Introducción 
+   Introduccion 
 
 .. toctree::
    :maxdepth: 2
@@ -75,13 +75,29 @@ Si desea colaborar, mire el articulo de `guía de colaboración`_
    :hidden:
    :caption: Primeros pasos
 
-   ejemplos/Mi Primer Programa
+   ejemplos/Mi-Primer-Programa
 
 .. toctree::
    :maxdepth: 2
    :hidden:
    :caption: Sintaxis
 
+   sintaxis/Comentarios
+   sintaxis/Variables
+   sintaxis/Operadores
+   sintaxis/Aritmetica
+   sintaxis/Asignacion
+   sintaxis/Relacionales
+   sintaxis/Logicos
+   sintaxis/Tipos-de-Datos
+   sintaxis/Funciones
+   sintaxis/Diccionarios
+   sintaxis/Condicion-Si
+   sintaxis/Condicion-Elegir
+   sintaxis/Condicion-Desde
+   sintaxis/Condicion-Mientras
+   sintaxis/Condicion-Repetir
+   sintaxis/Lista
 
 .. .. container:: nota
 ..
