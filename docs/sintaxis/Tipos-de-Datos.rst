@@ -29,11 +29,10 @@ Tipos de datos: Lógicos
 ------------------------
 Los tipos de datos lógicos (o booleans por su nombre en inglés) solo pueden tener dos valores: **verdadero** o **falso**.
 
-.. code-block:: latino
-   :linenos:
+.. raw:: html
 
-   x = 5
+   <pre><code class="language-latino line-numbers">x = 5
    y = 5
    z = 6
    escribir(x == y)       // devolverá un valor verdadero
-   escribir(x == z)       // Devolverá un valor falso
+   escribir(x == z)       // Devolverá un valor falso</code></pre>

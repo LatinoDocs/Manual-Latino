@@ -7,10 +7,9 @@ Condición Elegir (Switch)
 ==========================
 Evalúa una opción de múltiples posibles casos. La opción puede ser una expresión, en caso de que ninguna opción se cumpla en algún caso se ejecuta el código después de la palabra reservada otro o defecto. Los valores de los casos solo pueden ser numéricos o cadenas.
 
-.. code-block:: latino
-   :linenos:
+.. raw:: html
 
-   elegir (opcion)
+   <pre><code class="language-latino line-numbers">elegir (opcion)
      caso valor1:
        #codigo
      caso valor2:
@@ -36,6 +35,6 @@ Evalúa una opción de múltiples posibles casos. La opción puede ser una expre
      otro:
        escribir("Calificación invalida.")
    fin
-   #salida: Bien echo!
+   #salida: Bien echo!</code></pre>
 
 Notese que se tiene que repetir el caso para B y C por el momento no se permiten casos múltiples como una sola opción.

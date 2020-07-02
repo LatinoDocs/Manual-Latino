@@ -2,6 +2,14 @@
    :description: Documentación de Latino, un lenguaje de programación con sintaxis en Español
    :keywords: manual, documentacion, latino
 
+.. epigraph::
+   
+   Have been programing for over four decades. Each programmer needs to be responsible for documenting, testing and debugging what they have created - who else knows it better?
+
+   -- Prem Sobel
+
+----
+
 ====================
 Manual Latino v1.2.0
 ====================

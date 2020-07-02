@@ -29,12 +29,19 @@ Contenido de la página
 
 ----
 
-.. Esto es un bloque de código
+.. Esto es un bloque de código de Latino
+
+.. raw::html
+   
+   <pre><code class="language-latino line-numbers">#Este es un ejemplo
+   escribir("Hola Mundo, Latino!")</code></pre>
 
 .. code-block:: bash
    
-   Si desea aprender mas sobre la estructura de los archivos RST, visite la siguiente página web `Esto es un enlace`_
-   Tambien pueve visitar `Esta otra página`_ o tambien esta_
+   Hola Mundo, Latino!
+
+Si desea aprender mas sobre la estructura de los archivos RST, visite la siguiente página web `Esto es un enlace`_
+Tambien pueve visitar `Esta otra página`_ o tambien esta_
 
 .. Esto es una imagen
 

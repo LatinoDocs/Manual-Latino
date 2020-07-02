@@ -11,12 +11,11 @@ Las variables son representadas por un nombre que es asignado por el programador
 
 En este ejemplo **X**, **Y** y **Z** serán las variables:
 
-.. code-block:: latino
-   :linenos:
+.. raw:: html
 
-   x = 3
+   <pre><code class="language-latino line-numbers">x = 3
    y = 5
-   z = x + y
+   z = x + y</code></pre>
 
 En este ejemplo, se puede observar la siguiente explicación:
   * X es una variable, y esta almacena el valor de 3
@@ -29,13 +28,12 @@ Variables numéricas
 --------------------
 En este ejemplo **precio1**, **precio2**, y **total**, serán variables:
 
-.. code-block:: latino
-   :linenos:
+.. raw:: html
 
-   precio1 = 5
+   <pre><code class="language-latino line-numbers">precio1 = 5
    precio2 = 6
    total = precio1 + precio2
-   escribir("El precio total es: " .. total)
+   escribir("El precio total es: " .. total)</code></pre>
 
 Las variables de Latino son contenedores para almacenar variedades de datos:
   * En programación, también se usan las variables para guardar valores algebraicos (como es el caso de la variable precio1 y precio2).
@@ -56,11 +54,10 @@ Las variables SI pueden:
   * Empezar con un guión bajo **_** o letras **a-z** o **A-Z**.
   * Contener caracteres en mayúsculas y minúsculas. (Latino es sensible a las mayúsculas y minúsculas, por lo que los identificadores con nombres similares pero con letras mayúsculas o minúsculas en ellas serán interpretadas como diferentes variables en Latino).
 
-.. code-block:: latino
-   :linenos:
+.. raw:: html
 
-   mensaje = "Hola Mundo"
-   Mensaje = "¡Hasta la vista baby!"
+   <pre><code class="language-latino line-numbers">mensaje = "Hola Mundo"
+   Mensaje = "¡Hasta la vista baby!"</code></pre>
 
 Las variables NO pueden:
 +++++++++++++++++++++++++
@@ -75,12 +72,11 @@ Declaraciones de múltiples variables
 En Latino es posible asignar más de una variable en una sola línea de código.
 En Latino una declaración múltiple sólo será valida de la siguiente manera:
 
-.. code-block:: latino
-   :linenos:
+.. raw:: html
 
-   a, b, c = 1, 2, 3    #la variable a=1, b=2, y c=3
+   <pre><code class="language-latino line-numbers">a, b, c = 1, 2, 3    #la variable a=1, b=2, y c=3
    a, b, c = 1, 2       #la variable a=1, b=2, y c = nulo (vacío)
-   a, b = 1, 2, 3       #la variable a=1, b=2 se descarta el valor 3 ya que no fue asignado a una variable
+   a, b = 1, 2, 3       #la variable a=1, b=2 se descarta el valor 3 ya que no fue asignado a una variable</code></pre>
 
 ----
 
@@ -92,12 +88,11 @@ En programación, los valores alfanuméricos (o textos) se los llaman **Strings*
 
 Los strings se escriben dentro de comillas simples o dobles. Sin embargo, los números se pueden escribir sin estas comillas.
 
-.. code-block:: latino
-   :linenos:
+.. raw:: html
 
-   pi = 3.14
+   <pre><code class="language-latino line-numbers">pi = 3.14
    persona = "Melvin Guerrero"
-   respuesta = "Hola!, buenos días!"
+   respuesta = "Hola!, buenos días!"</code></pre>
 
 ----
 
@@ -109,22 +104,20 @@ Este símbolo **+** solo es usado para sumar valores numéricos.
 
 Para concatenar datos en Latino se utilizan los puntos dobles **..**
 
-.. code-block:: latino
-   :linenos:
+.. raw:: html
 
-   x = 2 + 3                  //Aquí se están sumando los valores numéricos
+   <pre><code class="language-latino line-numbers">x = 2 + 3                  //Aquí se están sumando los valores numéricos
    y = 2 .. 3                 //Aquí se están concatenado los valores numéricos
-   escribir(x .. " " .. y)    //Aquí se están agregando las dos variables y se le añadió un espacio en blanco para separarlas
+   escribir(x .. " " .. y)    //Aquí se están agregando las dos variables y se le añadió un espacio en blanco para separarlas</code></pre>
 
 Si se desea concatenar valores alfanuméricos con valores u operaciones numéricas, se recomienda que se declaren en variables separadas y se concatenen en una nueva variable para ser escritas:
 
-.. code-block:: latino
-   :linenos:
+.. raw:: html
 
-   x = "Melvin"
+   <pre><code class="language-latino line-numbers">x = "Melvin"
    y = 2 + 3
    z = x..", "..y
-   escribir(z)    //El resultado será Melvin, 5
+   escribir(z)    //El resultado será Melvin, 5</code></pre>
 
 ----
 
@@ -136,11 +129,10 @@ Cuando se declara una variable constante, se le debe asignar un valor al momento
 
 Las variables constantes se deben declarar escribiendo todo su nombre en mayúsculas.
 
-.. code-block:: latino
-   :linenos:
+.. raw:: html
 
-   PI = 3.14
-   VALOR_EXTRA = 9.8
+   <pre><code class="language-latino line-numbers">PI = 3.14
+   VALOR_EXTRA = 9.8</code></pre>
 
 .. Enlaces
 

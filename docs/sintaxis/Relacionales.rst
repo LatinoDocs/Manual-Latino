@@ -1,3 +1,5 @@
+.. _relacionalesLink:
+
 .. meta::
    :description: Relacionales en Latino
    :keywords: manual, documentacion, latino, sintaxis, relacionales
@@ -37,11 +39,10 @@ Los operadores relacionales se utilizan en la toma de decisiones y en los bucles
 
 Para los siguientes ejemplos supondremos que la variable **x** tiene un valor de **5**
 
-.. code-block:: latino
-   :linenos:
+.. raw:: html
 
-   x = 5
-   escribir(x==8)    //El resultado sería falso
+   <pre><code class="language-latino line-numbers">x = 5
+   escribir(x==8)    //El resultado sería falso</code></pre>
 
 +----------+-------------------+------------------+-----------+
 | Operador | Descripción       | Comparativa      | Resultado |

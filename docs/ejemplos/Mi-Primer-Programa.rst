@@ -27,10 +27,9 @@ Para comenzar con cada uno de los ejemplos tendremos que abrir la terminal de nu
       
       Para hacer mostrar un mensaje en pantalla usaremos el siguiente comando y presionamos Enter
 
-      .. code-block:: latino
-         :linenos:
-
-         escribir("Hola Mundo, Latino!")
+      .. raw:: html
+         
+         <pre><code class="language-latino line-numbers">escribir("Hola Mundo, Latino!")</code></pre>
 
       El resultado será:
 
@@ -47,19 +46,17 @@ Para comenzar con cada uno de los ejemplos tendremos que abrir la terminal de nu
 
       En este ejemplo se mostrara como podemos digitar y almacenar valores a una variable y posteriormente mostrar ese valor en pantalla.
 
-      .. code-block:: latino
-         :linenos:
+      .. raw:: html
          
-         escribir("Digite un número:")
+         <pre><code class="language-latino line-numbers">escribir("Digite un número:")
          num=leer()    //aquí creamos una variable y le asignamos la función leer()
-         escribir("El número digitado fue: "..num)
+         escribir("El número digitado fue: "..num)</code></pre>
       
       .. note:: Si está escribiendo el código directamente en la terminal, se puede escribir todo en una sola línea, así:
 
-      .. code-block:: latino
-         :linenos:
+      .. raw:: html
          
-         escribir("Digite un número:") num=leer() escribir("El número digitado fue: "..num)
+         <pre><code class="language-latino line-numbers">escribir("Digite un número:") num=leer() escribir("El número digitado fue: "..num)</code></pre>
       
       El resultado será:
 
@@ -80,23 +77,21 @@ Para comenzar con cada uno de los ejemplos tendremos que abrir la terminal de nu
 
       **Ejemplo 1:**
 
-      .. code-block:: latino
-         :linenos:
+      .. raw:: html
          
-         escribir("Entre un número:")
+         <pre><code class="language-latino line-numbers">escribir("Entre un número:")
          num=leer()
          si (num % 2 == 0)     //Verdadero si el número es perfectamente divisible por 2
            escribir("El número "..num.." es par")
          sino
            escribir("El número "..num.." es impar")
-         fin
+         fin</code></pre>
       
       .. note:: Si está escribiendo el código directamente en la terminal, se puede escribir todo en una sola línea, así:
 
-      .. code-block:: latino
-         :linenos:
+      .. raw:: html
          
-         escribir("Entre un número:") num=leer() si(num%2==0) escribir("El número "..num.." es par") sino escribir("El número "..num.." es impar") fin
+         <pre><code class="language-latino line-numbers">escribir("Entre un número:") num=leer() si(num%2==0) escribir("El número "..num.." es par") sino escribir("El número "..num.." es impar") fin</code></pre>
       
       El resultado será:
 
@@ -110,12 +105,11 @@ Para comenzar con cada uno de los ejemplos tendremos que abrir la terminal de nu
 
       Esta es otra forma de poder crear el mismo programa pero en menos líneas de códigos:
 
-      .. code-block:: latino
-         :linenos:
+      .. raw:: html
          
-         escribir("Entre un número:")
+         <pre><code class="language-latino line-numbers">escribir("Entre un número:")
          num=leer()
-         escribir("El numero "..num..(num%2==0)?" es par":" es impar")
+         escribir("El numero "..num..(num%2==0)?" es par":" es impar")</code></pre>
       
       El resultado será:
 
@@ -135,13 +129,12 @@ Para comenzar con cada uno de los ejemplos tendremos que abrir la terminal de nu
 
       **Ejemplo 1:**
 
-      .. code-block:: latino
-         :linenos:
+      .. raw:: html
          
-         priNum = 2
+         <pre><code class="language-latino line-numbers">priNum = 2
          segNum = 5
          priNum, segNum = segNum, priNum  //Aquí se intercambian los valores
-         escribir("PrimeroNum:"..priNum.." | SegundoNum:"..segNum)
+         escribir("PrimeroNum:"..priNum.." | SegundoNum:"..segNum)</code></pre>
       
       El resultado será:
 
@@ -151,10 +144,9 @@ Para comenzar con cada uno de los ejemplos tendremos que abrir la terminal de nu
       
       **Ejemplo 2:**
 
-      .. code-block:: latino
-         :linenos:
+      .. raw:: html
          
-         escribir("Entre el primer número:")
+         <pre><code class="language-latino line-numbers">escribir("Entre el primer número:")
          priNum=leer()
          escribir("Entre el segundo número:")
          segNum=leer()
@@ -162,7 +154,7 @@ Para comenzar con cada uno de los ejemplos tendremos que abrir la terminal de nu
          priNum=segNum     //El valor de la segunda variable es asignada a la primera variable
          segNum=tempVar    //El valor de la variable temporaria es asignada a la segunda variable
          escribir("Después de intercambiar, la primera variable es de: "..priNum)
-         escribir("y la segunda variable es de:"..segNum)
+         escribir("y la segunda variable es de:"..segNum)</code></pre>
       
       El resultado será:
 
@@ -177,10 +169,9 @@ Para comenzar con cada uno de los ejemplos tendremos que abrir la terminal de nu
       
       **Ejemplo 3:**
 
-      .. code-block:: latino
-         :linenos:
+      .. raw:: html
          
-         escribir("Entre el primer número:")
+         <pre><code class="language-latino line-numbers">escribir("Entre el primer número:")
          priNum=leer()
          escribir("Entre el segundo número:")
          segNum=leer()
@@ -189,7 +180,7 @@ Para comenzar con cada uno de los ejemplos tendremos que abrir la terminal de nu
          segNum=priNum+segNum
          priNum=segNum-priNum
          escribir("Después de intercambiar, la primera variable es de: "..priNum)
-         escribir("y la segunda variable es de:"..segNum)
+         escribir("y la segunda variable es de:"..segNum)</code></pre>
 
       El resultado será:
 
@@ -210,17 +201,16 @@ Para comenzar con cada uno de los ejemplos tendremos que abrir la terminal de nu
       
       En este ejemplo vamos a crear un programa que sea capaz de saber si el valor que insertamos es una vocal o consonante.
 
-      .. code-block:: latino
-         :linenos:
+      .. raw:: html
          
-         escribir("Entre un alfabeto:")
+         <pre><code class="language-latino line-numbers">escribir("Entre un alfabeto:")
          alfa=leer()
          vocales=("a"||"A"||"e"||"E"||"i"||"I"||"o"||"O"||"u"||"U")    //Declaración de vocales
          si (alfa==vocales)
            escribir(alfa..", es una vocal")
          sino
            escribir(alfa..", no es una vocal")
-         fin
+         fin</code></pre>
       
       El resultado será:
 

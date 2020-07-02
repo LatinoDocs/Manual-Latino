@@ -7,10 +7,9 @@ Condición Si (If)
 ==================
 Evalua una condición y si el resultado es verdadero ejecuta las instrucciones a continuación. Los paréntesis son opcionales en la condición.
 
-.. code-block:: latino
-   :linenos:
+.. raw:: html
 
-   si (condicion)
+   <pre><code class="language-latino line-numbers">si (condicion)
      #codigo
    fin
 
@@ -18,14 +17,13 @@ Evalua una condición y si el resultado es verdadero ejecuta las instrucciones a
    si edad >= 18
      escribir("Eres mayor de edad, ya puedes votar.")
    fin
-   #salida: Eres mayor de edad, ya puedes votar.
+   #salida: Eres mayor de edad, ya puedes votar.</code></pre>
 
 En caso de que el resultado de la condición sea falso se deberá de ejecutar el código después de la palabra reservada sino.
 
-.. code-block:: latino
-   :linenos:
+.. raw:: html
 
-   si condicion
+   <pre><code class="language-latino line-numbers">si condicion
      #codigo
    sino
      #codigo
@@ -37,14 +35,13 @@ En caso de que el resultado de la condición sea falso se deberá de ejecutar el
    sino
      escribir("Eres un niño, tienes que ir a la escuela.")
    fin
-   #salida: Eres un niño, tienes que ir a la escuela.
+   #salida: Eres un niño, tienes que ir a la escuela.</code></pre>
 
 Es posible el anidamiento de las sentencias si-sino de la siguiente manera:
 
-.. code-block:: latino
-   :linenos:
+.. raw:: html
 
-   si condicion
+   <pre><code class="language-latino line-numbers">si condicion
      #codigo
    sino
      si condicion
@@ -52,14 +49,13 @@ Es posible el anidamiento de las sentencias si-sino de la siguiente manera:
      sino
        #codigo
      fin
-   fin
+   fin</code></pre>
 
 Existe una forma más elegante de escribir el código anterior con la palabra reservada osi. En python es elif expresion:.
 
-.. code-block:: latino
-   :linenos:
+.. raw:: html
 
-   si condicion1
+   <pre><code class="language-latino line-numbers">si condicion1
      #codigo
    osi condicion2
      #codigo
@@ -67,4 +63,4 @@ Existe una forma más elegante de escribir el código anterior con la palabra re
      #codigo
    sino
      #codigo
-   fin
+   fin</code></pre>

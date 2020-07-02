@@ -45,7 +45,7 @@ Los operadores aritméticos realizan operaciones matemáticas básicas tales com
 
 .. container:: nota
    
-   | Puedes aprender más sobre estos operadores aritméticos en el capítulo de Aritmética_
+   | Puedes aprender más sobre estos operadores aritméticos en el capítulo de :ref:`Aritmética <aritmeticaLink>`
 
 ----
 
@@ -63,7 +63,7 @@ En latino se encuentran dos operadores que incrementan y decrementan el valor nu
 
 .. container:: nota
    
-   | Puedes aprender más sobre estos operadores en el capítulo de Aritmética_
+   | Puedes aprender más sobre estos operadores en el capítulo de :ref:`Aritmética <aritmeticaIncre>`
 
 ----
 
@@ -90,16 +90,15 @@ El operador de asignación más común es **=** (signo de igual).
 
 El operador de asignación **+=** agrega un valor a una variable.
 
-.. code-block:: latino
-   :linenos:
+.. raw:: html
 
-   x = 10        //Asignamos un valor a la variable X
+   <pre><code class="language-latino line-numbers">x = 10        //Asignamos un valor a la variable X
    x += 5        //Al valor que ya dispone la variable X, le sumamos un valor de 5
-   escribir(x)   //El resultado será 15
+   escribir(x)   //El resultado será 15</code></pre>
 
 .. container:: nota
    
-   | Puedes aprender más sobre estos operadores de asignación en el capítulo de Asignación_
+   | Puedes aprender más sobre estos operadores de asignación en el capítulo de :ref:`Asignación <asignacionLink>`
 
 ----
 
@@ -129,7 +128,7 @@ Los operadores relacionales se utilizan en la toma de decisiones y en los bucles
 
 .. container:: nota
    
-   | Puedes aprender más sobre estos operadores relacionales en el capítulo de Relacionales_
+   | Puedes aprender más sobre estos operadores relacionales en el capítulo de :ref:`Relacionales <relacionalesLink>`
 
 ----
 
@@ -154,7 +153,7 @@ Los operadores lógicos se utilizan comúnmente en la toma de decisiones en prog
 
 .. container:: nota
    
-   | Puedes aprender más sobre estos operadores lógicos en el capítulo de Lógicos_
+   | Puedes aprender más sobre estos operadores lógicos en el capítulo de :ref:`Lógicos <logicosLink>`
 
 ----
 
@@ -173,12 +172,11 @@ El operador condicional funciona de la siguiente manera:
   * Si la expresión condicional es verdadera, se evalúa la *expresión1*.
   * Si la expresión condicional es falsa, se evalúa la *expresió2*.
 
-.. code-block:: latino
-   :linenos:
+.. raw:: html
 
-   numero = -5                                                #creamos una variable con un valor de -5
+   <pre><code class="language-latino line-numbers">numero = -5                                                #creamos una variable con un valor de -5
    mensaje = (numero < 0) ? " es negativo" : " es positivo"   #creamos una nueva variable y a esta le asignamos el operador condicional.
-   escribir ("El número " .. numero .. mensaje)               #El mesaje seria: El número -5 es negativo.
+   escribir ("El número " .. numero .. mensaje)               #El mesaje seria: El número -5 es negativo.</code></pre>
 
 ----
 
@@ -191,20 +189,12 @@ Operador de concatenación
 El operador de concatenación está representado por doble punto **..**
 Este operador se utiliza para concatenar(juntar) expresiones no relacionadas entre sí:
 
-.. code-block:: latino
-   :linenos:
+.. raw:: html
 
-   nombre = "Melvin"                              //Creamos una variable llamada nombre, con un valor alfanumérico Melvin
+   <pre><code class="language-latino line-numbers">nombre = "Melvin"                              //Creamos una variable llamada nombre, con un valor alfanumérico Melvin
    apellido = "Guerrero"                          //Creamos otra variable llamada apellido, con un valor alfanumérico Guerrero
-   escribir ("Hola! " .. nombre .." "..apellido)  #En el comando escribir() asignamos un texto de bienvenida y concatenamos nuestras variables dejando un espacio entre ellas.
+   escribir ("Hola! " .. nombre .." "..apellido)  #En el comando escribir() asignamos un texto de bienvenida y concatenamos nuestras variables dejando un espacio entre ellas.</code></pre>
 
 Operador de acceso a miembro
 +++++++++++++++++++++++++++++
 El operador de acceso a miembro está representado por un solo punto **.**
-
-.. Enlaces
-
-.. _Aritmética:
-.. _Asignación:
-.. _Relacionales:
-.. _Lógicos:

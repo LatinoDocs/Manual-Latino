@@ -67,7 +67,7 @@ exclude_patterns = []
 #highlight_language
 #highlight_options
 # The name of the Pygments (syntax highlighting) style to use.
-pygments_style = 'sphinx'
+pygments_style = 'xcode'
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -82,8 +82,7 @@ html_theme = "sphinx_rtd_theme"
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 html_css_files = ["css/custom.css"]
 html_js_files = [
-    "js/prism.min.js",
-    "js/prism-line-numbers.min.js",
+    "js/prism.js",
     "js/prism-latino-syntax.js"
 ]   
 html_favicon = "_static/_media/favicon.ico"
@@ -92,5 +91,3 @@ html_theme_options = {
     'logo_only': True,
     'display_version': False
 }
-
-# %%

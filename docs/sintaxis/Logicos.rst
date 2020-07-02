@@ -1,3 +1,5 @@
+.. _logicosLink:
+
 .. meta::
    :description: Lógicos en Latino
    :keywords: manual, documentacion, latino, sintaxis, logicos

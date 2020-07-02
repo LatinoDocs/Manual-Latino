@@ -25,13 +25,12 @@ Los nombres de funciones pueden contener letras, dígitos, subrayados y signos d
 
 Los paréntesis pueden incluir nombres de parámetros separados por comas: (**parámetro1**, **parámetro2**, ...)
 
-.. code-block:: latino
-   :linenos:
+.. raw:: html
 
-   funcion nombreFuncion (argumento1, argumento2)
+   <pre><code class="language-latino line-numbers">funcion nombreFuncion (argumento1, argumento2)
      #codigo
      retornar resultado
-   fin
+   fin</code></pre>
 
 ----
 
@@ -41,14 +40,13 @@ Para ejecutar el código dentro de una función primero hay que invocarla (llama
 
 Para llamar una función se hace escribiendo el **nombre de la función** y en paréntesis los parámetros que esta tenga (en caso de que haya alguno).
 
-.. code-block:: latino
-   :linenos:
+.. raw:: html
 
-   funcion hola()                        //Aquí creamos una función con el nombre de hola()
+   <pre><code class="language-latino line-numbers">funcion hola()                        //Aquí creamos una función con el nombre de hola()
      escribir("Hola Mundo, Latino!")     //Aquí especificamos lo que queremos que la función haga, en este caso sería un mensaje de "Hola Mundo, Latino!"
    fin                                   //Se concluye la función
 
-   hola()                                //aquí llamamos a la función a ser ejecutada y el código dentro de esta se ejecutara
+   hola()                                //aquí llamamos a la función a ser ejecutada y el código dentro de esta se ejecutara</code></pre>
 
 ----
 
@@ -60,15 +58,14 @@ Para que nuestra función pueda retornar valores es necesario que esta tenga sus
 
 En Latino se puede regresar el valor de una función con las palabras claves **regresar**, **retornar** o la forma corta **ret**. La estructura de una función es la siguiente:
 
-.. code-block:: latino
-   :linenos:
+.. raw:: html
 
-   funcion suma(a,b)               //creamos una función de nombre suma() y con dos parámetros los cuales serán a y b
+   <pre><code class="language-latino line-numbers">funcion suma(a,b)               //creamos una función de nombre suma() y con dos parámetros los cuales serán a y b
      retornar a+b                  //asignamos el valor que deseamos devolver el cual será la suma de a+b
    fin
 
    resultado=suma(2,3)             //creamos una variable llamada resultado y en ella asignamos el nombre de la función la cual es suma() y le asignamos valores a los parámetros
-   escribir(resultado)             //El resultado será 5
+   escribir(resultado)             //El resultado será 5</code></pre>
 
 ----
 
@@ -76,10 +73,9 @@ Funciones como variables
 -------------------------
 Las funciones se pueden usar de la misma manera que las variables, en todos los tipos de fórmulas, asignaciones y cálculos.
 
-.. code-block:: latino
-   :linenos:
+.. raw:: html
 
-   /*En este ejemplo primero
+   <pre><code class="language-latino line-numbers">/*En este ejemplo primero
    crearemos una función la cual convertirá
    el valor de fahrenheit a celsius
    y posteriormente veremos cómo usar
@@ -94,7 +90,7 @@ Las funciones se pueden usar de la misma manera que las variables, en todos los 
    escribir("La temperatura es de "..x.." celsius")
 
    //Aquí usamos directamente la función
-   escribir("La temperatura es de "..convCelsius(77).." celsius")
+   escribir("La temperatura es de "..convCelsius(77).." celsius")</code></pre>
 
 ----
 
@@ -108,10 +104,9 @@ Para la entrada de datos en una función hacemos uso de los **parámetros**.
 
 Los parámetros de una función son iguales que las variables con la diferencia que solo funcionan en la función en donde estén declaradas.
 
-.. code-block:: latino
-   :linenos:
-   
-   /*En este ejemplo creamos una función,
+.. raw:: html
+
+   <pre><code class="language-latino line-numbers">/*En este ejemplo creamos una función,
    a esta le enviamos el valor colectado por el comando leer()
    este valor es enviado a la función por medio de la variable usuario
    y es recibida en la función gracias al parámetro nombre*/
@@ -122,7 +117,7 @@ Los parámetros de una función son iguales que las variables con la diferencia 
 
    escribir("Hola como te llamas?")
    usuario=leer()
-   bienvenida(usuario)
+   bienvenida(usuario)</code></pre>
 
 ----
 

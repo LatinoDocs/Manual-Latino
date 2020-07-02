@@ -7,10 +7,9 @@ Condición Desde (For Loop)
 ===========================
 Hace que una instrucción o bloque de instrucciones se repitan desde una condición inicial y mientras la condición se cumpla (es decir sea verdadero), en esta sentencia los paréntesis si son requeridos.
 
-.. code-block:: latino
-   :linenos:
+.. raw:: html
 
-   desde (condicion_inicial; condicion; incremento)
+   <pre><code class="language-latino line-numbers">desde (condicion_inicial; condicion; incremento)
      #codigo
    fin
    
@@ -22,14 +21,13 @@ Hace que una instrucción o bloque de instrucciones se repitan desde una condici
    desde (i=10; i >= 0; i--)
      escribir(i)
    fin
-   #salida: 10 9 8 7 6 5 4 3 2 1 0
+   #salida: 10 9 8 7 6 5 4 3 2 1 0</code></pre>
 
 Se puede especificar un salto diferente cambiando la expresión de incremento.
 
-.. code-block:: latino
-   :linenos:
+.. raw:: html
 
-   desde(i=0; i < 50; i=i+10)
+   <pre><code class="language-latino line-numbers">desde(i=0; i < 50; i=i+10)
      imprimir(i)
    fin
-   #salida: 0 10 20 30 40
+   #salida: 0 10 20 30 40</code></pre>

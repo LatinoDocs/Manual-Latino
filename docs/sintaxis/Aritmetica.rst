@@ -1,3 +1,5 @@
+.. _aritmeticaLink:
+
 .. meta::
    :description: Aritmética en Latino
    :keywords: manual, documentacion, latino, sintaxis, aritmetica
@@ -34,24 +36,21 @@ Una típica operación aritmética serían con dos números.
 
 Con dos números literales:
 
-.. code-block:: latino
-   :linenos:
+.. raw:: html
 
-   x = 100 + 50
+   <pre><code class="language-latino line-numbers">x = 100 + 50</code></pre>
 
 o también con variables:
 
-.. code-block:: latino
-   :linenos:
+.. raw:: html
 
-   x = a + b
+   <pre><code class="language-latino line-numbers">x = a + b</code></pre>
 
 o también con expresiones:
 
-.. code-block:: latino
-   :linenos:
+.. raw:: html
 
-   x = (100 + 50) * a
+   <pre><code class="language-latino line-numbers">x = (100 + 50) * a</code></pre>
 
 ----
 
@@ -59,75 +58,71 @@ Suma
 +++++
 El operador de **suma** (+):
 
-.. code-block:: latino
-   :linenos:
+.. raw:: html
 
-   x = 5
+   <pre><code class="language-latino line-numbers">x = 5
    y = 2
    z = x + y
-   escribir(z)    //El resultado sería 7
+   escribir(z)    //El resultado sería 7</code></pre>
 
 Resta
 ++++++
 El operador de **Resta** (-):
 
-.. code-block:: latino
-   :linenos:
+.. raw:: html
 
-   x = 5
+   <pre><code class="language-latino line-numbers">x = 5
    y = 2
    z = x - y
-   escribir(z)    //El resultado sería 3
+   escribir(z)    //El resultado sería 3</code></pre>
 
 Multiplicación
 +++++++++++++++
 El operador de **multiplicación** (*):
 
-.. code-block:: latino
-   :linenos:
+.. raw:: html
 
-   x = 5
+   <pre><code class="language-latino line-numbers">x = 5
    y = 2
    z = x * y
-   escribir(z)    //El resultado sería 10
+   escribir(z)    //El resultado sería 10</code></pre>
 
 División
 +++++++++
 El operador de **división** (/):
 
-.. code-block:: latino
-   :linenos:
+.. raw:: html
 
-   x = 5
+   <pre><code class="language-latino line-numbers">x = 5
    y = 2
    z = x / y
-   escribir(z)    //El resultado sería 2.5
+   escribir(z)    //El resultado sería 2.5</code></pre>
 
 Modulo (Remitente)
 +++++++++++++++++++
 El operador de **remitente** (%):
 
-.. code-block:: latino
-   :linenos:
+.. raw:: html
 
-   x = 5
+   <pre><code class="language-latino line-numbers">x = 5
    y = 2
    z = x % y
-   escribir(z)    //El resultado sería 1
+   escribir(z)    //El resultado sería 1</code></pre>
 
 Potencia
 +++++++++
 El operador de **reminente** (^):
 
-.. code-block:: latino
-   :linenos:
+.. raw:: html
 
-   x = 5
+   <pre><code class="language-latino line-numbers">x = 5
    y = 2
    z = x ^ y
-   escribir(z)    //El resultado sería 25
+   escribir(z)    //El resultado sería 25</code></pre>
 
 ----
+
+.. _aritmeticaIncre:
 
 Operadores de incremento y decremento
 --------------------------------------
@@ -136,23 +131,21 @@ Incrementación
 ++++++++++++++
 El operador de incremento, se representa por **suma doble** (++).
 
-.. code-block:: latino
-   :linenos:
+.. raw:: html
 
-   x = 5         //Declaramos una variable con un valor de 5
+   <pre><code class="language-latino line-numbers">x = 5         //Declaramos una variable con un valor de 5
    x++           //Se incrementa el valor de la variable X por 1
-   escribir(x)   //Es resultado sería 6
+   escribir(x)   //Es resultado sería 6</code></pre>
 
 Decrementación
 +++++++++++++++
 El operador de incremento, se representa por **resta doble** (--).
 
-.. code-block:: latino
-   :linenos:
+.. raw:: html
 
-   x = 5         //Declaramos una variable con un valor de 5
+   <pre><code class="language-latino line-numbers">x = 5         //Declaramos una variable con un valor de 5
    x--           //Se decrece el valor de la variable X por 1
-   escribir(x)   //Es resultado sería 4
+   escribir(x)   //Es resultado sería 4</code></pre>
 
 ----
 
@@ -164,9 +157,8 @@ Los operadores aritméticos, por ejemplo, la multiplicación y la división se e
 
 Para alterar estas reglas de precedencia, se pueden usar **(paréntesis)**.
 
-.. code-block:: latino
-   :linenos:
+.. raw:: html
 
-   x = 100 + 50 * 3
+   <pre><code class="language-latino line-numbers">x = 100 + 50 * 3
    y = (100 + 50) * 3
-   escribir ("Valor de X: " .. x .. ", Valor de Y: ".. y)
+   escribir ("Valor de X: " .. x .. ", Valor de Y: ".. y)</code></pre>

@@ -7,10 +7,9 @@ Condición Repetir
 ==================
 Hace que una instrucción o bloque de instrucciones se repitan mientra la condición sea falso, las instrucciones de código se ejecutan al menos una vez. Los paréntesis son opcionales en la condición.
 
-.. code-block:: latino
-   :linenos:
+.. raw:: html
 
-   repetir
+   <pre><code class="language-latino line-numbers">repetir
      #codigo
    hasta condicion
 
@@ -19,17 +18,16 @@ Hace que una instrucción o bloque de instrucciones se repitan mientra la condic
      escribir(i)
      i++ #incremento
    hasta i == 10
-   #salida: 0 1 2 3 4 5 6 7 8 9
+   #salida: 0 1 2 3 4 5 6 7 8 9</code></pre>
 
 Se puede salir de los bucles (desde, mientras y repetir) con la palabra reservada romper.
 
-.. code-block:: latino
-   :linenos:
+.. raw:: html
 
-   desde(i=0; i < 10; i++)
+   <pre><code class="language-latino line-numbers">desde(i=0; i < 10; i++)
      si (i == 5)
        romper    #se sale del ciclo desde
      fin
      imprimir(i)
    fin
-   #salida: 0 1 2 3 4   #se imprime solo hasta el 4
+   #salida: 0 1 2 3 4   #se imprime solo hasta el 4</code></pre>

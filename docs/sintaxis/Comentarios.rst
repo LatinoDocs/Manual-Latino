@@ -16,22 +16,20 @@ Cualquier texto o código que este después de estos signos serán ignorados por
 
 En este ejemplo se hará uso del comentario de una línea antes de cada línea de código:
 
-.. code-block:: latino
-   :linenos:
-
-   //Esta línea de código mostrara el mensaje Hola Mundo al ejecutar el programa
+.. raw:: html
+   
+   <pre><code class="language-latino line-numbers">//Esta línea de código mostrara el mensaje <code class="l">Hola Mundo</code> al ejecutar el programa
    escribir ("Hola Mundo")
    #La siguiente línea de código sumara los valores y su resultado se escribirá en pantalla
-   escribir (5+5)
+   escribir (5+5)</code></pre>
 
 En este ejemplo se usa un comentario línea simple al final de cada línea para explicar el código:
 
-.. code-block:: latino
-   :linenos:
-
-   x = 5            #Declaramos una variable con el nombre de X, y le hemos asignado un valor de 5
+.. raw:: html
+   
+   <pre><code class="language-latino line-numbers">x = 5            #Declaramos una variable con el nombre de X, y le hemos asignado un valor de 5
    y = x + 2        #Declaramos una variable con el nombre de Y, y le hemos asignado el valor de X más 2
-   escribir (y)     //En esta linea de código escribiremos en pantalla el valor de Y el cual tiene el valor de X + 2
+   escribir (y)     //En esta linea de código escribiremos en pantalla el valor de Y el cual tiene el valor de X + 2</code></pre>
 
 ----
 
@@ -41,10 +39,9 @@ Los comentarios de líneas múltiples comienzan con **/*** y terminan con ***/**
 
 En este ejemplo se hará uso del comentario de líneas múltiples:
 
-.. code-block:: latino
-   :linenos:
+.. raw:: html
    
-   /*
+   <pre><code class="language-latino line-numbers">/*
    El siguiente código
    repite el mismo ejemplo que vimos hace un momento arriba
    con las mismas variables X y Y como variables para usar
@@ -52,7 +49,7 @@ En este ejemplo se hará uso del comentario de líneas múltiples:
 
    x = 5
    y = x + 2
-   escribir (y)
+   escribir (y)</code></pre>
 
 ----
 
@@ -63,22 +60,20 @@ Agregando los signos **#** ó **//** delante de cualquier línea de código, har
 
 En este ejemplo se hará uso del signo **//** para prevenir la ejecución de la primera linea de codigo:
 
-.. code-block:: latino
-   :linenos:
+.. raw:: html
    
-   //escribir ("Este código NO se ejecutara")
-   escribir ("Este código SI se ejecutara")
+   <pre><code class="language-latino line-numbers">//escribir ("Este código NO se ejecutara")
+   escribir ("Este código SI se ejecutara")</code></pre>
 
 En este ejemplo se preverá la ejecución de un bloque de código con los comentarios de líneas múltiples:
 
-.. code-block:: latino
-   :linenos:
-
-   /*
+.. raw:: html
+   
+   <pre><code class="language-latino line-numbers">/*
    Todo este bloque de código al ser un comentario
    no se ejecutara al iniciar el programa
    
    x = 5
    y = x + 2
    escribir (y)
-   */
+   */</code></pre>
