@@ -1,8 +1,10 @@
 .. meta::
    :description: Introducción a la documentación
+   :keywords: manual, documentacion, latino, Introduccion
 
+=============
 Introducción
-============
+=============
 
 **¡Programa en tu idioma!**
 

@@ -25,7 +25,7 @@ Los operadores aritméticos realizan operaciones matemáticas básicas tales com
 +----------+--------------------------------+
 | \%       | Modulo (reminente de división) |
 +----------+--------------------------------+
-| \^       | Potencia                       |
+| \^       | Potencia (Exponencial)         |
 +----------+--------------------------------+
 
 ----
@@ -111,7 +111,7 @@ El operador de **remitente** (%):
 
 Potencia
 +++++++++
-El operador de **reminente** (^):
+El operador de **función exponencial** (^):
 
 .. raw:: html
 
@@ -119,6 +119,14 @@ El operador de **reminente** (^):
    y = 2
    z = x ^ y
    escribir(z)    //El resultado sería 25</code></pre>
+
+.. note:: Podemos conseguir el mismo resultado utilizando la librería de matemáticas **mate.pot(5,2)**
+   
+   .. raw:: html
+   
+      <pre><code class="language-latino line-numbers">x = 5
+      y = 2
+      escribir(mate.pot(x,y))    //El resultado sería 25</code></pre>
 
 ----
 

@@ -5,7 +5,7 @@
 ============
 Comentarios
 ============
-Como otros lenguajes de programación, Latino también dispone de comentarios. Estos comentarios se pueden usar para crear notas que ayuden a explicar algún código que tengamos escrito o también usarlo para prevenir la ejecución de alguna línea de código al momento de ejecutar el programa.
+Como otros lenguajes de programación, Latino dispone de comentarios. Estos comentarios se pueden usar para crear notas que ayuden a explicar algún código que tengamos escrito o también usarlo para prevenir la ejecución de alguna línea de código al momento de ejecutar el programa.
 
 ----
 

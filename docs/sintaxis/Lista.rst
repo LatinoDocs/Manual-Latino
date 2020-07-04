@@ -1,10 +1,12 @@
+.. _listaLink:
+
 .. meta::
    :description: Listas en Latino
    :keywords: manual, documentacion, latino, sintaxis, lista
 
-======
-Lista
-======
+===============
+Lista (Arrays)
+===============
 Una lista es un tipo de colección. Es equivalente a lo que en otros lenguajes se conoce por arreglos o vectores. Las listas pueden contener cualquier tipo de dato: lógico, númerico, literal, cadena, listas, diccionarios. Crear una lista es tan sencillo como indicar entre corchetes y separados por comas los valores que queremos incluir en la lista.
 
 .. raw:: html

@@ -174,9 +174,9 @@ El operador condicional funciona de la siguiente manera:
 
 .. raw:: html
 
-   <pre><code class="language-latino line-numbers">numero = -5                                                #creamos una variable con un valor de -5
-   mensaje = (numero < 0) ? " es negativo" : " es positivo"   #creamos una nueva variable y a esta le asignamos el operador condicional.
-   escribir ("El número " .. numero .. mensaje)               #El mesaje seria: El número -5 es negativo.</code></pre>
+   <pre><code class="language-latino line-numbers">numero = -5                                                #Creamos una variable con un valor de -5
+   mensaje = (numero < 0) ? " es negativo" : " es positivo"   #Creamos una nueva variable y a esta le asignamos el operador condicional.
+   escribir ("El número " .. numero .. mensaje)               #El mensaje seria: El número -5 es negativo.</code></pre>
 
 ----
 
