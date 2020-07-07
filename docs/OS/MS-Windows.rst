@@ -5,7 +5,7 @@
 ==========
 MS-Windows
 ==========
-La instalación de *Latino* en Windows, no difiere de otros programas ya que el proceso es el mismo. Antes de hacer nada, descargamos la versión mas actualizada de *Latino* desde su repositorio en github y procedemos con la instalación.
+La instalación de *Latino* en Windows no difiere de otros programas ya que el proceso de instalación es el mismo. Antes de hacer nada, descargamos la versión mas actualizada de *Latino* desde su repositorio en github y procedemos con la instalación.
 
 .. admonition:: Descargar
 

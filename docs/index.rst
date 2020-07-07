@@ -98,8 +98,8 @@ Si desea colaborar, mire el articulo de `guía de colaboración`_
    sintaxis/Logicos
    sintaxis/Tipos-de-Datos
    sintaxis/Funciones
-   sintaxis/Diccionarios
    sintaxis/Lista
+   sintaxis/Diccionarios
    sintaxis/Condicion-Si
    sintaxis/Condicion-Elegir
    sintaxis/Condicion-Desde

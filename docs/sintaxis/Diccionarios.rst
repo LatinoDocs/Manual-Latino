@@ -137,8 +137,64 @@ Al igual que las propiedades los métodos se invocan de la misma manera, con la 
 
 ----
 
-Librería dic
--------------
+Anidar diccionarios
+--------------------
+Un diccionario no únicamente está compuesto por propiedades y métodos, también de otros diccionarios. A esto se lo llama **diccionario anidado**.
+
+.. raw:: html
+
+   <pre><code class="language-latino line-numbers">carros = {
+     "carro1"   : {
+       "marca"  : "Toyota",
+       "modelo" : "Camry",
+       "anio"   : "2011"
+     },
+     "carro2"   : {
+       "marca"  : "Ford",
+       "modelo" : "Fiesta",
+       "anio"   : "2012"
+     },
+     "carro3"   : {
+       "marca"  : "Peugeot",
+       "modelo" : "206",
+       "anio"   : "2009"
+     }
+   }
+   
+   escribir(carros.carro1.marca)     //Devolverá Toyota</code></pre>
+
+De igual manera podemos anidar otros diccionarios ya existentes a un diccionario:
+
+.. raw:: html
+
+   <pre><code class="language-latino line-numbers">carro1 : {
+     "marca"  : "Toyota",
+     "modelo" : "Camry",
+     "anio"   : "2011"
+   }
+   carro2 : {
+     "marca"  : "Ford",
+     "modelo" : "Fiesta",
+     "anio"   : "2012"
+   }
+   carro3 : {
+     "marca"  : "Peugeot",
+     "modelo" : "206",
+     "anio"   : "2009"
+   }
+
+   carros = {
+     "carro1" : carro1,
+     "carro2" : carro2,
+     "carro3" : carro3
+   }
+   
+   escribir(carros.carro3.marca)     //Devolverá Peugeot</code></pre>
+
+----
+
+Librería "dic"
+---------------
 La librería **dic** nos permite obtener más información sobre nuestro diccionario en Latino.
 
 Longitud de un diccionario
@@ -200,8 +256,8 @@ Podemos recorrer un diccionario utilizando el :ref:`ciclo Desde (For Loop) <desd
      "color"  : "Blanco"
    }
    
-   desde(i=0; i < dic.longitud(p); i++)                      //Obtenemos la longitud del diccionario
-     escribir(dic.llaves(p)[i].." | "..dic.valores(p)[i])    //Devolverá cada propiedad del diccionario con su valor
+   desde(i=0; i < dic.longitud(carro); i++)                          //Obtenemos la longitud del diccionario
+     escribir(dic.llaves(carro)[i].." | "..dic.valores(carro)[i])    //Devolverá cada propiedad del diccionario con su valor
    fin</code></pre>
 
 .. note:: Por el momento en Latino 1.2.0 en la librería **dic** funciones como **dic.copiar( )**, **dic.eliminar( )** y **dic.existe( )** no están disponibles. Espere a futuros lanzamientos de Latino para ver sus novedades.

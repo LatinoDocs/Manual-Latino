@@ -51,7 +51,7 @@ Es posible el anidamiento de las sentencias si-sino de la siguiente manera:
      fin
    fin</code></pre>
 
-Existe una forma más elegante de escribir el código anterior con la palabra reservada osi. En python es elif expresion:.
+Existe una forma más elegante de escribir el código anterior con la palabra reservada osi. En python es elif expresion:
 
 .. raw:: html
 
