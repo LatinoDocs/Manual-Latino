@@ -1,3 +1,5 @@
+.. _siLink:
+
 .. meta::
    :description: Condición SI en Latino
    :keywords: manual, documentacion, latino, sintaxis, si, if
@@ -20,7 +22,7 @@ Latino tiene las siguientes declaraciones condicionales:
 +----------+-------------------------------------------------------------------------------------------------------+
 | **sino** | Esta ejecuta un bloque de código si las codiciones anterios son falsas.                               |
 +----------+-------------------------------------------------------------------------------------------------------+
-| **fin**  | Marca el fin de la condicional lógica                                                                 |
+| **fin**  | Marca el fin de la condicional lógica.                                                                |
 +----------+-------------------------------------------------------------------------------------------------------+
 
 Las **condiciones lógicas** pueden contener expresiones matemáticas.
@@ -196,7 +198,7 @@ Esta nueva condición anidada puede ir en cualquier bloque de código, dentro de
 
 Operadores lógicos
 -------------------
-En capítulos pasados vimos que los operadores lógicos son el **Y lógico**, el **Ó lógico** y el **No lógico**.
+En capítulos pasados vimos que los :ref:`operadores lógicos <logicosLink>` son el **Y lógico**, el **Ó lógico** y el **No lógico**.
 
 Estos al igual que las expresiones matemáticas también se pueden utilizar en la **condicional si**.
 
