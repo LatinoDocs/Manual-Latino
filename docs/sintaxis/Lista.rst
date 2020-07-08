@@ -214,6 +214,7 @@ Si tenemos un diccionario anidado en una lista, para llamar un elemento del dicc
      "ciudad2" : "Bayamón",
      "ciudad3" : "Las Tunas"
    }
+   
    //Creación de una lista
    pais = [
       "Santo Domingo",
