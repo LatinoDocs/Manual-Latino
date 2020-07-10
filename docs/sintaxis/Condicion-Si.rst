@@ -58,7 +58,7 @@ En esta declaración condicional solo se puede escribir el comando **si** una ve
 .. code-block:: bash
    
    si (condición lógica)
-     #bloque de código
+     #Bloque de código
    fin
 
 .. nota:: La **condición lógica** se puede escribir entre paréntesis o sin ellos.
