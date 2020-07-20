@@ -7,7 +7,7 @@ Cadenas (Strings)
 ==================
 Las **cadenas** (*strings* por su nombre en Ingles) son utilizadas para almacenar y manipular textos.
 
-Estas **cadenas** están rodeadas por **comillas simples ( \' )** o **comillas dobles ( \" )**.
+Estas **cadenas** están rodeadas por **comillas simples ( \\' )** o **comillas dobles ( \' )**.
 
 .. code-block:: bash
    
@@ -55,9 +55,9 @@ Tabla de caracteres:
 +----------+-------------------------------------------------+
 | Carácter | Descripción                                     |
 +==========+=================================================+
-| \\'      | Comillas dobles                                 |
+| \\ \'    | Comillas dobles                                 |
 +----------+-------------------------------------------------+
-| \\ \'    | Comillas simples                                |
+| \\ \\'   | Comillas simples                                |
 +----------+-------------------------------------------------+
 | \\n      | Nueva línea                                     |
 +----------+-------------------------------------------------+
