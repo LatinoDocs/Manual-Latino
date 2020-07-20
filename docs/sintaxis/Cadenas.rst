@@ -259,8 +259,8 @@ Previamente vimos que las cadenas pueden ser textos líneales, pero también pue
 
 ----
 
-Textos son listas
-------------------
+Textos como listas
+--------------------
 Como en muchos otros lenguajes de programación, los textos son listas (arrays).
 
 .. raw:: html
@@ -271,7 +271,7 @@ Como en muchos otros lenguajes de programación, los textos son listas (arrays).
    */
 
    x = "Hola"
-   escribir(x[-1])</code></pre>
+   escribir(x[1])</code></pre>
 
 .. Enlaces:
 
