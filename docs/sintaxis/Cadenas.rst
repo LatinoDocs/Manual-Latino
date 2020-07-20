@@ -1,6 +1,6 @@
 .. meta::
-   :description: Breve descripción de la página
-   :keywords: etiquetas, que, describan, el, contenido
+   :description: Cadenas(Textos o Strings) en Latino
+   :keywords: manual, documentacion, latino, sintaxis, datos, cadenas, string, texto
 
 ==================
 Cadenas (Strings)
@@ -74,7 +74,7 @@ Tabla de caracteres:
 | \\nnn    | Carácter con valor octal nnn                    |
 +----------+-------------------------------------------------+
 
-.. note:: Los caracteres especiales descritos en la tabla superior fueron originalmente diseñados para el control de `máquina de escribir`_, teletipo_, y `máquina de fax`_.
+.. note:: Los caracteres especiales descritos en la tabla superior fueron originalmente diseñados para el uso de `máquina de escribir`_, teletipo_, y `máquina de fax`_.
 
 Comillas dobles
 ****************
@@ -126,8 +126,8 @@ Carácter a usar: **\\r**
 
    <pre><code class="language-latino line-numbers">/*
    A diferencia de \n, \r no crea una nueva línea
-   si no que devuelve el cursor al punto de partida
-   y sigue escribiendo. Esto proveca que una sobre escritura.
+   sino que devuelve el cursor al punto de partida
+   y sigue escribiendo. Esto proveca una sobre escritura.
 
    Devolverá:
    Latinoundo,
@@ -247,9 +247,11 @@ Textos de multiples líneas
 ---------------------------
 Previamente vimos que las cadenas pueden ser textos líneales, pero también pueden ser textos de multiples líneas.
 
+Para indicar cuando una cadena será de múltiples líneas, basta con dejar una de las comillas al inicio y otra al final del párrafo.
+
 .. raw:: html
 
-   <pre><code class="language-latino line-numbers">escribir("Ejemplo de texto múltiples lineas:
+   <pre><code class="language-latino line-numbers">escribir("Ejemplo de texto de múltiples lineas:
    ---------------------------------------
    En este ejemplo podemos observar
    que Latino es perfectamente capaz de

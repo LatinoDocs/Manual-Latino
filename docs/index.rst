@@ -97,6 +97,7 @@ Si desea colaborar, mire el articulo de `guía de colaboración`_
    sintaxis/Relacionales
    sintaxis/Logicos
    sintaxis/Tipos-de-Datos
+   sintaxis/Numeros
    sintaxis/Cadenas
    sintaxis/Funciones
    sintaxis/Lista
