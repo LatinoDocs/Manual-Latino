@@ -78,7 +78,7 @@ Tabla de caracteres:
 
 Comillas dobles
 ****************
-Carácter a usar: **\\'**
+Carácter a usar: **\\ \'**
 
 .. raw:: html
 
@@ -91,7 +91,7 @@ Carácter a usar: **\\'**
 
 Comillas simples
 *****************
-Carácter a usar: **\\ \'**
+Carácter a usar: **\\ \\'**
 
 .. raw:: html
 
