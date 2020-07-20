@@ -97,6 +97,7 @@ Si desea colaborar, mire el articulo de `guía de colaboración`_
    sintaxis/Relacionales
    sintaxis/Logicos
    sintaxis/Tipos-de-Datos
+   sintaxis/Cadenas
    sintaxis/Funciones
    sintaxis/Lista
    sintaxis/Diccionarios
@@ -105,6 +106,13 @@ Si desea colaborar, mire el articulo de `guía de colaboración`_
    sintaxis/Condicion-Desde
    sintaxis/Condicion-Mientras
    sintaxis/Condicion-Repetir
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Referencias
+
+   Glosario
 
 .. .. container:: nota
 ..

@@ -26,7 +26,7 @@ Los operadores relacionales se utilizan en la toma de decisiones y en los bucles
 +----------+-------------------+
 | \<=      | Menor o igual que |
 +----------+-------------------+
-| \~=      | Regex             |
+| \~=      | RegEx             |
 +----------+-------------------+
 
 .. container:: nota

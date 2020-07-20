@@ -63,7 +63,7 @@ Las variables NO pueden:
 +++++++++++++++++++++++++
   * No son validas las letras acentuadas u otros caracteres como la **ñ**.
   * Empezar por un número.
-  * Empezar por un símbolo o alguna `palabra reservada`_ de Latino
+  * Empezar por un símbolo o alguna :ref:`palabra reservada <glosarioLink>` de Latino
 
 ----
 
@@ -133,7 +133,3 @@ Las variables constantes se deben declarar escribiendo todo su nombre en mayúsc
 
    <pre><code class="language-latino line-numbers">PI = 3.14
    VALOR_EXTRA = 9.8</code></pre>
-
-.. Enlaces
-
-.. _palabra reservada:
