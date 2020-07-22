@@ -107,6 +107,7 @@ Si desea colaborar, mire el articulo de `guía de colaboración`_
    sintaxis/Condicion-Desde
    sintaxis/Condicion-Mientras
    sintaxis/Condicion-Repetir
+..   sintaxis/RegEx
 
 .. toctree::
    :maxdepth: 2

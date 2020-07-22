@@ -40,7 +40,7 @@ Los operadores relacionales se utilizan en la toma de decisiones y en los bucles
 Para los siguientes ejemplos supondremos que la variable **x** tiene un valor de **5**
 
 .. raw:: html
-
+   
    <pre><code class="language-latino line-numbers">x = 5
    escribir(x==8)    //El resultado sería falso</code></pre>
 
@@ -63,3 +63,23 @@ Para los siguientes ejemplos supondremos que la variable **x** tiene un valor de
 +----------+-------------------+------------------+-----------+
 | \<=      | menor ó igual que | escribir(x <= 8) | verdadero |
 +----------+-------------------+------------------+-----------+
+| \~=      | RegEx (Expresión Regular)                        |
++----------+--------------------------------------------------+
+
+.. raw:: html
+   
+   <pre><code class="language-latino line-numbers">/*
+   El operador ~= utiliza las expresiones reculares
+   en cadenas para hacer patrones de búsqueda.
+
+   La condicional SI devolverá:
+   x inicia con hola
+   */
+
+   x = "hola mundo"
+   
+   si x ~= "^hola"
+     escribir("x inicia con hola")
+   sino
+     escribir("x NO inicia con hola")
+   fin</code></pre>
