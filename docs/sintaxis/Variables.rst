@@ -1,3 +1,5 @@
+.. _variablesLink:
+
 .. meta::
    :description: Variables en Latino
    :keywords: manual, documentacion, latino, sintaxis, variables
@@ -46,7 +48,7 @@ Las variables NO pueden:
 +++++++++++++++++++++++++
   * No son validas las letras acentuadas u otros caracteres como la **ñ**.
   * Empezar por un número.
-  * Empezar por un símbolo o alguna :ref:`palabra reservada <glosarioLink>` de Latino
+  * Empezar por un símbolo o alguna :ref:`palabra reservada <glosarioLink>` de Latino.
 
 ----
 

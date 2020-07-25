@@ -56,9 +56,9 @@ En latino se encuentran dos operadores que incrementan y decrementan el valor nu
 +----------+-------------------------------------------------+
 | Operador | Descripción                                     |
 +==========+=================================================+
-| ++       | Incrementa el valor en 1 (valido sólo en post). |
+| \+ \+    | Incrementa el valor en 1 (valido sólo en post). |
 +----------+-------------------------------------------------+
-| \-\-     | Decrementa el valor en 1 (valido sólo en post). |
+| \- \-    | Decrementa el valor en 1 (valido sólo en post). |
 +----------+-------------------------------------------------+
 
 .. container:: nota

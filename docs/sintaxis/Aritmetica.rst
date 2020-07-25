@@ -137,7 +137,7 @@ Operadores de incremento y decremento
 
 Incrementación
 ++++++++++++++
-El operador de incremento, se representa por **suma doble** (++).
+El operador de incremento, se representa por **suma doble** (+ +).
 
 .. raw:: html
 
@@ -147,7 +147,7 @@ El operador de incremento, se representa por **suma doble** (++).
 
 Decrementación
 +++++++++++++++
-El operador de decremento, se representa por **resta doble** (\-\-).
+El operador de decremento, se representa por **resta doble** (\- \-).
 
 .. raw:: html
 

@@ -19,16 +19,45 @@ Sintaxis de función
 --------------------
 Las funciones se definen con la palabra clave de **funcion** o la forma corta **fun**, seguido por el **nombre de la función** y terminando con **paréntesis()**.
 
-No puede existir más de una función con el mismo nombre.
+**Ejemplo de sintaxis**
 
-Los nombres de funciones pueden contener letras, dígitos, subrayados y signos de dólar (las mismas reglas que las variables).
+.. code-block:: bash
+   
+   funcion nombre1()
+     #código
+   fin
 
-Los paréntesis pueden incluir nombres de parámetros separados por comas: (**parámetro1**, **parámetro2**, ...)
+   fun nombre2()
+     #código
+   fin
+
+Los nombres de funciones SI pueden:
+++++++++++++++++++++++++++++++++++++
+  * Los nombres de funciones pueden contener letras, dígitos, subrayados y signos de dólar.
+  * Empezar con un guión bajo **_** o letras **a-z** o **A-Z**.
+  * Contener caracteres en mayúsculas y minúsculas. (Latino es sensible a las mayúsculas y minúsculas, por lo que los identificadores con nombres similares pero con letras mayúsculas o minúsculas en ellas serán interpretadas como diferentes funciones en Latino).
+
+Los nombres de funciones NO pueden:
+++++++++++++++++++++++++++++++++++++
+  * No puede existir más de una función con el mismo nombre.
+  * No son validas las letras acentuadas u otros caracteres como la **ñ**.
+  * Empezar por un número.
+  * Empezar por un símbolo o alguna :ref:`palabra reservada <glosarioLink>` de Latino.
+
+.. note:: En otras palabras los nombres de funciones se rigen por las mismas normas que los nombres de las :ref:`variables <variablesLink>`.
+
+Múltiples parámetros
++++++++++++++++++++++
+Una función puede recibir tantos parámetros como queramos.
+
+Los paréntesis pueden incluir nombres de parámetros y estos parámetros están separados por una **coma ( , )**. Ejemplo: (**parámetro1**, **parámetro2**, **parámetro3**, **etc**...)
+
+Al usar más de un parámetro, los valores enviados a la función tienen que estar en el mismo orden que los parámetros asignados en ésta.
 
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">funcion nombreFuncion (argumento1, argumento2)
-     #codigo
+     resultado = argumento1 + argumento2
      retornar resultado
    fin</code></pre>
 
@@ -118,13 +147,3 @@ Los parámetros de una función son iguales que las variables con la diferencia 
    escribir("Hola como te llamas?")
    usuario=leer()
    bienvenida(usuario)</code></pre>
-
-----
-
-Múltiples parámetros
----------------------
-Una función puede recibir tantos parámetros como queramos.
-
-Estos parámetros son separados por una **coma(,)**.
-
-Al usar más de un parámetro, los valores enviados a la función tienen que estar en el mismo orden que los parámetros asignados en ésta.
