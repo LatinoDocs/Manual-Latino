@@ -14,18 +14,21 @@ Los operadores lógicos se utilizan comúnmente en la toma de decisiones en prog
 +----------+-------------------------------------------------------------------------------+
 | Operador | Descripción                                                                   |
 +==========+===============================================================================+
-| \&\&     | **y lógico.**  Sólo será verdadero si todos los operadores son verdaderos.    |
+| \&\&     | Y lógico:                                                                     |
+|          |   Sólo será verdadero si todos los operadores son verdaderos.                 |
 +----------+-------------------------------------------------------------------------------+
-| \|\|     | **ó lógico.**  Será verdadero si sólo uno de los dos operadores es verdadero. |
+| \|\|     | Ó lógico:                                                                     |
+|          |   Será verdadero si sólo uno de los dos operadores es verdadero.              |
 +----------+-------------------------------------------------------------------------------+
-| \!       | **no lógico.** Sólo será verdadero si los operadores son falsos.              |
+| \!       | NO lógico:                                                                    |
+|          |   Sólo será verdadero si todos los operadores son falsos.                     |
 +----------+-------------------------------------------------------------------------------+
 
 ----
 
 **Ejemplo:**
 
-Para los siguientes ejemplos supondremos que la variable **X=6** y la variable **Y=3**.
+Para los siguientes ejemplos supondremos que la variable **x=6** y la variable **y=3**.
 
 +----------+-------------+------------------------------+-----------+
 | Operador | Descripción | Ejecución                    | Resultado |

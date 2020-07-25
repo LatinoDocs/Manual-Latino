@@ -56,7 +56,7 @@ o también con expresiones:
 
 Suma
 +++++
-El operador de **suma** (+):
+El operador de **suma** (\+):
 
 .. raw:: html
 
@@ -67,7 +67,7 @@ El operador de **suma** (+):
 
 Resta
 ++++++
-El operador de **Resta** (-):
+El operador de **Resta** (\-):
 
 .. raw:: html
 
@@ -78,7 +78,7 @@ El operador de **Resta** (-):
 
 Multiplicación
 +++++++++++++++
-El operador de **multiplicación** (*):
+El operador de **multiplicación** (\*):
 
 .. raw:: html
 
@@ -100,7 +100,7 @@ El operador de **división** (/):
 
 Modulo (Remitente)
 +++++++++++++++++++
-El operador de **remitente** (%):
+El operador de **remitente** (\%):
 
 .. raw:: html
 
@@ -111,7 +111,7 @@ El operador de **remitente** (%):
 
 Potencia
 +++++++++
-El operador de **función exponencial** (^):
+El operador de **función exponencial** (\^):
 
 .. raw:: html
 
@@ -120,7 +120,7 @@ El operador de **función exponencial** (^):
    z = x ^ y
    escribir(z)    //El resultado sería 25</code></pre>
 
-.. note:: Podemos conseguir el mismo resultado utilizando la librería de matemáticas **mate.pot(5,2)**
+.. note:: Para la **potencia**, podemos conseguir el mismo resultado utilizando la librería de matemáticas **mate.pot(5,2)**
    
    .. raw:: html
    
@@ -147,7 +147,7 @@ El operador de incremento, se representa por **suma doble** (++).
 
 Decrementación
 +++++++++++++++
-El operador de incremento, se representa por **resta doble** (--).
+El operador de decremento, se representa por **resta doble** (\-\-).
 
 .. raw:: html
 
@@ -167,6 +167,6 @@ Para alterar estas reglas de precedencia, se pueden usar **(paréntesis)**.
 
 .. raw:: html
 
-   <pre><code class="language-latino line-numbers">x = 100 + 50 * 3
-   y = (100 + 50) * 3
+   <pre><code class="language-latino line-numbers">x = 100 + 50 * 3       //Devolverá 250
+   y = (100 + 50) * 3     //Devolverá 450
    escribir ("Valor de X: " .. x .. ", Valor de Y: ".. y)</code></pre>

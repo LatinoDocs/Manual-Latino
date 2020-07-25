@@ -7,7 +7,7 @@ Tipos de Datos
 ===============
 Las computadoras a diferencia de los seres humanos, no reconocen ni saben la diferencia entre "1234" y "abcd", por esta razón en programación se definieron los **tipos de datos**.
 
-Un tipo de dato es una clasificación que define el valor asociado a una variable u objeto. Por lo general estos tipos de datos suelen estar almacenados en una variable, ya que estas pueden almacenar tipos de datos como: Numéricos, alfanuméricos, objetos, cadenas, entre otros.
+Un tipo de dato es una clasificación que define el valor asociado a una variable u objeto. Por lo general estos tipos de datos suelen estar almacenados en una variable, ya que estas pueden almacenar tipos de datos como: Numéricos, alfanuméricos, listas, diccionarios, entre otros.
 
 A continuación se presenta una tabla con ejemplos de algunas clasificaciones para los tipos de datos en programación tanto para Latino y C.
 

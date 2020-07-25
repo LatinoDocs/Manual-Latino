@@ -5,7 +5,7 @@
 ==========
 Variables
 ==========
-Una variable es un espacio en la memoria, en el cual el programador asigna un valor determinado con un valor numérico o alfanumérico.
+Una variable es un espacio en la memoria, en el cual el programador asigna un valor determinado.
 
 Las variables son representadas por un nombre que es asignado por el programador cuando se escribe el código fuente. Cada variable tiene un único nombre el cual no puede ser cambiado una vez esta variable tenga un valor asignado. Dos o más variables pueden tener el mismo valor o contenido, pero no el mismo nombre.
 
@@ -21,23 +21,6 @@ En este ejemplo, se puede observar la siguiente explicación:
   * X es una variable, y esta almacena el valor de 3
   * Y es otra variable, y esta almacena el valor de 5
   * Z es otra variable, y esta almacena el valor de 8
-
-----
-
-Variables numéricas
---------------------
-En este ejemplo **precio1**, **precio2**, y **total**, serán variables:
-
-.. raw:: html
-
-   <pre><code class="language-latino line-numbers">precio1 = 5
-   precio2 = 6
-   total = precio1 + precio2
-   escribir("El precio total es: " .. total)</code></pre>
-
-Las variables de Latino son contenedores para almacenar variedades de datos:
-  * En programación, también se usan las variables para guardar valores algebraicos (como es el caso de la variable precio1 y precio2).
-  * En programación, también se usan las variables para guardar expresiones (como es el caso de total = precio1 + precio2).
 
 ----
 
@@ -93,6 +76,23 @@ Los strings se escriben dentro de comillas simples o dobles. Sin embargo, los n�
    <pre><code class="language-latino line-numbers">pi = 3.14
    persona = "Melvin Guerrero"
    respuesta = "Hola!, buenos días!"</code></pre>
+
+----
+
+Variables numéricas
+--------------------
+En este ejemplo **precio1**, **precio2**, y **total**, serán variables:
+
+.. raw:: html
+
+   <pre><code class="language-latino line-numbers">precio1 = 5
+   precio2 = 6
+   total = precio1 + precio2
+   escribir("El precio total es: " .. total)</code></pre>
+
+Las variables de Latino son contenedores para almacenar variedades de datos:
+  * En programación, también se usan las variables para guardar valores algebraicos (como es el caso de la variable precio1 y precio2).
+  * En programación, también se usan las variables para guardar expresiones (como es el caso de total = precio1 + precio2).
 
 ----
 

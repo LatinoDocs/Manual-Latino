@@ -11,23 +11,23 @@ En programación, un operador relacional verifica la relación entre dos operand
 
 Los operadores relacionales se utilizan en la toma de decisiones y en los bucles (por su nombre en inglés).
 
-+----------+-------------------+
-| Operador | Descripción       |
-+==========+===================+
-| ==       | Igual que         |
-+----------+-------------------+
-| \!=      | No igual que      |
-+----------+-------------------+
-| \>       | Mayor que         |
-+----------+-------------------+
-| \<       | Menor que         |
-+----------+-------------------+
-| \>=      | Mayor o igual que |
-+----------+-------------------+
-| \<=      | Menor o igual que |
-+----------+-------------------+
-| \~=      | RegEx             |
-+----------+-------------------+
++----------+---------------------------+
+| Operador | Descripción               |
++==========+===========================+
+| ==       | Igual que                 |
++----------+---------------------------+
+| \!=      | No igual que              |
++----------+---------------------------+
+| \>       | Mayor que                 |
++----------+---------------------------+
+| \<       | Menor que                 |
++----------+---------------------------+
+| \>=      | Mayor o igual que         |
++----------+---------------------------+
+| \<=      | Menor o igual que         |
++----------+---------------------------+
+| \~=      | RegEx (Expresión Regular) |
++----------+---------------------------+
 
 .. container:: nota
    
@@ -69,11 +69,11 @@ Para los siguientes ejemplos supondremos que la variable **x** tiene un valor de
 .. raw:: html
    
    <pre><code class="language-latino line-numbers">/*
-   El operador ~= utiliza las expresiones reculares
+   El operador ~= utiliza las expresiones regulares
    en cadenas para hacer patrones de búsqueda.
 
-   La condicional SI devolverá:
-   x inicia con hola
+   La condicional SI, devolverá:
+   "x inicia con hola"
    */
 
    x = "hola mundo"

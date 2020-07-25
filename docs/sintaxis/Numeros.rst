@@ -44,7 +44,7 @@ Los números también puede ser expresados como números negativos:
    <pre><code class="language-latino line-numbers">x = -3255522
    y = -35.59</code></pre>
 
-.. note:: Los números pasados de 15 dígitos estos son devueltos como expresiones científica en Latino:
+.. note:: Los números pasados de 15 dígitos son devueltos como expresión científica en Latino:
    
    .. raw:: html
       

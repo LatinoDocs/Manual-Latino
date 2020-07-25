@@ -82,7 +82,7 @@ En esta declaración condicional solo se puede escribir el comando **si** una ve
 ----
 
 Condicional "osi" (else if)
---------------------------
+-----------------------------
 Esta ejecuta un nuevo bloque de código si la condicional anterior fue falsa.
 
 El comando **osi** se puede repetir cuantas veces sean necesarias pero cada nuevo comando **osi** debe llegar una nueva **condición lógica**.
@@ -121,7 +121,7 @@ El comando **osi** se puede repetir cuantas veces sean necesarias pero cada nuev
 ----
 
 Condicional "sino" (else)
-------------------------
+---------------------------
 Esta ejecuta un bloque de código si las codiciones anterios son falsas.
 
 El comando **sino** solo se puede escribir una sola vez y debe ir después del comando **si** o después del comando **osi**.
@@ -193,6 +193,32 @@ Esta nueva condición anidada puede ir en cualquier bloque de código, dentro de
        escribir("pero menor que 20")
      fin
    fin</code></pre>
+
+----
+
+Operadores condicionales
+-------------------------
+En capítulos pasados ya habiamos hablado de los :ref:`operadores condicionales <opCondLink>`. Aquí volveremos a repasar esta clase de operador.
+
+El operadore condicional es puede implementar como una alternativa de la **condicional si**, ya que requiere de menos líneas de código para ejecutar su condicional lógica.
+
+**Sintaxis del operador condicional:**
+
+.. code-block:: bash
+   
+   (Expresión condicional) ? expresión1 : expresión2
+
+El operador condicional funciona de la siguiente manera:
+  * La primera *expresión condicional* se evalúa primero. Esta expresión se evalúa si es verdadera o si es falsa.
+  * Si la expresión condicional es verdadera, se evalúa la *expresión1*.
+  * Si la expresión condicional es falsa, se evalúa la *expresió2*.
+
+.. raw:: html
+
+   <pre><code class="language-latino line-numbers">numero = -5                                                #Creamos una variable con un valor de -5
+   mensaje = (numero < 0) ? " es negativo" : " es positivo"   #Creamos una nueva variable y a esta le asignamos el operador condicional.
+   escribir ("El número " .. numero .. mensaje)               #El mensaje seria: El número -5 es negativo.</code></pre>
+
 
 ----
 

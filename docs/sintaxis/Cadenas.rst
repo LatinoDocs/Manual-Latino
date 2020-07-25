@@ -144,7 +144,7 @@ Carácter a usar: **\\b**
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">/*
-   Este comando elimina el carácter preview a este.
+   Este comando elimina el carácter previo a este.
 
    Devolverá:
    HolMundo
@@ -172,7 +172,7 @@ Carácter a usar: **\\a**
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">/*
-   Hará sonar el Beep del la PC y Devolverá:
+   Hará sonar el Beep de la PC y Devolverá:
    Hola mundo
    */
 
@@ -180,7 +180,7 @@ Carácter a usar: **\\a**
 
 Carácter nulo
 **************
-Carácter a usar: **\\0**
+Carácter a usar: **\\0 \*(cero)**
 
 .. raw:: html
 
@@ -263,7 +263,7 @@ Para indicar cuando una cadena será de múltiples líneas, basta con dejar una 
 
 Textos como listas
 --------------------
-Como en muchos otros lenguajes de programación, los textos son listas (arrays).
+Como en muchos otros lenguajes de programación, los textos son :ref:`listas (arrays) <listaLink>`.
 
 .. raw:: html
 

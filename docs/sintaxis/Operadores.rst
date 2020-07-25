@@ -58,7 +58,7 @@ En latino se encuentran dos operadores que incrementan y decrementan el valor nu
 +==========+=================================================+
 | ++       | Incrementa el valor en 1 (valido sólo en post). |
 +----------+-------------------------------------------------+
-| --       | Decrementa el valor en 1 (valido sólo en post). |
+| \-\-     | Decrementa el valor en 1 (valido sólo en post). |
 +----------+-------------------------------------------------+
 
 .. container:: nota
@@ -123,7 +123,7 @@ Los operadores relacionales se utilizan en la toma de decisiones y en los bucles
 +----------+-------------------+
 | \<=      | Menor o igual que |
 +----------+-------------------+
-| \~=      | Regex             |
+| \~=      | RegEx             |
 +----------+-------------------+
 
 .. container:: nota
@@ -156,6 +156,8 @@ Los operadores lógicos se utilizan comúnmente en la toma de decisiones en prog
    | Puedes aprender más sobre estos operadores lógicos en el capítulo de :ref:`Lógicos <logicosLink>`
 
 ----
+
+.. _opCondLink:
 
 Operadores condicionales
 -------------------------
@@ -198,3 +200,19 @@ Este operador se utiliza para concatenar(juntar) expresiones no relacionadas ent
 Operador de acceso a miembro
 +++++++++++++++++++++++++++++
 El operador de acceso a miembro está representado por un solo punto **.**
+
+Un claro ejemplo de su uso es cuando trabajamos con :ref:`diccionarios <dicLink>` y queremos aceder a sus propiedades ó cuando usamos librerías y queremos aceder a sus metodos.
+
+.. raw:: html
+   
+   <pre><code class="language-latino line-numbers">/*
+   Estos son solo ejemplos reprecentativos
+   de cuando se hace uso del operador de acceso a miembro.
+   */
+
+   #librería (punto) metodo
+   cadena.longitud
+
+   #diccionario (punto) propiedad
+   persona.nombre
+   </code></pre>

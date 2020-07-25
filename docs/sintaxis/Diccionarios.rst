@@ -1,3 +1,5 @@
+.. _dicLink:
+
 .. meta::
    :description: Diccionarios en Latino
    :keywords: manual, documentacion, latino, sintaxis, diccionario, array
