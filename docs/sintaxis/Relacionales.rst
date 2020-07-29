@@ -63,8 +63,8 @@ Para los siguientes ejemplos supondremos que la variable **x** tiene un valor de
 +----------+-------------------+------------------+-----------+
 | \<=      | menor ó igual que | escribir(x <= 8) | verdadero |
 +----------+-------------------+------------------+-----------+
-| \~=      | RegEx (Expresión Regular)                        |
-+----------+--------------------------------------------------+
+
+**Ejemplo del operador \~=**
 
 .. raw:: html
    

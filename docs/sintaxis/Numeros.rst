@@ -34,8 +34,8 @@ Esto lo podemos comprobar utilizando la función **tipo( )** en Latino.
    <pre><code class="language-latino line-numbers">x = 3.14
    y = 3
    
-   escribir(tipo(x))     //Devolverá Decimal
-   escribir(tipo(y))     //Devolverá Decimal</code></pre>
+   escribir(tipo(x))     //Devolverá decimal
+   escribir(tipo(y))     //Devolverá decimal</code></pre>
 
 Los números también puede ser expresados como números negativos:
 
@@ -78,3 +78,13 @@ Latino puede convertir las cadenas numéricas a números con los operadores arit
    escribir(x - y)     //Devolverá 90
    escribir(x * y)     //Devolverá 1000
    escribir(x / y)     //Devolverá 10</code></pre>
+
+En Latino existe una funcion pre-definida llamada **anumero( )** que de igualmanera nos convierte una cadena a número.
+
+.. raw:: html
+   
+   <pre><code class="language-latino line-numbers">x = "100"
+   escribir(tipo(x))     //Devolverá cadena
+   
+   x = anumero("100")
+   escribir(tipo(x))     //Devolverá decimal</code></pre>

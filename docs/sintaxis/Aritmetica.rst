@@ -163,7 +163,7 @@ En aritmética, todos los operadores (aritméticos, lógicos y relacionales) tie
 
 Los operadores aritméticos, por ejemplo, la multiplicación y la división se ejecutan antes que la suma o la resta.
 
-Para alterar estas reglas de precedencia, se pueden usar **(paréntesis)**.
+Para alterar estas reglas de precedencia, se pueden usar **paréntesis ( )**.
 
 .. raw:: html
 

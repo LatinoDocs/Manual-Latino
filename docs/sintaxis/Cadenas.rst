@@ -275,6 +275,20 @@ Como en muchos otros lenguajes de programación, los textos son :ref:`listas (ar
    x = "Hola"
    escribir(x[1])</code></pre>
 
+----
+
+Convertir números a cadenas
+----------------------------
+En Latino existe una funcion pre-definida llamada **acadena( )** que nos convierte un número a una cadena(texto).
+
+.. raw:: html
+   
+   <pre><code class="language-latino line-numbers">x = 100
+   escribir(tipo(x))     //Devolverá decimal
+   
+   x = acadena("100")
+   escribir(tipo(x))     //Devolverá cadena</code></pre>
+
 .. Enlaces:
 
 .. _máquina de escribir: https://es.wikipedia.org/wiki/Máquina_de_escribir

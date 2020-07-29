@@ -1,3 +1,5 @@
+.. _tiposDeDatosLink:
+
 .. meta::
    :description: Tipos de datos en Latino
    :keywords: manual, documentacion, latino, sintaxis, datos
@@ -54,7 +56,7 @@ Los tipos de datos numéricos son números asignados a una variable que se puede
    <pre><code class="language-latino line-numbers">num1 = 34.00
    num2 = 34</code></pre>
 
-.. note:: Tambien se pueden escribir en **notación científica**, ejemplo:
+.. note:: También se pueden escribir en **notación científica**, ejemplo:
    
    .. raw:: html
 
@@ -86,9 +88,11 @@ Ejemplo \"Bill Gates\" \'Steve Jobs\'.
 
 Tipos de datos: Lista
 ----------------------
-Los tipos de datos de listas o matrices se escriben entre **corchetes** y sus elementos están separados por **comas**.
+Los tipos de datos de listas o matrices se escriben entre **corchetes \[ \]** y sus elementos están separados por **comas**.
 
-Las matrices son indexadas desde el número 0 (Cero) en adelante. Lo que significa que el primer elemento es [0], y el segundo es [1], y así sucesivamente.
+Las matrices son indexadas desde el número 0 (Cero) en adelante.
+
+Esto significa que el número de índice del primer elemento será [0], y el segundo será [1], y así sucesivamente.
 
 .. raw:: html
 
@@ -99,7 +103,7 @@ Las matrices son indexadas desde el número 0 (Cero) en adelante. Lo que signifi
 
 Tipos de datos: Diccionario
 ----------------------------
-Los tipos de datos de diccionarios u objetos se escriben entre **llaves {}** y sus propiedades se escriben **\"propiedad\" : \"Valor\"** y cada propiedad con su valor están separadas por **comas**.
+Los tipos de datos de diccionarios u objetos se escriben entre **llaves \{ \}** y sus propiedades se escriben **\"propiedad\" : \"Valor\"** y cada propiedad con su valor están separadas por **comas**.
 
 .. raw:: html
 
@@ -122,7 +126,7 @@ En Latino los tipos de datos **Nulos** son nada. Se supone que es algo que no ex
    <pre><code class="language-latino line-numbers">persona = nulo
    escribir(persona)     //Devolverá un valor nulo</code></pre>
 
-En Latino una variable con valor nulo **no es igual** a una variable con valor indefinido.
+En Latino una variable con valor nulo **no es igual** a una variable con **valor indefinido**.
 
 Las variables con valor indefinido son imposibles de declarar(crear) en Latino ya que las variables requieren ser asignadas a un valor al momento de estas ser declaradas, de lo contrario Latino solo las omitirá.
 

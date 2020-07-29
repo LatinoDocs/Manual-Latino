@@ -87,6 +87,16 @@ Para que nuestra función pueda retornar valores es necesario que esta tenga sus
 
 En Latino se puede regresar el valor de una función con las palabras claves **regresar**, **retornar** o la forma corta **ret**. La estructura de una función es la siguiente:
 
+**Palabras reservadas**
+
+.. code-block:: bash
+   
+   regresar
+   retornar
+   ret
+
+**Ejemplo de código**
+
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">funcion suma(a,b)               //creamos una función de nombre suma() y con dos parámetros los cuales serán a y b

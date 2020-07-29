@@ -112,9 +112,21 @@ Si desea colaborar, mire el articulo de `guía de colaboración`_
 .. toctree::
    :maxdepth: 2
    :hidden:
+   :caption: Funciones base (internas)
+   
+   funciones/acadena
+   funciones/alogico
+   funciones/anumero
+   funciones/leer
+   funciones/limpiar
+   funciones/tipo
+
+.. .. toctree::
+   :maxdepth: 2
+   :hidden:
    :caption: Libreías
 
-   librerias/librerias
+..   librerias/librerias
 
 .. toctree::
    :maxdepth: 2
@@ -122,6 +134,7 @@ Si desea colaborar, mire el articulo de `guía de colaboración`_
    :caption: Referencias
 
    Glosario
+
 
 .. .. container:: nota
 ..

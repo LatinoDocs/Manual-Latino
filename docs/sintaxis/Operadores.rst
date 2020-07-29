@@ -106,25 +106,25 @@ Operadores relacionales
 ------------------------
 En programación, un operador relacional verifica la relación entre dos operandos. Si la relación es verdadera, devuelve el valor verdadero; si la relación es falsa, devuelve el valor falso.
 
-Los operadores relacionales se utilizan en la toma de decisiones y en los bucles (por su nombre en inglés).
+Los operadores relacionales se utilizan en la toma de decisiones y en los bucles.
 
-+----------+-------------------+
-| Operador | Descripción       |
-+==========+===================+
-| ==       | Igual que         |
-+----------+-------------------+
-| \!=      | No igual que      |
-+----------+-------------------+
-| \>       | Mayor que         |
-+----------+-------------------+
-| \<       | Menor que         |
-+----------+-------------------+
-| \>=      | Mayor o igual que |
-+----------+-------------------+
-| \<=      | Menor o igual que |
-+----------+-------------------+
-| \~=      | RegEx             |
-+----------+-------------------+
++----------+---------------------------+
+| Operador | Descripción               |
++==========+===========================+
+| ==       | Igual que                 |
++----------+---------------------------+
+| \!=      | No igual que              |
++----------+---------------------------+
+| \>       | Mayor que                 |
++----------+---------------------------+
+| \<       | Menor que                 |
++----------+---------------------------+
+| \>=      | Mayor o igual que         |
++----------+---------------------------+
+| \<=      | Menor o igual que         |
++----------+---------------------------+
+| \~=      | RegEx (Expresión Regular) |
++----------+---------------------------+
 
 .. container:: nota
    
@@ -141,13 +141,13 @@ Los operadores lógicos se utilizan comúnmente en la toma de decisiones en prog
 +----------+----------------------------------------------------------------+
 | Operador | Descripción                                                    |
 +==========+================================================================+
-| \&\&     | **y lógico.**                                                  |
+| \&\&     | **Y lógico.**                                                  |
 |          | Sólo será verdadero si todos los operadores son verdaderos.    |
 +----------+----------------------------------------------------------------+
-| \|\|     | **ó lógico.**                                                  |
+| \|\|     | **Ó lógico.**                                                  |
 |          | Será verdadero si sólo uno de los dos operadores es verdadero. |
 +----------+----------------------------------------------------------------+
-| \!       | **no lógico.**                                                 |
+| \!       | **NO lógico.**                                                 |
 |          | Sólo será verdadero si los operadores son falsos.              |
 +----------+----------------------------------------------------------------+
 
@@ -161,7 +161,7 @@ Los operadores lógicos se utilizan comúnmente en la toma de decisiones en prog
 
 Operadores condicionales
 -------------------------
-Un operador condicional es un operador ternario, es decir, funciona en 3 operandos.
+Un operador condicional es un operador ternario, es decir, funciona en tres operandos.
 
 **Sintaxis del operador condicional:**
 
@@ -188,7 +188,8 @@ Entre estos operadores podemos encontrar el operador de **concatenación** y el 
 
 Operador de concatenación
 ++++++++++++++++++++++++++
-El operador de concatenación está representado por doble punto **..**
+El operador de concatenación está representado por **doble punto ..**
+
 Este operador se utiliza para concatenar(juntar) expresiones no relacionadas entre sí:
 
 .. raw:: html
@@ -199,18 +200,18 @@ Este operador se utiliza para concatenar(juntar) expresiones no relacionadas ent
 
 Operador de acceso a miembro
 +++++++++++++++++++++++++++++
-El operador de acceso a miembro está representado por un solo punto **.**
+El operador de acceso a miembro está representado por **un solo punto .**
 
-Un claro ejemplo de su uso es cuando trabajamos con :ref:`diccionarios <dicLink>` y queremos aceder a sus propiedades ó cuando usamos librerías y queremos aceder a sus metodos.
+Un claro ejemplo de su uso es cuando trabajamos con :ref:`diccionarios <dicLink>` y queremos acceder a sus **propiedades** ó cuando usamos librerías y queremos acceder a sus **métodos**.
 
 .. raw:: html
    
    <pre><code class="language-latino line-numbers">/*
-   Estos son solo ejemplos reprecentativos
+   Estos son solo ejemplos representativos
    de cuando se hace uso del operador de acceso a miembro.
    */
 
-   #librería (punto) metodo
+   #librería (punto) método
    cadena.longitud
 
    #diccionario (punto) propiedad
