@@ -18,10 +18,10 @@ La función **alogico\( \)** devolverá un valor **falso** solo si el número es
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">escribir(alogico(1))             //Devolverá "verdadero"
-   escribir(anumero(-1))            //Devolverá "verdadero"
-   escribir(anumero(3.14))          //Devolverá "verdadero"
-   escribir(anumero("Hola"))        //Devolverá "verdadero"
-   escribir(anumero(" "))           //Devolverá "verdadero" (al tener un espacio en blanco, es verdadero)
-   escribir(anumero("0"))           //Devolverá "falso"
-   escribir(anumero(nulo))          //Devolverá "falso"
-   escribir(anumero(""))            //Devolverá "falso"</code></pre>
+   escribir(alogico(-1))            //Devolverá "verdadero"
+   escribir(alogico(3.14))          //Devolverá "verdadero"
+   escribir(alogico("Hola"))        //Devolverá "verdadero"
+   escribir(alogico(" "))           //Devolverá "verdadero" (al tener un espacio en blanco, es verdadero)
+   escribir(alogico("0"))           //Devolverá "falso"
+   escribir(alogico(nulo))          //Devolverá "falso"
+   escribir(alogico(""))            //Devolverá "falso"</code></pre>
