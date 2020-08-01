@@ -117,6 +117,7 @@ Si desea colaborar, mire el articulo de `guía de colaboración`_
    funciones/acadena
    funciones/alogico
    funciones/anumero
+   funciones/imprimir
    funciones/leer
    funciones/limpiar
    funciones/tipo

@@ -7,9 +7,9 @@ anumero( )
 ============
 La función **anumero\( \)** convierte las cadenas(textos) a números.
 
-Las comillas sin caracteres, ejemplo **\' \'** devolverá un valor **Nulo** al igual que el números **0**.
+Las comillas sin caracteres, ejemplo **\'\'** devolverá un valor **Nulo** al igual que el números **0**.
 
-Los espacios en blanco, ejemplo **\'  \'** o cualquier número que tengo un espacio en blanco, ejemplo **\'99  \'** estos serán convertidos su valor de `código ALT`_.
+Los espacios en blanco, ejemplo **\' \'** o cualquier número que tengo un espacio en blanco, ejemplo **\'7 \'** estos serán convertidos su valor de `código ALT`_.
 
 **Ejemplo de función**
 

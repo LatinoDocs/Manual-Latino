@@ -5,3 +5,11 @@
 ============
 incluir( )
 ============
+
+
+
+**Ejemplo de función**
+
+.. raw:: html
+
+   <pre><code class="language-latino line-numbers"></code></pre>
