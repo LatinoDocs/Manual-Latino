@@ -56,7 +56,7 @@ En la actualidad, este lenguaje sigue su desarrollo bajo la dirección de Melvin
 
 ¿Cuáles son los planes hacia futuro?
 ------------------------------------
-Latino sigue su desarrollo para poder convertirse en una herramienta esencial en la educación de Latino-América y ser una alternativa fiel en el campo laborar.
+Latino sigue su desarrollo para poder convertirse en una herramienta esencial en la educación de Latino-América y ser una alternativa fiel en el campo laboral.
 
 Para el desarrollo de este lenguaje de programación se busca ofrecer herramientas que le permita al usuario crear aplicaciones orientadas a objetos, aplicaciones móviles, videojuegos, y más.
 
