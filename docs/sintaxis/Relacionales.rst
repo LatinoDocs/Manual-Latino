@@ -64,7 +64,13 @@ Para los siguientes ejemplos supondremos que la variable **x** tiene un valor de
 | \<=      | menor ó igual que | escribir(x <= 8) | verdadero |
 +----------+-------------------+------------------+-----------+
 
-**Ejemplo del operador \~=**
+----
+
+**Operador \~=**
+
+Este operador hace uso de las expresiones regulares(regular expression) en Latino.
+
+Una `expresión regular`_ (*regular expression* ó *RegEx*, por su nombre en Ingles) es una secuencia de caracteres y estas forman un patrón de búsqueda.
 
 .. raw:: html
    
@@ -83,3 +89,7 @@ Para los siguientes ejemplos supondremos que la variable **x** tiene un valor de
    sino
      escribir("x NO inicia con hola")
    fin</code></pre>
+
+.. Enlaces
+
+.. _expresión regular: https://es.wikipedia.org/wiki/Expresión_regular

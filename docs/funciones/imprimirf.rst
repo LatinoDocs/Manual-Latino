@@ -1,6 +1,6 @@
 .. meta::
-   :description: Funcion base(interna) imprimirf en Latino
-   :keywords: manual, documentacion, latino, funciones, funciones internas, imprimirf
+   :description: Función báse imprimirf() en Latino
+   :keywords: manual, documentacion, latino, funciones, funcion base, imprimirf
 
 ============
 imprimirf( )

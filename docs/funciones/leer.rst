@@ -1,6 +1,6 @@
 .. meta::
-   :description: Funcion leer en Latino
-   :keywords: manual, documentacion, latino, funcion, base, interna, leer
+   :description: Función báse leer() en Latino
+   :keywords: manual, documentacion, latino, funciones, funcion base, leer
 
 ============
 leer( )

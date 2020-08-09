@@ -1,6 +1,6 @@
 .. meta::
-   :description: Funcion base(interna) alogico en Latino
-   :keywords: manual, documentacion, latino, funciones, funciones internas, alogico
+   :description: Función báse alogico() en Latino
+   :keywords: manual, documentacion, latino, funciones, funcion base, alogico
 
 ============
 alogico( )

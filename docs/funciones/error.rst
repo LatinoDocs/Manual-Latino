@@ -1,6 +1,6 @@
 .. meta::
-   :description: Funcion base(interna) error en Latino
-   :keywords: manual, documentacion, latino, funciones, funciones internas, error
+   :description: Función báse error() en Latino
+   :keywords: manual, documentacion, latino, funciones, funcion base, error
 
 ============
 error( )

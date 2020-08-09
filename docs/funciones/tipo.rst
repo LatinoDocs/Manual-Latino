@@ -1,6 +1,6 @@
 .. meta::
-   :description: Funcion tipo en Latino
-   :keywords: manual, documentacion, latino, funcion, base, interna, tipo
+   :description: Función báse tipo() en Latino
+   :keywords: manual, documentacion, latino, funciones, funcion base, tipo
 
 ============
 tipo( )

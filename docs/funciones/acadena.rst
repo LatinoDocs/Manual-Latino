@@ -1,6 +1,6 @@
 .. meta::
-   :description: Funcion acadena en Latino
-   :keywords: manual, documentacion, latino, funcion, base, interna, acadena
+   :description: Función báse acadena() en Latino
+   :keywords: manual, documentacion, latino, funciones, funcion base, acadena
 
 ============
 acadena( )
@@ -30,6 +30,8 @@ Esta función puede ser utilizada en cualquier tipo de números, decimales, vari
    
    escribir(tipo(x))     //Devolverá decimal
    escribir(tipo(y))     //Devolverá cadena</code></pre>
+
+----
 
 Convertir buleanos a cadenas(textos)
 -------------------------------------

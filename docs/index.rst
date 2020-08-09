@@ -54,6 +54,7 @@ Si desea colaborar, mire el articulo de `guía de colaboración`_
    :hidden:
    
    Introduccion
+   Sobre-Latino
  
 .. toctree::
    :maxdepth: 2
@@ -107,6 +108,7 @@ Si desea colaborar, mire el articulo de `guía de colaboración`_
    sintaxis/Condicion-Desde
    sintaxis/Condicion-Mientras
    sintaxis/Condicion-Repetir
+   sintaxis/Modulo
 ..   sintaxis/RegEx
 
 .. toctree::
@@ -118,6 +120,7 @@ Si desea colaborar, mire el articulo de `guía de colaboración`_
    funciones/alogico
    funciones/anumero
    funciones/imprimir
+   funciones/incluir
    funciones/leer
    funciones/limpiar
    funciones/tipo

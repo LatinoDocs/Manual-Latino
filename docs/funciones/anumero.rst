@@ -1,6 +1,6 @@
 .. meta::
-   :description: Funcion base(interna) anumero en Latino
-   :keywords: manual, documentacion, latino, funciones, funciones internas, anumero
+   :description: Función báse anumero() en Latino
+   :keywords: manual, documentacion, latino, funciones, funcion base, anumero
 
 ============
 anumero( )
