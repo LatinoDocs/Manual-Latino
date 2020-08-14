@@ -1,3 +1,5 @@
+.. _windowsLink:
+
 .. meta::
    :description: Pasos a seguir para instalar Latino en MS-Windows
    :keywords: instalacion, latino, windows

@@ -23,7 +23,7 @@ copyright = '2015-2020, Lenguaje Latino.'
 author = 'Melvin Guerrero'
 
 # The full version, including alpha/beta/rc tags
-release = '1.2.0'
+latino_version = '1.2.0'
 
 
 # -- General configuration ---------------------------------------------------
@@ -35,6 +35,10 @@ extensions = [
     "sphinx_rtd_theme",
     "sphinx_tabs.tabs",
 ]
+
+rst_epilog = """
+.. |LATINO_VERSION| replace:: %s
+""" % latino_version
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
@@ -75,6 +79,7 @@ pygments_style = 'xcode'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+html_search_language = 'es'
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.

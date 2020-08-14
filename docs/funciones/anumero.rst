@@ -1,5 +1,7 @@
+.. _anumeroLink:
+
 .. meta::
-   :description: Función báse anumero() en Latino
+   :description: Función base anumero() en Latino
    :keywords: manual, documentacion, latino, funciones, funcion base, anumero
 
 ============

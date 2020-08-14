@@ -1,5 +1,7 @@
+.. _imprimirfLink:
+
 .. meta::
-   :description: Función báse imprimirf() en Latino
+   :description: Función base imprimirf() en Latino
    :keywords: manual, documentacion, latino, funciones, funcion base, imprimirf
 
 ============

@@ -1,5 +1,7 @@
+.. _leerLink:
+
 .. meta::
-   :description: Función báse leer() en Latino
+   :description: Función base leer() en Latino
    :keywords: manual, documentacion, latino, funciones, funcion base, leer
 
 ============

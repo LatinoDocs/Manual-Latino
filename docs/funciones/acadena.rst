@@ -1,5 +1,7 @@
+.. _acadenaLink:
+
 .. meta::
-   :description: Función báse acadena() en Latino
+   :description: Función base acadena() en Latino
    :keywords: manual, documentacion, latino, funciones, funcion base, acadena
 
 ============

@@ -1,3 +1,5 @@
+.. _vscodeLink:
+
 .. meta::
    :description: Latino en el editor VS-Code
    :keywords: instalacion, latino, editor, vscode

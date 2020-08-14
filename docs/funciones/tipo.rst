@@ -1,5 +1,7 @@
+.. _tipoLink:
+
 .. meta::
-   :description: Función báse tipo() en Latino
+   :description: Función base tipo() en Latino
    :keywords: manual, documentacion, latino, funciones, funcion base, tipo
 
 ============

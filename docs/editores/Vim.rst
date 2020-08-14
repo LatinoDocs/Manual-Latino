@@ -1,3 +1,5 @@
+.. _vimLink:
+
 .. meta::
    :description: Latino en el editor Vim
    :keywords: instalacion, latino, editor, vim

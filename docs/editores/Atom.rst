@@ -1,3 +1,5 @@
+.. _atomLink:
+
 .. meta::
    :description: Latino en el editor Atom
    :keywords: instalacion, latino, editor, atom

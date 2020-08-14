@@ -1,5 +1,7 @@
+.. _imprimirLink:
+
 .. meta::
-   :description: Función báse imprimir(), escribir(), poner() en Latino
+   :description: Función base imprimir(), escribir(), poner() en Latino
    :keywords: manual, documentacion, latino, funciones, funcion base, imprimir, escribir, poner
 
 ==============================

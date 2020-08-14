@@ -1,7 +1,7 @@
 .. _incluirLink:
 
 .. meta::
-   :description: Función báse incluir() en Latino
+   :description: Función base incluir() en Latino
    :keywords: manual, documentacion, latino, funciones, funcion base, incluir
 
 ============

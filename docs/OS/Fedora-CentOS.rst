@@ -1,3 +1,5 @@
+.. _fedoraLink:
+
 .. meta::
    :description: Pasos a seguir para instalar Latino en Fedora y CentOS
    :keywords: instalacion, latino, fedora, centos, linux

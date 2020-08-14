@@ -10,9 +10,9 @@
 
 ----
 
-====================
-Manual Latino v1.2.0
-====================
+================================
+Manual Latino |LATINO_VERSION|
+================================
 Bienvenidos al manual de Latino_, un lenguaje de programación con sintaxis en Español.
 
 :Autor:
@@ -20,6 +20,64 @@ Bienvenidos al manual de Latino_, un lenguaje de programación con sintaxis en E
 
 :Versión:
   `Latino 1.2.0`_
+
+Empezando
+----------
+
+.. container:: tocdescr
+   
+   .. container:: descr
+      
+      :doc:`/Sobre-Latino`
+   
+   .. container:: descr
+      
+      :doc:`/Instalar-Latino`
+   
+   .. container:: descr
+      
+      :doc:`/Editores-Textos`
+   
+   .. container:: descr
+      
+      :doc:`/ejemplos/Mi-Primer-Programa`
+
+Categorías
+-----------
+
+.. only:: builder_html and (not singlehtml)
+   
+   .. container:: tocdescr
+      
+      .. container:: descr
+         
+         :doc:`/sintaxis/Operadores`
+           Operadores de aritmética, asignación, condicionales, lógicos, relacionales, y más.
+      
+      .. container:: descr
+         
+         :doc:`/sintaxis/Tipos-de-Datos`
+           Los tipos de datos es una clasificación que define el valor asociado a una variable u objeto.
+      
+      .. container:: descr
+         
+         :doc:`/sintaxis/Cadenas`
+           Las cadenas (strings por su nombre en Ingles) son utilizados para almacenar y manipular textos en Latino.
+      
+      .. container:: descr
+         
+         :doc:`/sintaxis/Modulo`
+           Un módulo es un archivo que contiene un conjunto de funciones que desea incluir en su aplicación.
+      
+      .. container:: descr
+         
+         :doc:`/Funciones-Base`
+           Las funciones base son funciones predefinidas en latino, las cuales nos ayuda a realizar ciertos tipos de tareas.
+         
+      .. container:: descr
+         
+         :doc:`/Glosario`
+           Lista de librerías, palabras reserbadas y definiciones en Latino.
 
 ----
 
@@ -125,12 +183,20 @@ Si desea colaborar, mire el articulo de `guía de colaboración`_
    funciones/limpiar
    funciones/tipo
 
-.. .. toctree::
+.. toctree::
    :maxdepth: 2
    :hidden:
    :caption: Libreías
 
-..   librerias/librerias
+   librerias/Diccionario
+
+..   librerias/Archivo
+   librerias/Cadena
+
+..   librerias/Lista
+   librerias/Matematica
+   librerias/Paquete
+   librerias/Sistema
 
 .. toctree::
    :maxdepth: 2

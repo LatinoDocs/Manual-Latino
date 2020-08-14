@@ -1,5 +1,7 @@
+.. _limpiarLink:
+
 .. meta::
-   :description: Función báse limpiar() en Latino
+   :description: Función base limpiar() en Latino
    :keywords: manual, documentacion, latino, funciones, funcion base, limpiar
 
 ============

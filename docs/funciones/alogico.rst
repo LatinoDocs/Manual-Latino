@@ -1,5 +1,7 @@
+.. _alogicoLink:
+
 .. meta::
-   :description: Función báse alogico() en Latino
+   :description: Función base alogico() en Latino
    :keywords: manual, documentacion, latino, funciones, funcion base, alogico
 
 ============

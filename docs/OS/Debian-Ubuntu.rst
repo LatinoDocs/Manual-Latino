@@ -1,3 +1,5 @@
+.. _debianLink:
+
 .. meta::
    :description: Pasos a seguir para instalar Latino en Debian y Ubuntu
    :keywords: instalacion, latino, debian, ubuntu, linux

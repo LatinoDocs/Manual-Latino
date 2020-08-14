@@ -1,3 +1,5 @@
+.. _notepadLink:
+
 .. meta::
    :description: Latino en el editor Notepad++
    :keywords: instalacion, latino, editor, nodepad
