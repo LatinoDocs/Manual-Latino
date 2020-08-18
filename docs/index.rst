@@ -45,39 +45,48 @@ Empezando
 Categorías
 -----------
 
-.. only:: builder_html and (not singlehtml)
+.. container:: tocdescr
    
-   .. container:: tocdescr
+   .. container:: descr
       
-      .. container:: descr
-         
-         :doc:`/sintaxis/Operadores`
-           Operadores de aritmética, asignación, condicionales, lógicos, relacionales, y más.
+      .. figure:: /_static/_media/indice/index_novedades.png
+         :target: Novedades.html
       
-      .. container:: descr
-         
-         :doc:`/sintaxis/Tipos-de-Datos`
-           Los tipos de datos es una clasificación que define el valor asociado a una variable u objeto.
+      :doc:`/Novedades`
+         ¿Qué hay de nuevo? Descubre las mejoras y novedades en esta nueva versión de Latino |LATINO_VERSION|
+   
+   .. container:: descr
       
-      .. container:: descr
-         
-         :doc:`/sintaxis/Cadenas`
-           Las cadenas (strings por su nombre en Ingles) son utilizados para almacenar y manipular textos en Latino.
+      .. figure:: /_static/_media/indice/index_operadores.png
+         :target: sintaxis/Operadores.html
+
+      :doc:`/sintaxis/Operadores`
+         Operadores de aritmética, asignación, condicionales, lógicos, relacionales, y más.
+   
+   .. container:: descr
       
-      .. container:: descr
-         
-         :doc:`/sintaxis/Modulo`
-           Un módulo es un archivo que contiene un conjunto de funciones que desea incluir en su aplicación.
+      :doc:`/sintaxis/Tipos-de-Datos`
+         Los tipos de datos es una clasificación que define el valor asociado a una variable u objeto.
+   
+   .. container:: descr
       
-      .. container:: descr
-         
-         :doc:`/Funciones-Base`
-           Las funciones base son funciones predefinidas en latino, las cuales nos ayuda a realizar ciertos tipos de tareas.
-         
-      .. container:: descr
-         
-         :doc:`/Glosario`
-           Lista de librerías, palabras reserbadas y definiciones en Latino.
+      :doc:`/sintaxis/Cadenas`
+         Las cadenas (strings por su nombre en Ingles) son utilizados para almacenar y manipular textos en Latino.
+   
+   .. container:: descr
+      
+      :doc:`/sintaxis/Modulo`
+         Un módulo es un archivo que contiene un conjunto de funciones que desea incluir en su aplicación.
+   
+   .. container:: descr
+      
+      :doc:`/Funciones-Base`
+         Las funciones base son funciones predefinidas en latino, las cuales nos ayuda a realizar ciertos tipos de tareas.
+      
+   .. container:: descr
+      
+      :doc:`/latGlosario`
+         Lista de librerías, palabras reserbadas y definiciones en Latino.
 
 ----
 
@@ -86,6 +95,12 @@ Otras Documentaciones
 `Latino API`_
 
 ----
+
+Enlaces Externos
+-----------------
+`Canal en Youtube`_
+
+`Editor en-linea de Latino`_
 
 .. attention:: Esta documentación esta sujeta a actualizaciones y modificaciones, ya que aún se encuentra en un proceso de desarrollo. Gracias.
 
@@ -103,7 +118,8 @@ Si desea colaborar, mire el articulo de `guía de colaboración`_
 .. _Latino 1.2.0: https://github.com/lenguaje-latino/Latino/releases/tag/v1.2.0
 .. _Latino API: https://manuallatinoapi.blogspot.com
 .. _guía de colaboración: https://github.com/LatinoDocs/Manual-Latino/blob/master/.readme/CONTRIBUTING.md
-
+.. _Canal en Youtube: https://www.youtube.com/channel/UCLVTJpQn-TDbBSwR732kvnQ/featured
+.. _Editor en-linea de Latino: https://editorlatino.blogspot.com
 
 .. Tabla de contenido (TOC)
 
@@ -186,35 +202,29 @@ Si desea colaborar, mire el articulo de `guía de colaboración`_
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: Libreías
+   :caption: Librerías
 
+   librerias/Archivo
    librerias/Diccionario
 
-..   librerias/Archivo
-   librerias/Cadena
+.. librerias/Cadena
 
 ..   librerias/Lista
    librerias/Matematica
    librerias/Paquete
    librerias/Sistema
 
+.. .. toctree::
+..    :maxdepth: 2
+..    :hidden:
+..    :caption: Consola
+
+..    consola/Comandos-Consola
+
 .. toctree::
    :maxdepth: 2
    :hidden:
    :caption: Referencias
 
-   Glosario
-
-
-.. .. container:: nota
-..
-  |  sudo apt-get update
-  |  sudo apt-get install git bison flex cmake gcc g++
-  |  sudo apt-get install libcurl4-openssl-dev libhiredis-dev libjansson-dev
-  |
-  |  sudo apt-get install redis-server curl libgtk-3-dev
-  |  sudo apt-get install libreadline-dev libpthread-stubs0-dev
-
-.. .. raw:: html
-..
-   <pre><code class="language-latino line-numbers"></code></pre>
+   latGlosario
+   

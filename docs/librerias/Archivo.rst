@@ -5,7 +5,11 @@
 ===============
 Lib "archivo"
 ===============
-La librería **archivo** contiene las funciones principales para el manejo de archivos.
+La librería **archivo** contiene las funciones principales para el manejo de archivos en Latino.
+
+Cada uno de estos comandos puede recibir el **nombre** como también la **ruta** del archivo.
+
+El nombre de archivo o ruta del archivo deben ser escritas entre **comillas**.
 
 
 **Lista de comando**
@@ -19,13 +23,9 @@ La librería **archivo** contiene las funciones principales para el manejo de ar
 +----------------+------------+---------------------------------------------------------+
 | eliminar\( \)  | 1          | Elimina el archivo especificado                         |
 +----------------+------------+---------------------------------------------------------+
-| leer\( \)      | 1          | Lee el contenido de un archivo y lo combierte en cadena |
+| leer\( \)      | 1          | Lee el contenido de un archivo y lo convierte en cadena |
 +----------------+------------+---------------------------------------------------------+
-| lineas\( \)    | 1          | Almacena en una lista cada linea del archivo            |
-+----------------+------------+---------------------------------------------------------+
-| poner\( \)     | 2          | Sobrescribe el archivo con el texto especificado        |
-+----------------+------------+---------------------------------------------------------+
-| renombrar\( \) | 2          | Cambia el nombre del archivo especificado               |
+| lineas\( \)    | 1          | Almacena en una lista cada línea del archivo            |
 +----------------+------------+---------------------------------------------------------+
 
 .. ----
@@ -43,6 +43,11 @@ La librería **archivo** contiene las funciones principales para el manejo de ar
 
 ..    <pre><code class="language-latino line-numbers"></code></pre>
 
+.. el comando "poner" es el comando "copiar"
+
+.. +----------------+------------+---------------------------------------------------------+
+.. | poner\( \)     | 2          | Sobrescribe el archivo con el texto especificado        |
+
 ----
 
 archivo.crear\( \)
@@ -53,39 +58,54 @@ Este comando nos permite **crear un archivo** con un nombre especificado en cual
 
    <pre><code class="language-latino line-numbers">/*
    Este comando creará un archivo
-   con el nombre de "archivo1"
+   con el nombre de "prueba"
    en la ruta "C:\Users\"
    */
 
-   archivo.crear("C:\Users\archivo1.lat")</code></pre>
+   archivo.crear("C:\Users\prueba.lat")</code></pre>
 
 ----
 
 archivo.ejecutar\( \)
 ----------------------
-Ejecuta un archivo con código de latino.
-
-* Este comando también adminte rutas
+Este comando nos permite la **ejecución** de un archivo que contenga código de Latino.
 
 .. raw:: html
 
-   <pre><code class="language-latino line-numbers">archivo.ejecutar("c:\user\archivo1.lat")</code></pre>
+   <pre><code class="language-latino line-numbers">archivo.ejecutar("c:\user\prueba.lat")</code></pre>
 
 ----
 
 archivo.eliminar\( \)
 ----------------------
+Este comando nos ayuda a **eliminar** un archivo especificado.
 
+.. raw:: html
+
+   <pre><code class="language-latino line-numbers">archivo.eliminar("c:\user\prueba.lat")</code></pre>
 
 ----
 
 archivo.leer\( \)
 ------------------
-Almancena en una variable el contenido de un archivo.
-
-Este comando también admite rutas
+Para este comando se requiere **almacenar en una variable** el contenido del archivo que deseamos leer.
 
 .. raw:: html
 
-   <pre><code class="language-latino line-numbers">x = archivo.leer("C:\Users\prueva.lat")
+   <pre><code class="language-latino line-numbers">x = archivo.leer("C:\Users\prueba.lat")
    escribir(x)</code></pre>
+
+----
+
+archivo.lineas\( \)
+---------------------
+Este comando almacena en una **lista** cada línea de código de un archivo especificado.
+
+Para este comando es requerido asignarlo a una variable para almacenar el contenido del archivo.
+
+.. raw:: html
+
+   <pre><code class="language-latino line-numbers">x = archivo.lineas("C:\Users\prueba.lat")
+   escribir(x)</code></pre>
+
+.. note:: Por el momento en Latino 1.2.0 en la librería **archivo** funciones como **archivo.copiar( )**, **archivo.poner( )** y **archivo.renombrar( )** no funcionan apropiadamente. Espere a futuros lanzamientos de Latino para ver sus novedades.

@@ -29,12 +29,20 @@ Contenido de la página
 
 ----
 
+.. container:: nota
+
+  |  sudo apt-get update
+  |  sudo apt-get install git bison flex cmake gcc g++
+  |  sudo apt-get install libcurl4-openssl-dev libhiredis-dev libjansson-dev
+  |
+  |  sudo apt-get install redis-server curl libgtk-3-dev
+  |  sudo apt-get install libreadline-dev libpthread-stubs0-dev
+
 .. Esto es un bloque de código de Latino
 
 .. raw::html
    
-   <pre><code class="language-latino line-numbers">#Este es un ejemplo
-   escribir("Hola Mundo, Latino!")</code></pre>
+   <pre><code class="language-latino line-numbers"></code></pre>
 
 .. code-block:: bash
    

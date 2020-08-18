@@ -101,12 +101,10 @@ Carácter a usar: **\\ \\'**
 
    <pre><code class="language-latino line-numbers">/*
    Devolverá:
-   Hola \'mundo\'
+   Hola 'mundo'
    */
    
    escribir('Hola \'mundo\'')</code></pre>
-
-.. error:: Actualmente el resultado de las comillas simples es un error el cual se está trabajando para ser corregido. Para evitar este error usar las comillas dobles para envolver la cadena.
 
 Nueva línea
 ************
