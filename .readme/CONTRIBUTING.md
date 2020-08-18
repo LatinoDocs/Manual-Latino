@@ -19,7 +19,7 @@ Los temas a tratar son:
     - **Paso 2:** Crear una rama (branch) para sus colaboraciones de artículos.
 
     - **Paso 3:** Escribir/modificar sus artículos.
-        - Si usted está creando un nuevo tema, puede usar la siguiente [plantilla]() como punto de partida.
+        - Si usted está creando un nuevo tema, puede usar la siguiente [plantilla](plantillas/plantilla.rst) como punto de partida.
         
         - Asegúrese que al crear un nuevo articulo, este esté guardado en la correcta ubicación de carpeta.
 
@@ -30,6 +30,6 @@ A continuación, se incluye una breve lista de reglas de orientación que debe t
 
 - **Hacer:** Lea la [guía de estilo]() antes de empezar a escribir.
 
-- **Hacer:** Use la siguiente [plantilla]() como punto de partida.
+- **Hacer:** Use la siguiente [plantilla](plantillas/plantilla.rst) como punto de partida.
 
 - **Hacer:** Creé una rama (branch) para su colaboración antes de hacer nada.

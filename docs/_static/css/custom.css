@@ -1,20 +1,84 @@
 /* Main logo width */
 .wy-side-nav-search > a {width: 100% !important;}
 
-.highlight {
-    background: #f8f8f8 !important;
-}
-.highlight > pre {font-size: 16px !important;}
 
-.nota > div {
-    background-color: #ffffcc;
-    border-left: 5px solid #ffeb3b;
-    box-sizing: border-box;
-    color: #333333;
-    font-size: 17.5px;
-    margin: 0px 0px 20px;
-    padding: 10px 20px;
+/* Applied on main index:sections. */
+/* Start section description. */
+@media screen and (min-width: 450px){
+	.tocdescr {
+		display: flex; display: -webkit-flex;
+		flex-flow: row wrap; -webkit-flex-flow: row wrap;
+		justify-content: space-between; -webkit-justify-content: space-between;
+		align-items: flex-start; -webkit-align-items: flex-start;
+		align-content: flex-start; -webkit-align-content: flex-start;
+		list-style-type: none;
+		margin-bottom: 10px;
+	}
+	/* Dan Andreasson on Stack Overflow. */
+	.tocdescr:after {
+		content: "";
+		flex: 1 0 33.3%; -webkit-flex: 1 0 33.3%;
+		margin-left: 45px;
+		align-self: stretch; -webkit-align-self: stretch;
+	}
 }
+@media screen and (max-width: 450px) {
+	.tocdescr {
+		display: flex; display: -webkit-flex;
+		flex-flow: column wrap; -webkit-flex-flow: column wrap;
+		justify-content: space-between; -webkit-justify-content: space-between;
+		align-items: flex-start; -webkit-align-items: flex-start;
+		align-content: flex-start; -webkit-align-content: flex-start;
+		list-style-type: none;
+		margin-bottom: 10px;
+	}
+	.tocdescr:after {
+		content: "";
+		flex: none; -webkit-flex: none;
+	}
+}
+.descr {
+	flex: 2 0 33.3%; -webkit-flex: 2 0 33.3%;
+	margin: 10px 15px;
+	border-radius: .3em;
+	user-select: none;
+}
+.descr div.figure {
+	margin-bottom: 0px;
+	display: block;
+}
+.descr img {
+	border-top-left-radius: .3em;
+	border-top-right-radius: .3em;
+}
+.descr dl {margin-bottom: 10px}
+.descr dl dt > a {
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.descr dl dt a em, .descr dl dt a span{
+	font-weight: bold;
+	font-style: normal;
+	font-size: 1.3em;
+}
+.descr dl dt{padding: 18px 15px 0px!important}
+.descr dl dd{
+	padding: 0px 15px;
+	font-style: normal;
+	margin: 0px;
+	color: #808080;
+	font-size: 90%;
+}
+.descr {
+	box-shadow: rgba(0,0,0,0.05) 0px 1px 4px 0px,
+					rgba(211,216,223,0.33) 0px 15px 20px -1px;
+}
+#empezando .descr {
+	box-shadow: none;
+}
+/* End section description. */
+
 
 /*-----------Custome Prism Code-----------*/
 code[class*=language-],
@@ -40,10 +104,10 @@ pre[class*=language-] {
 
 pre[class*=language-]>code {
     position: relative;
-    background-color: #fdfdfd;
+    background-color: #f8f8f8;
     border: 1px solid #DEDEE3;
     border-left: 10px solid #358ccb;
-    background-image: linear-gradient(transparent 50%, rgba(69, 142, 209, .04) 50%);
+    /*background-image: linear-gradient(transparent 50%, rgba(69, 142, 209, .04) 50%);*/
     background-size: 3em 3em;
     background-origin: content-box;
     background-attachment: local
@@ -59,7 +123,7 @@ code[class*=language] {
 
 :not(pre)>code[class*=language-],
 pre[class*=language-] {
-    background-color: #fdfdfd
+    background-color: #f8f8f8
 }
 
 :not(pre)>code[class*=language-] {
@@ -113,7 +177,7 @@ pre[class*=language-] {
 .token.url,
 .token.variable {
     color: #a67f59;
-    background: rgba(255, 255, 255, .5)
+    /*background: rgba(255, 255, 255, .5)*/
 }
 
 .token.atrule,
@@ -131,7 +195,7 @@ pre[class*=language-] {
 .language-css .token.string,
 .style .token.string {
     color: #a67f59;
-    background: rgba(255, 255, 255, .5)
+    /*background: rgba(255, 255, 255, .5)*/
 }
 
 .token.important {
@@ -207,7 +271,7 @@ pre[class*=language-].line-numbers>code {
     left: -3.8em;
     width: 3em;
     letter-spacing: -1px;
-    border-right: 1px solid #999;
+    border-right: 1px solid #e6e9ea;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -230,3 +294,37 @@ pre[class*=language-].line-numbers>code {
 
 /*# sourceMappingURL=prism-line-numbers.min.css.map */
 /*-----------End Prism Code-----------*/
+
+.highlight {background: #f8f8f8 !important;}
+.highlight-latino {border-left: 10px solid #358ccb !important;}
+.highlight > pre, .linenodiv > pre, code.language-latino, .line-numbers-rows {font-size: 16px !important;}
+.linenodiv pre {padding-left: 20px !important; color: #999 !important;}
+code.language-latino, .line-numbers-rows {padding-top: 12px; padding-bottom: 12px;}
+pre.language-latino {margin: 0 !important;}
+div.code-toolbar {margin: 1em 0px;}
+div.toolbar-item > button {
+    display: inline-block;
+    color: #FFF;
+    padding: 5px 10px;
+    line-height: 1em;
+    font-size: 10px;
+    background: #666;
+    font-weight: 700;
+    border: 0;
+    width: 60px;
+    box-sizing: border-box;
+}
+div.toolbar-item > button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.nota > div {
+    background-color: #ffffcc;
+    border-left: 5px solid #ffeb3b;
+    box-sizing: border-box;
+    color: #333333;
+    font-size: 17.5px;
+    margin: 0px 0px 20px;
+    padding: 10px 20px;
+}

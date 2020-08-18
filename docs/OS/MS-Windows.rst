@@ -1,3 +1,5 @@
+.. _windowsLink:
+
 .. meta::
    :description: Pasos a seguir para instalar Latino en MS-Windows
    :keywords: instalacion, latino, windows
@@ -5,11 +7,11 @@
 ==========
 MS-Windows
 ==========
-La instalación de *Latino* en Windows, no difiere de otros programas ya que el proceso es el mismo. Antes de hacer nada, descargamos la versión mas actualizada de *Latino* desde su repositorio en github y procedemos con la instalación.
+La instalación de *Latino* en Windows no difiere de otros programas ya que el proceso de instalación es el mismo. Antes de hacer nada, descargamos la versión mas actualizada de *Latino* desde su repositorio en github y procedemos con la instalación.
 
 .. admonition:: Descargar
 
-   :download:`Descargar Latino <https://github.com/MelvinG24/Latino/releases/latest>`  Sólo para sistemas de **64bit**
+   :download:`Descargar Latino <https://github.com/lenguaje-latino/Latino/releases/latest>`  Sólo para sistemas de **64bit**
 
 .. attention:: Esta instalación fue realizada en Windows 7 de **64bit**, ya que Latino no se encuentra disponoble para los sistema de **32bit(86x)**. Para saber si usas un sistema MS-Windows de 64bit, `haz clic Aquí`_
 

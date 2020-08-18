@@ -1,3 +1,5 @@
+.. _sublimetextLink:
+
 .. meta::
    :description: Latino en el editor Sublime Text
    :keywords: instalacion, latino, editor, sublime

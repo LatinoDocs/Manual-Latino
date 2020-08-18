@@ -23,7 +23,7 @@ copyright = '2015-2020, Lenguaje Latino.'
 author = 'Melvin Guerrero'
 
 # The full version, including alpha/beta/rc tags
-release = '1.2.0'
+latino_version = '1.2.0'
 
 
 # -- General configuration ---------------------------------------------------
@@ -35,6 +35,10 @@ extensions = [
     "sphinx_rtd_theme",
     "sphinx_tabs.tabs",
 ]
+
+rst_epilog = """
+.. |LATINO_VERSION| replace:: %s
+""" % latino_version
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
@@ -67,8 +71,7 @@ exclude_patterns = []
 #highlight_language
 #highlight_options
 # The name of the Pygments (syntax highlighting) style to use.
-pygments_style = 'sphinx'
-
+pygments_style = 'xcode'
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -76,17 +79,15 @@ pygments_style = 'sphinx'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+html_search_language = 'es'
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-#
-
 html_theme = "sphinx_rtd_theme"
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 html_css_files = ["css/custom.css"]
 html_js_files = [
-    "js/prism.min.js",
-    "js/prism-line-numbers.min.js",
+    "js/prism.js",
     "js/prism-latino-syntax.js"
 ]   
 html_favicon = "_static/_media/favicon.ico"
