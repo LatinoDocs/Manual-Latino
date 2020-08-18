@@ -186,7 +186,7 @@ Si desea colaborar, mire el articulo de `guía de colaboración`_
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: Librerías
+   :caption: Libreías
 
    librerias/Diccionario
 
