@@ -59,7 +59,7 @@ cadena.regex\( \)
    
    <pre><code class="language-latino line-numbers">/*
    En este ejemplo la expresión
-   buscara la letra U en la cadena.
+   buscará la letra U en la cadena.
 
    Devolverá:
    falso
@@ -212,7 +212,7 @@ Una secuencia especial inicia con una **barra invertida \\** seguido de uno car�
 +----------+---------------------------------------------------------------------------------------------------------------------+
 | \\w      | Devuelve un conjunto cuando la cadena(string) cualquier carácter( a_Z, 0-9 ó _ )                                    |
 +----------+---------------------------------------------------------------------------------------------------------------------+
-| \\W      | Devuelve un conjunto cuando la cadena(string) NO contiene ningun carácter                                           |
+| \\W      | Devuelve un conjunto cuando la cadena(string) NO contiene ningún carácter                                           |
 +----------+---------------------------------------------------------------------------------------------------------------------+
 | \\Z      | Devuelve un conjunto si el carácter especificado está al final de la cadena(string)                                 |
 +----------+---------------------------------------------------------------------------------------------------------------------+

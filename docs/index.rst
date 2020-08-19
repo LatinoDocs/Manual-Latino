@@ -220,12 +220,12 @@ Si desea colaborar, mire el articulo de `guía de colaboración`_
    librerias/Paquete
    librerias/Sistema
 
-.. .. toctree::
-..    :maxdepth: 2
-..    :hidden:
-..    :caption: Consola
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Consola
 
-..    consola/Comandos-Consola
+   consola/Comandos-Consola
 
 .. toctree::
    :maxdepth: 2
