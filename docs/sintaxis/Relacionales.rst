@@ -66,6 +66,8 @@ Para los siguientes ejemplos supondremos que la variable **x** tiene un valor de
 
 ----
 
+.. _opregexLink:
+
 **Operador \~=**
 
 Este operador hace uso de las expresiones regulares(regular expression) en Latino.
@@ -89,6 +91,9 @@ Una `expresión regular`_ (*regular expression* ó *RegEx*, por su nombre en Ing
    sino
      escribir("x NO inicia con hola")
    fin</code></pre>
+
+.. note:: Las **Expresiones Regulares** (RegEx) contienen un artículo dedicado a su uso en Latino el cual se puede encontrar :ref:`aquí <regexLink>`.
+
 
 .. Enlaces
 

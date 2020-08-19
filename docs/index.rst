@@ -51,9 +51,10 @@ Categorías
       
       .. figure:: /_static/_media/indice/index_novedades.png
          :target: Novedades.html
-      
+         :figclass: figicon
+
       :doc:`/Novedades`
-         ¿Qué hay de nuevo? Descubre las mejoras y novedades en esta nueva versión de Latino |LATINO_VERSION|
+         Descubre las mejoras y novedades en esta nueva versión de Latino |LATINO_VERSION|
    
    .. container:: descr
       
@@ -80,13 +81,18 @@ Categorías
    
    .. container:: descr
       
+      :doc:`/sintaxis/RegEx`
+         Una Expresión Regular o RegEx es una secuencia de caracteres que forman un patrón de búsqueda.
+   
+   .. container:: descr
+      
       :doc:`/Funciones-Base`
-         Las funciones base son funciones predefinidas en latino, las cuales nos ayuda a realizar ciertos tipos de tareas.
+         Son funciones predefinidas que nos ayudan a realizar ciertas tareas.
       
    .. container:: descr
       
       :doc:`/latGlosario`
-         Lista de librerías, palabras reserbadas y definiciones en Latino.
+         Lista de librerías, palabras reservadas y definiciones en Latino.
 
 ----
 
@@ -183,7 +189,7 @@ Si desea colaborar, mire el articulo de `guía de colaboración`_
    sintaxis/Condicion-Mientras
    sintaxis/Condicion-Repetir
    sintaxis/Modulo
-..   sintaxis/RegEx
+   sintaxis/RegEx
 
 .. toctree::
    :maxdepth: 2
