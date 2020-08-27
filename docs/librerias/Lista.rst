@@ -18,15 +18,15 @@ La librería **lista** contiene las funciones para el manejo de :ref:`lista <lis
 +----------------------+------------+--------------------------------------------------------+
 | extender\( \)        | 2          | Agrega los elementos de una lista en otra lista        |
 +----------------------+------------+--------------------------------------------------------+
-| eliminar_indice\( \) | 2          | Elimina un elemento de la lista por posicion           |
+| eliminar_indice\( \) | 2          | Elimina un elemento de la lista por posición           |
 +----------------------+------------+--------------------------------------------------------+
 | longitud\( \)        | 1          | Devuelve la cantidad de elementos de una lista         |
 +----------------------+------------+--------------------------------------------------------+
-| indice\( \)          | 2          | Devuelve el indice del elemento buscado                |
+| indice\( \)          | 2          | Devuelve el índice del elemento buscado                |
 +----------------------+            |                                                        |
 | encontrar\( \)       |            |                                                        |
 +----------------------+------------+--------------------------------------------------------+
-| comparar\( \)        | 2          | Comprueba el order y tamaño de letras de los elementos |
+| comparar\( \)        | 2          | Comprueba el orden y tamaño de letras de los elementos |
 +----------------------+------------+--------------------------------------------------------+
 | eliminar\( \)        | 2          | Elimina un elemento de la lista (elimina uno o todos?) |
 +----------------------+------------+--------------------------------------------------------+
@@ -83,16 +83,16 @@ El comando **lista.extender\( \)** copiará los elementos de una lista para ser 
 
 lista.eliminar_indice\( \)
 ----------------------------
-Este comando nos permite **eliminar** un elemento de la lista asignada por medio de su **número de indice**.
+Este comando nos permite **eliminar** un elemento de la lista asignada por medio de su **número de índice**.
 
-En una lista los elementos de esta están organizados por indices y estos indices inicial desde el número **cero ( 0 )** en adelante.
+En una lista los elementos de esta están organizados por índices y estos índices inicial desde el número **cero ( 0 )** en adelante.
 
 Este comando NO admite números negativos.
 
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">mensaje = ["Hola", "mundo", "Latino", "es lo máximo"]
-   lista.eliminar_indice(mensaje, 3)     //Aquí asignamos la librería y el indice del elemento a eliminar
+   lista.eliminar_indice(mensaje, 3)     //Aquí asignamos la librería y el índice del elemento a eliminar
    escribir(mensaje)                     //Devolverá ["Hola", "mundo", "Latino"]</code></pre>
 
 ----
@@ -110,17 +110,17 @@ Este comando devuelve la cantidad de elementos de una lista.
 
 lista.indice\( \)
 ------------------
-El comando **lista.indice\( \)** también disponde de un alias el cual es **lista.encontrar\( \)**. Este comando nos permite **buscar** un elemento por su nombre en una lista y nos devolverá su **número de indice**.
+El comando **lista.indice\( \)** también dispone de un alias el cual es **lista.encontrar\( \)**. Este comando nos permite **buscar** un elemento por su nombre en una lista y nos devolverá su **número de índice**.
 
-Este comando es sensible a las mayusculas y minusculas.
+Este comando es sensible a las mayúsculas y minúsculas.
 
-Si NO encontra el nombre del elemento a buscar, entonces regresara **-1**.
+Si NO encuentra el nombre del elemento a buscar, entonces regresara **-1**.
 
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">mensaje = ["Hola", "mundo", "Latino"]
-   escribir(lista.indice(mensaje, "latino"))        //Devolverá -1 ya que latino esta en mayusculas
-   escribir(lista.encontrar(mensaje, "Latino"))     //Devolverá 2 ya que el indice comienza a contar desde el número cero</code></pre>
+   escribir(lista.indice(mensaje, "latino"))        //Devolverá -1, ya que latino esta en mayúsculas
+   escribir(lista.encontrar(mensaje, "Latino"))     //Devolverá 2, ya que el índice comienza a contar desde el número cero</code></pre>
 
 ----
 
@@ -146,7 +146,7 @@ Este comando devolverá los siguientes valor según el resultado:
    lista2 = ["Mundo", "Latino"]
    escribir(lista.comparar(lista1, lista2))
    escribir(lista.comparar(lista2, lista1))
-   escribir(lista.comparar(lista2, lista2))     //Devolverá cero"0" ya que la lista son identicas</code></pre>
+   escribir(lista.comparar(lista2, lista2))     //Devolverá cero"0", ya que la lista son idénticas</code></pre>
 
 .. ----
 
@@ -180,7 +180,7 @@ A diferencia de **lista.eliminar_indice\( \)** el comando **lista.eliminar\( \)*
    
    <pre><code class="language-latino line-numbers">/*
    Elimina solo la primera coincidencia.
-   Para eliminar las demas coincidencias
+   Para eliminar las demás coincidencias
    se tendrá que repetir el código.
    */
    
@@ -198,7 +198,7 @@ lista.contiene\( \)
 ---------------------
 Este comando nos permite comprobar si un elemento **existe en la lista**.
 
-Este comando es sensible a las mayusculas y minusculas.
+Este comando es sensible a las mayúsculas y minúsculas.
 
 .. raw:: html
    
@@ -225,17 +225,17 @@ Este comando es sensible a las mayusculas y minusculas.
 
 lista.crear\( \)
 ------------------
-Este comando nos permite crear una lista asignando la **cantidad de elementos** que esta tendra.
+Este comando nos permite crear una lista asignando la **cantidad de elementos** que esta tendrá.
 
-Al crear una lista con este comando, cada elemento tendrá un valor **nulo** los cuales podrán ser modificados despues.
+Al crear una lista con este comando, cada elemento tendrá un valor **nulo** los cuales podrán ser modificados después.
 
-Este comando admite un valor número positivo, de ser asignado cualquier número negativo, esta creará una lista vacia.
+Este comando admite un valor número positivo, de ser asignado cualquier número negativo, esta creará una lista vacía.
 
 .. raw:: html
    
    <pre><code class="language-latino line-numbers">/*
    Al crear una lista con este comando,
-   sus elemento serán nulos
+   sus elementos serán nulos
    */
    
    x = lista.crear(3)     //Creará una lista con 3 elementos nulos

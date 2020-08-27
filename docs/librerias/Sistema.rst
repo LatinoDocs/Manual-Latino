@@ -24,7 +24,7 @@ La librería **sis** contiene funciones que nos permitirán operar con nuestro s
 +----------------+------------+--------------------------------------------------------------+
 | iraxy\( \)     | 2          | Mueve el cursor de la consola a una nueva posición           |
 +----------------+------------+--------------------------------------------------------------+
-| tiempo\( \)    | 2          | Muestra el año, mes, hora, min, y seg de la maquina local    |
+| tiempo\( \)    | 2          | Muestra el año, mes, hora, min, y seg de la máquina local    |
 +----------------+------------+--------------------------------------------------------------+
 | usuario\( \)   | 0          | Devuelve el nombre del usuario activo del sistema            |
 +----------------+------------+--------------------------------------------------------------+
@@ -44,7 +44,7 @@ Es importante recalcar que este comando admite **segundos** y NO milisegundos.
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">sis.dormir(5)             //Detendar la ejecución del código por 5 segundos
-   escribir("Hola mundo)     //Escribira el mensage despues de pasar el tiempo asignado</code></pre>
+   escribir("Hola mundo)     //Escribirá el mensaje después de pasar el tiempo asignado</code></pre>
 
 ----
 
@@ -78,9 +78,9 @@ Con este comando podemos efectuar **comandos nativos de la consola** en el que e
 
 sis.fecha\( \)
 ----------------
-Este comando nos permite obtener la **fecha** del equipo o maquina local en donde Latino se está ejecutado.
+Este comando nos permite obtener la **fecha** del equipo o máquina local en donde Latino se está ejecutado.
 
-los comando a utilizar son los siguientes:
+Los comando a utilizar son los siguientes:
 
 +----------+-----------------------------------+
 | Comandos | Descripción                       |
@@ -167,7 +167,7 @@ sis.tiempo\( \)
 -----------------
 A diferencia del comando **sis.fecha\( \)**, el comando **sis.tiempo\( \)** nos permite tener un mayor control de las fechas y horas.
 
-Este comando es similar a la librería **datetime** en python.
+Este comando es similar a la librería **datetime** en Python.
 
 +---------+-------------------------------------------------------------------------------+
 | Comando | Descripción                                                                   |
@@ -176,7 +176,7 @@ Este comando es similar a la librería **datetime** en python.
 +---------+-------------------------------------------------------------------------------+
 | \%A     | Nombre del día de la semana completo                                          |
 +---------+-------------------------------------------------------------------------------+
-| \%w     | Día de la semana en números del 0-6 (0 es Domingo)                            |
+| \%w     | Día de la semana en números del 0-6 (0 es domingo)                            |
 +---------+-------------------------------------------------------------------------------+
 | \%d     | Día del mes                                                                   |
 +---------+-------------------------------------------------------------------------------+
@@ -210,11 +210,11 @@ Este comando es similar a la librería **datetime** en python.
 +---------+-------------------------------------------------------------------------------+
 | \%W     | Números de la semana del año (00-53, Lunes como el primer día de la semana)   |
 +---------+-------------------------------------------------------------------------------+
-| \%c     | Fecha y el hora de la maquina local                                           |
+| \%c     | Fecha y el hora de la máquina local                                           |
 +---------+-------------------------------------------------------------------------------+
-| \%x     | Fecha de la maquina local                                                     |
+| \%x     | Fecha de la máquina local                                                     |
 +---------+-------------------------------------------------------------------------------+
-| \%X     | Hora de la maquina local                                                      |
+| \%X     | Hora de la máquina local                                                      |
 +---------+-------------------------------------------------------------------------------+
 | \%\%    | Devuelve el carácter de \%                                                    |
 +---------+-------------------------------------------------------------------------------+
@@ -239,11 +239,11 @@ Este comando obtener el **nombre del usuario** activo en el sistema.
 
 sis.operativo\( \)
 --------------------
-El comando **operativo** también disponde de una abreviación **op**.
+El comando **sis.operativo\( \)** también dispone de una abreviación **op**.
 
 Ambos comandos retornar el nombre del **sistema operativo** es en el que Latino esta siendo ejecutado.
 
-Estes comando solo admite los siguientes comandos (en mayusculas):
+Estés comando solo admite los siguientes comandos (en mayúsculas):
 
 * **WIN32** : para MS-Windows
 * **APPLE** : para macOS-X
@@ -259,7 +259,7 @@ Estes comando solo admite los siguientes comandos (en mayusculas):
    si sis.op("WIN32")
        escribir("Windows-XP 4ever")
    osi sis.operativo("APPLE")
-       escribir("Thing Different")
+       escribir("Think Different")
    osi sis.op("LINUX")
        escribir("Linux for Humand")
    sino

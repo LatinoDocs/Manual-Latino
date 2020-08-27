@@ -68,8 +68,7 @@ Este comando nos permite **crear un archivo** con un nombre especificado en cual
 
    archivo.crear("C:\Users\prueba.lat")</code></pre>
 
-.. note:: Si al espeficicar la ruta del archivo a crear escribirmos un nombre de alguna carpeta que no existe, este no hara nada, ya que este comando solo puede crear archivos y no carpetas.
-
+.. note:: Si al especificar la ruta del archivo a crear escribimos un nombre de alguna carpeta que no existe, este no hará nada, ya que este comando solo puede crear archivos y no carpetas.
 
 ----
 
