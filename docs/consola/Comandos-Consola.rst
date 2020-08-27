@@ -77,6 +77,8 @@ Para mostrar la versión de Latino que se tiene instalada en nuestro sistema, po
       
       latino --version
 
+.. _atajoConsolaLink:
+
 Cerrar programa de Latino
 ++++++++++++++++++++++++++
 Si después de iniciar o correr Latino en nuestra consola deseamos salir o cerrar el programa, podemos presionar la siguiente combinación de teclado:
@@ -84,5 +86,7 @@ Si después de iniciar o correr Latino en nuestra consola deseamos salir o cerra
 .. code-block:: bash
    
    Ctrl + C
+
+Podemos también salir de Latino escribiendo el comando explicado :ref:`aquí <sisSalirLink>`.
 
 .. image:: ../_static/_media/comandos-Consola/latinoSalirTerminal.gif

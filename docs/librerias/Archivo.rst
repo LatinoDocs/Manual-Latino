@@ -32,7 +32,11 @@ El nombre de archivo o ruta del archivo deben ser escritas entre **comillas**.
 
 .. archivo.copiar\( \)
 .. --------------------
-.. tambien adminte rutas
+.. Copia en el archivo especificado la cadena(texto) que deseamos añadir.
+
+.. Los textos en el segundo argumento en el también podemos usar los :ref:`caracteres especiales <cCaracterEspLink>`.
+
+.. El primer argumento adminte rutas mas no el segundo argumento de este comando.
 
 .. archivo.copiar("c:\user\archivo1.lat", "archivo2.lat")
 .. //El comando no coincide con su funcion.
@@ -63,6 +67,9 @@ Este comando nos permite **crear un archivo** con un nombre especificado en cual
    */
 
    archivo.crear("C:\Users\prueba.lat")</code></pre>
+
+.. note:: Si al espeficicar la ruta del archivo a crear escribirmos un nombre de alguna carpeta que no existe, este no hara nada, ya que este comando solo puede crear archivos y no carpetas.
+
 
 ----
 
@@ -108,4 +115,4 @@ Para este comando es requerido asignarlo a una variable para almacenar el conten
    <pre><code class="language-latino line-numbers">x = archivo.lineas("C:\Users\prueba.lat")
    escribir(x)</code></pre>
 
-.. note:: Por el momento en Latino 1.2.0 en la librería **archivo** funciones como **archivo.copiar( )**, **archivo.poner( )** y **archivo.renombrar( )** no funcionan apropiadamente. Espere a futuros lanzamientos de Latino para ver sus novedades.
+.. error:: Por el momento en Latino 1.2.0 en la librería **archivo** funciones como **archivo.copiar( )**, **archivo.poner( )** y **archivo.renombrar( )** no funcionan apropiadamente. Espere a futuros lanzamientos de Latino para ver sus novedades.

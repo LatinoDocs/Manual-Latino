@@ -212,6 +212,8 @@ Si desea colaborar, mire el articulo de `guía de colaboración`_
 
    librerias/Archivo
    librerias/Diccionario
+   librerias/Lista
+   librerias/Sistema
 
 .. librerias/Cadena
 

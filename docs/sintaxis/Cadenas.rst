@@ -23,6 +23,8 @@ Se pueden usar comillas dentro de una cadena, siempre y cuando estas no coincida
 
 ----
 
+.. _cCaracterEspLink:
+
 Caracteres especiales
 ----------------------
 Las cadenas al estar escritas entre comillas, se pudiera producir un error con la siguiente sintaxis:
