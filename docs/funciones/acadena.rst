@@ -13,9 +13,9 @@ Esta función puede ser utilizada en cualquier tipo de números, decimales, vari
 
 .. code-block:: bash
 
-   acadena(x) //Devolverá como texto el valor numérico de la variable X
-   acadena(123) //Devolverá como texto el valor numérico 123
-   acadena(100 + 23) //Devolverá como texto el resultado de la expresión
+   acadena(x)            //Devolverá como texto el valor numérico de la variable X
+   acadena(123)          //Devolverá como texto el valor numérico 123
+   acadena(100 + 23)     //Devolverá como texto el resultado de la expresión
 
 **Ejemplo de función**
 

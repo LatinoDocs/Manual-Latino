@@ -149,6 +149,8 @@ Este comando es similar al comando **gotoxy\( \)** en C.
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">/*
+   Este código dibujara una caja
+   para luego mover el cursor dentro de ella
    */
    
    escribir("Ente su número en la caja

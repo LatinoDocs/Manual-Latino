@@ -12,39 +12,28 @@ La librería **lista** contiene las funciones para el manejo de :ref:`lista <lis
 +----------------------+------------+--------------------------------------------------------+
 | Comando              | Parámetros | Descripción                                            |
 +======================+============+========================================================+
-| invertir\( \)        | 1          | Invierte el orden de la lista                          |
-+----------------------+------------+--------------------------------------------------------+
 | agregar\( \)         | 2          | Agrega un elemento al final de la lista                |
 +----------------------+------------+--------------------------------------------------------+
-| extender\( \)        | 2          | Agrega los elementos de una lista en otra lista        |
-+----------------------+------------+--------------------------------------------------------+
-| eliminar_indice\( \) | 2          | Elimina un elemento de la lista por posición           |
-+----------------------+------------+--------------------------------------------------------+
-| longitud\( \)        | 1          | Devuelve la cantidad de elementos de una lista         |
-+----------------------+------------+--------------------------------------------------------+
-| indice\( \)          | 2          | Devuelve el índice del elemento buscado                |
-+----------------------+            |                                                        |
-| encontrar\( \)       |            |                                                        |
-+----------------------+------------+--------------------------------------------------------+
 | comparar\( \)        | 2          | Comprueba el orden y tamaño de letras de los elementos |
-+----------------------+------------+--------------------------------------------------------+
-| eliminar\( \)        | 2          | Elimina un elemento de la lista (elimina uno o todos?) |
 +----------------------+------------+--------------------------------------------------------+
 | contiene\( \)        | 2          | Devuelve verdadero si el elemento existe en la lista   |
 +----------------------+------------+--------------------------------------------------------+
 | crear\( \)           | 1          | Crea una lista con el nombre especificado              |
 +----------------------+------------+--------------------------------------------------------+
-
-----
-
-lista.invertir\( \)
----------------------
-Para invertir el orden de una lista, utilizamos el comando **lista.invertir\( \)**.
-
-.. raw:: html
-
-   <pre><code class="language-latino line-numbers">carros = ["Toyota", "Ford", "Peugeot", "Nissan", "Subaru", "Chevrolet"]
-   escribir(lista.invertir(carros))     //Devolverá la lista en orden invertido</code></pre>
+| eliminar_indice\( \) | 2          | Elimina un elemento de la lista por posición           |
++----------------------+------------+--------------------------------------------------------+
+| eliminar\( \)        | 2          | Elimina solo la primera coincidencia de la lista       |
++----------------------+------------+--------------------------------------------------------+
+| encontrar\( \)       | 2          | Devuelve el índice del elemento buscado                |
++----------------------+            |                                                        |
+| indice\( \)          |            |                                                        |
++----------------------+------------+--------------------------------------------------------+
+| extender\( \)        | 2          | Agrega los elementos de una lista en otra lista        |
++----------------------+------------+--------------------------------------------------------+
+| invertir\( \)        | 1          | Invierte el orden de la lista                          |
++----------------------+------------+--------------------------------------------------------+
+| longitud\( \)        | 1          | Devuelve la cantidad de elementos de una lista         |
++----------------------+------------+--------------------------------------------------------+
 
 ----
 
@@ -59,68 +48,6 @@ Este comando agrega un nuevo elemento al final de la lista.
    <pre><code class="language-latino line-numbers">carros = ["Toyota", "Ford", "Peugeot"]
    lista.agregar(carros, "Honda")           //Agregará "Honda" al final de la lista
    escribir(carros)                         //Imprimirá ["Toyota", "Ford", "Peugeot", "Honda"]</code></pre>
-
-----
-
-lista.extender\( \)
----------------------
-El comando **lista.extender\( \)** copiará los elementos de una lista para ser insertados al final de otra lista deseada.
-
-**Ejemplo de sintaxis**
-
-.. code-block:: bash
-   
-   lista.extender("ListaAExtender", "ListaACopiar")
-
-.. raw:: html
-
-   <pre><code class="language-latino line-numbers">mensaje = ["Hola", "mundo"]
-   copiar = ["Latino", "es lo máximo!"]
-   lista.extender(mensaje, copiar)
-   escribir(mensaje)                      //Devolverá ["Hola", "mundo", "Latino", "es lo maximo!"</code></pre>
-
-----
-
-lista.eliminar_indice\( \)
-----------------------------
-Este comando nos permite **eliminar** un elemento de la lista asignada por medio de su **número de índice**.
-
-En una lista los elementos de esta están organizados por índices y estos índices inicial desde el número **cero ( 0 )** en adelante.
-
-Este comando NO admite números negativos.
-
-.. raw:: html
-
-   <pre><code class="language-latino line-numbers">mensaje = ["Hola", "mundo", "Latino", "es lo máximo"]
-   lista.eliminar_indice(mensaje, 3)     //Aquí asignamos la librería y el índice del elemento a eliminar
-   escribir(mensaje)                     //Devolverá ["Hola", "mundo", "Latino"]</code></pre>
-
-----
-
-lista.longitud\( \)
---------------------
-Este comando devuelve la cantidad de elementos de una lista.
-
-.. raw:: html
-
-   <pre><code class="language-latino line-numbers">mensaje = ["Hola", "mundo", "Latino"]
-   escribir(lista.longitud(mensaje))     //Devolverá "3"</code></pre>
-
-----
-
-lista.indice\( \)
-------------------
-El comando **lista.indice\( \)** también dispone de un alias el cual es **lista.encontrar\( \)**. Este comando nos permite **buscar** un elemento por su nombre en una lista y nos devolverá su **número de índice**.
-
-Este comando es sensible a las mayúsculas y minúsculas.
-
-Si NO encuentra el nombre del elemento a buscar, entonces regresara **-1**.
-
-.. raw:: html
-
-   <pre><code class="language-latino line-numbers">mensaje = ["Hola", "mundo", "Latino"]
-   escribir(lista.indice(mensaje, "latino"))        //Devolverá -1, ya que latino esta en mayúsculas
-   escribir(lista.encontrar(mensaje, "Latino"))     //Devolverá 2, ya que el índice comienza a contar desde el número cero</code></pre>
 
 ----
 
@@ -148,27 +75,57 @@ Este comando devolverá los siguientes valor según el resultado:
    escribir(lista.comparar(lista2, lista1))
    escribir(lista.comparar(lista2, lista2))     //Devolverá cero"0", ya que la lista son idénticas</code></pre>
 
-.. ----
+----
 
-.. lista.insertar\( \)
-.. --------------------
-.. Con este comando podemos insertar un elementos en cualquier indice deseado de una lista.
+lista.contiene\( \)
+---------------------
+Este comando nos permite comprobar si un elemento **existe en la lista**.
 
-.. **Ejemplo de sintaxis**
+Este comando es sensible a las mayúsculas y minúsculas.
 
-.. .. code-block:: bash
+.. raw:: html
    
-..    lista.insertar(listaOriginal, elementoNuevo, indice)
+   <pre><code class="language-latino line-numbers">mensaje = ["Hola", "mundo"]
+   escribir(lista.contiene(mensaje, "Latino"))     //Devolverá Falso</code></pre>
 
-.. .. raw:: html
+----
 
-..    <pre><code class="language-latino line-numbers">mensaje = ["Hola", "mundo", "Latino"]
-..    lista.insertar(mensaje, "Lenguaje", 2)
-..    escribir(mensaje)                          //Devolverá ["Hola", "mundo", "Lenguaje", "Latino"]
-..    error, escribe cfun en ves de la cadena deseada</code></pre>
+lista.crear\( \)
+------------------
+Este comando nos permite crear una lista asignando la **cantidad de elementos** que esta tendrá.
 
-.. | insertar\( \)        | 3          | Inserta un nuevo elemento a una lista                  |
-.. +----------------------+------------+--------------------------------------------------------+
+Al crear una lista con este comando, cada elemento tendrá un valor **nulo** los cuales podrán ser modificados después.
+
+Este comando admite un valor número positivo, de ser asignado cualquier número negativo, esta creará una lista vacía.
+
+.. raw:: html
+   
+   <pre><code class="language-latino line-numbers">/*
+   Al crear una lista con este comando,
+   sus elementos serán nulos
+   */
+   
+   x = lista.crear(3)     //Creará una lista con 3 elementos nulos
+   escribir(x)            //Devolverá [nulo, nulo, nulo]
+   
+   y = lista.crear(-1)    //Creará una lista con cero elementos
+   escribir(y)            //Devolverá [ ]</code></pre>
+
+----
+
+lista.eliminar_indice\( \)
+----------------------------
+Este comando nos permite **eliminar** un elemento de la lista asignada por medio de su **número de índice**.
+
+En una lista los elementos de esta están organizados por índices y estos índices inicial desde el número **cero ( 0 )** en adelante.
+
+Este comando NO admite números negativos.
+
+.. raw:: html
+
+   <pre><code class="language-latino line-numbers">mensaje = ["Hola", "mundo", "Latino", "es lo máximo"]
+   lista.eliminar_indice(mensaje, 3)     //Aquí asignamos la librería y el índice del elemento a eliminar
+   escribir(mensaje)                     //Devolverá ["Hola", "mundo", "Latino"]</code></pre>
 
 ----
 
@@ -194,16 +151,82 @@ A diferencia de **lista.eliminar_indice\( \)** el comando **lista.eliminar\( \)*
 
 ----
 
-lista.contiene\( \)
----------------------
-Este comando nos permite comprobar si un elemento **existe en la lista**.
+lista.indice\( \)
+------------------
+El comando **lista.indice\( \)** también dispone de un alias el cual es **lista.encontrar\( \)**. Este comando nos permite **buscar** un elemento por su nombre en una lista y nos devolverá su **número de índice**.
 
 Este comando es sensible a las mayúsculas y minúsculas.
 
+Si NO encuentra el nombre del elemento a buscar, entonces regresara **-1**.
+
 .. raw:: html
+
+   <pre><code class="language-latino line-numbers">mensaje = ["Hola", "mundo", "Latino"]
+   escribir(lista.indice(mensaje, "latino"))        //Devolverá -1, ya que latino esta en mayúsculas
+   escribir(lista.encontrar(mensaje, "Latino"))     //Devolverá 2, ya que el índice comienza a contar desde el número cero</code></pre>
+
+----
+
+lista.extender\( \)
+---------------------
+El comando **lista.extender\( \)** copiará los elementos de una lista para ser insertados al final de otra lista deseada.
+
+**Ejemplo de sintaxis**
+
+.. code-block:: bash
    
+   lista.extender("ListaAExtender", "ListaACopiar")
+
+.. raw:: html
+
    <pre><code class="language-latino line-numbers">mensaje = ["Hola", "mundo"]
-   escribir(lista.contiene(mensaje, "Latino"))     //Devolverá Falso</code></pre>
+   copiar = ["Latino", "es lo máximo!"]
+   lista.extender(mensaje, copiar)
+   escribir(mensaje)                      //Devolverá ["Hola", "mundo", "Latino", "es lo maximo!"</code></pre>
+
+----
+
+lista.invertir\( \)
+---------------------
+Para invertir el orden de una lista, utilizamos el comando **lista.invertir\( \)**.
+
+.. raw:: html
+
+   <pre><code class="language-latino line-numbers">carros = ["Toyota", "Ford", "Peugeot", "Nissan", "Subaru", "Chevrolet"]
+   escribir(lista.invertir(carros))     //Devolverá la lista en orden invertido</code></pre>
+
+----
+
+lista.longitud\( \)
+--------------------
+Este comando devuelve la cantidad de elementos de una lista.
+
+.. raw:: html
+
+   <pre><code class="language-latino line-numbers">mensaje = ["Hola", "mundo", "Latino"]
+   escribir(lista.longitud(mensaje))     //Devolverá "3"</code></pre>
+
+.. ----
+
+.. lista.insertar\( \)
+.. --------------------
+.. Con este comando podemos insertar un elementos en cualquier indice deseado de una lista.
+
+.. **Ejemplo de sintaxis**
+
+.. .. code-block:: bash
+   
+..    lista.insertar(listaOriginal, elementoNuevo, indice)
+
+.. .. raw:: html
+
+..    <pre><code class="language-latino line-numbers">mensaje = ["Hola", "mundo", "Latino"]
+..    lista.insertar(mensaje, "Lenguaje", 2)
+..    escribir(mensaje)                          //Devolverá ["Hola", "mundo", "Lenguaje", "Latino"]
+..    error, escribe cfun en ves de la cadena deseada</code></pre>
+
+.. | insertar\( \)        | 3          | Inserta un nuevo elemento a una lista                  |
+.. +----------------------+------------+--------------------------------------------------------+
 
 .. ----
 
@@ -220,28 +243,5 @@ Este comando es sensible a las mayúsculas y minúsculas.
 
 .. | concatenar\( \)      | 2          | Uné todos los elementos de dos listas en una sola      |
 .. +----------------------+------------+--------------------------------------------------------+
-
-----
-
-lista.crear\( \)
-------------------
-Este comando nos permite crear una lista asignando la **cantidad de elementos** que esta tendrá.
-
-Al crear una lista con este comando, cada elemento tendrá un valor **nulo** los cuales podrán ser modificados después.
-
-Este comando admite un valor número positivo, de ser asignado cualquier número negativo, esta creará una lista vacía.
-
-.. raw:: html
-   
-   <pre><code class="language-latino line-numbers">/*
-   Al crear una lista con este comando,
-   sus elementos serán nulos
-   */
-   
-   x = lista.crear(3)     //Creará una lista con 3 elementos nulos
-   escribir(x)            //Devolverá [nulo, nulo, nulo]
-   
-   y = lista.crear(-1)    //Creará una lista con cero elementos
-   escribir(y)            //Devolverá [ ]</code></pre>
 
 .. error:: Por el momento en Latino 1.2.0 en la librería **lista** funciones como **lista.insertar\( \)** y **lista.concatenar\( \)** no funcionan apropiadamente. Espere a futuros lanzamientos en Latino para ver sus novedades.

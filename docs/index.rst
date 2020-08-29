@@ -51,7 +51,6 @@ Categorías
       
       .. figure:: /_static/_media/indice/index_novedades.png
          :target: Novedades.html
-         :figclass: figicon
 
       :doc:`/Novedades`
          Descubre las mejoras y novedades en esta nueva versión de Latino |LATINO_VERSION|
@@ -66,11 +65,17 @@ Categorías
    
    .. container:: descr
       
+      .. figure:: /_static/_media/indice/index_datos.png
+         :target: sintaxis/Tipos-de-Datos.html
+
       :doc:`/sintaxis/Tipos-de-Datos`
          Los tipos de datos es una clasificación que define el valor asociado a una variable u objeto.
    
    .. container:: descr
       
+      .. figure:: /_static/_media/indice/index_cadena.png
+         :target: sintaxis/Cadenas.html
+
       :doc:`/sintaxis/Cadenas`
          Las cadenas (strings por su nombre en Ingles) son utilizados para almacenar y manipular textos en Latino.
    
@@ -213,12 +218,12 @@ Si desea colaborar, mire el articulo de `guía de colaboración`_
    librerias/Archivo
    librerias/Diccionario
    librerias/Lista
+   librerias/Matematica
    librerias/Sistema
 
 .. librerias/Cadena
 
 ..   librerias/Lista
-   librerias/Matematica
    librerias/Paquete
    librerias/Sistema
 
