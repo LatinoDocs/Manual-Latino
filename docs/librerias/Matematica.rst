@@ -1,3 +1,5 @@
+.. _matelibLink:
+
 .. meta::
    :description: Librería de matematicas en Latino
    :keywords: manual, documentacion, latino, librerias, lib, mate, matematica

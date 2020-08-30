@@ -188,7 +188,7 @@ Entre estos operadores podemos encontrar el operador de **concatenación** y el 
 
 Operador de concatenación
 ++++++++++++++++++++++++++
-El operador de concatenación está representado por **doble punto ..**
+El operador de concatenación está representado por **doble punto (..)**.
 
 Este operador se utiliza para concatenar(juntar) expresiones no relacionadas entre sí:
 

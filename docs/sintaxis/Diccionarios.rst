@@ -27,6 +27,8 @@ Los diccionarios u objetos se declaran (crean) entre **llaves { }** y sus propie
 
 En el ejemplo anterior se puede apreciar que los diccionarios realmente son **variables**, pero estas almacenan una mayor cantidad de valores.
 
+.. note:: Latino dispone de una librería para el manejo de diccionarios, :ref:`aquí <diclibLink>`.
+
 ----
 
 Definir un diccionario

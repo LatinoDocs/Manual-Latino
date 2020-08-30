@@ -11,6 +11,8 @@ Las listas o arrays (también son conocidas como arreglos, matrices o vectores e
 
 Entre algunos de los tipos de datos que una lista puede simultáneamente almacenar pueden ser: lógicos, numéricos, cadenas, otras listas y/o diccionarios.
 
+.. note:: Latino dispone de una librería para el manejo de listas, :ref:`aquí <listalibLink>`.
+
 ----
 
 ¿Cúando y/o por qué usar una lista?

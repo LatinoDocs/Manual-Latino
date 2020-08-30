@@ -21,6 +21,8 @@ Latino trabaja solo con un tipo de número, los números que se escriben con dec
       <pre><code class="language-latino line-numbers">x = 123e5     //Expresión no reconocida
       y = 123e-5    //Expresión no reconocida</code></pre>
 
+.. note:: Latino dispone de una librería para matemáticas la cual puede ver :ref:`aquí <matelibLink>`.
+
 ----
 
 Decimales

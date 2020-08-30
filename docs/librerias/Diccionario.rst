@@ -1,3 +1,5 @@
+.. _diclibLink:
+
 .. meta::
    :description: Librería de diccionarios en Latino
    :keywords: manual, documentacion, latino, librerias, lib, diccionario

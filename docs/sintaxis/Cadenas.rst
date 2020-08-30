@@ -1,3 +1,5 @@
+.. _cadenaLink:
+
 .. meta::
    :description: Cadenas(Textos o Strings) en Latino
    :keywords: manual, documentacion, latino, sintaxis, datos, cadenas, string, texto
@@ -20,6 +22,23 @@ Se pueden usar comillas dentro de una cadena, siempre y cuando estas no coincida
 
    <pre><code class="language-latino line-numbers">escribir("El se llama 'Melvin'")     //Devolverá: El se llama 'Melvin'
    escribir('El se llama "Melvin"')     //Devolverá: El se llama "Melvin"</code></pre>
+
+.. note:: Latino dispone de una librería para el manejo de cadenas, :ref:`aquí <cadenalibLink>`.
+
+----
+
+Concatenar cadenas(textos)
+---------------------------
+Para concatenar o unir textos en Latino se hace uso de **doble puntos (..)**, que a diferencia de otros lenguajes de programación los cuales usan el signo de **más (+)**.
+
+El **doble punto (..)** no solo es útil para unir textos, también números.
+
+.. raw:: html
+
+   <pre><code class="language-latino line-numbers">x = "Hola mundo"
+   y = ", Latino"
+   escribir(x..y)     //Devolverá Hola mundo, Latino
+   escribir(1..2)     //Devolverá 12</code></pre>
 
 ----
 

@@ -9,7 +9,8 @@ La librería **paquete** contiene las funciones para enlazar librerias externas 
 
 **Lista de comando**
 
-+-------------+------------+----------------------------------------------------------+
-| Comando     | Parámetros | Descripción                                              |
-+=============+============+==========================================================+
-| cargar\( \) | 2          | Carga el paquete de una librería
++-------------+------------+----------------------------------+
+| Comando     | Parámetros | Descripción                      |
++=============+============+==================================+
+| cargar\( \) | 2          | Carga el paquete de una librería |
++-------------+------------+----------------------------------+

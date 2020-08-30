@@ -81,11 +81,17 @@ Categorías
    
    .. container:: descr
       
+      .. figure:: /_static/_media/indice/index_modulo.png
+         :target: sintaxis/Modulo.html
+
       :doc:`/sintaxis/Modulo`
          Un módulo es un archivo que contiene un conjunto de funciones que desea incluir en su aplicación.
    
    .. container:: descr
       
+      .. figure:: /_static/_media/indice/index_regex.png
+         :target: sintaxis/RegEx.html
+
       :doc:`/sintaxis/RegEx`
          Una Expresión Regular o RegEx es una secuencia de caracteres que forman un patrón de búsqueda.
    
@@ -216,14 +222,10 @@ Si desea colaborar, mire el articulo de `guía de colaboración`_
    :caption: Librerías
 
    librerias/Archivo
+   librerias/Cadena
    librerias/Diccionario
    librerias/Lista
    librerias/Matematica
-   librerias/Sistema
-
-.. librerias/Cadena
-
-..   librerias/Lista
    librerias/Paquete
    librerias/Sistema
 
