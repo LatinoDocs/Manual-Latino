@@ -211,6 +211,7 @@ Si desea colaborar, mire el articulo de `guía de colaboración`_
    funciones/alogico
    funciones/anumero
    funciones/imprimir
+   funciones/imprimirf
    funciones/incluir
    funciones/leer
    funciones/limpiar
@@ -226,7 +227,6 @@ Si desea colaborar, mire el articulo de `guía de colaboración`_
    librerias/Diccionario
    librerias/Lista
    librerias/Matematica
-   librerias/Paquete
    librerias/Sistema
 
 .. toctree::

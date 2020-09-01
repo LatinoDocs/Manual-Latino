@@ -260,7 +260,7 @@ cadena.formato\( \)
 --------------------
 Este comando permite **dar formato** a un carácter o valor ASCII.
 
-Este comando es similar pero más limitado al comando **printf\( \)** en C o al comando **imprimirf\( \)** en Latino.
+Este comando es similar al comando **imprimirf\( \)**, aunque este ultimo requiere del carácter **\\n** para poder escribir en pantalla.
 
 El comando **cadena.formato\( \)** opera con los siguientes formatos:
 
