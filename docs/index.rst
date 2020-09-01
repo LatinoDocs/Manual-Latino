@@ -119,7 +119,7 @@ Enlaces Externos
 
 `Editor en-linea de Latino`_
 
-.. attention:: Esta documentación esta sujeta a actualizaciones y modificaciones, ya que aún se encuentra en un proceso de desarrollo. Gracias.
+.. .. attention:: Esta documentación esta sujeta a actualizaciones y modificaciones, ya que aún se encuentra en un proceso de desarrollo. Gracias.
 
 ==================
 ¿Deseas colaborar?
