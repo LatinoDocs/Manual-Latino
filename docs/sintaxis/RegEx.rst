@@ -222,8 +222,9 @@ Una secuencia especial inicia con una **barra invertida \\** seguido de uno car�
 Patrones de expresiones regulares
 ----------------------------------
 .. _ej1:
-Carácter [ ]
-+++++++++++++
+
+Carácter \[ \]
++++++++++++++++
 Los brackets son utilizados para buscar caracteres en un rango asignado.
 
 +-----------+--------------------------------------------------------+

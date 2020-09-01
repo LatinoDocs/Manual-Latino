@@ -8,6 +8,7 @@ Módulos
 Un módulo_ es cualquier archivo o directorio en donde se divide el programa en muchos componentes o bloques de códigos autónomos que pueden ser utilizados en diferentes partes del programa.
 
 .. error:: Por el momento en Latino 1.2.0 no se puede incluir módulos en el sistema operativo macOS-X, solo librerías. Espere a futuros lanzamientos de Latino para ver sus novedades.
+
 ----
 
 Creación de módulos
