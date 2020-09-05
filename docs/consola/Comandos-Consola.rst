@@ -11,23 +11,23 @@ Los comandos de consola son algunas funciones que podemos efectuar con Latino an
 
 A continuación se presentará una tabla con los comandos de consola disponibles en Latino.
 
-+-------------+--------------------------------------------+
-| Comando     | Descripción                                |
-+=============+============================================+
-| -a          | Muestra la ayuda de Latino en la terminal  |
-+-------------+                                            |
-| \-\-ayuda   |                                            |
-+-------------+                                            |
-| \-\-help    |                                            |
-+-------------+--------------------------------------------+
-| -e          | Ejecuta un comando con código de Latino    |
-+-------------+--------------------------------------------+
-| -v          | Muestra la versión instalada de Latino     |
-+-------------+                                            |
-| \-\-version |                                            |
-+-------------+--------------------------------------------+
-| Ctrl + C    | Cierra el programa de Latino en la consola |
-+-------------+--------------------------------------------+
++--------------+--------------------------------------------+
+| Comando      | Descripción                                |
++==============+============================================+
+| -a           | Muestra la ayuda de Latino en la terminal  |
++--------------+                                            |
+| \- \-ayuda   |                                            |
++--------------+                                            |
+| \- \-help    |                                            |
++--------------+--------------------------------------------+
+| -e           | Ejecuta un comando con código de Latino    |
++--------------+--------------------------------------------+
+| -v           | Muestra la versión instalada de Latino     |
++--------------+                                            |
+| \- \-version |                                            |
++--------------+--------------------------------------------+
+| Ctrl + C     | Cierra el programa de Latino en la consola |
++--------------+--------------------------------------------+
 
 ----
 
