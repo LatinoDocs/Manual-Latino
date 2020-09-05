@@ -14,7 +14,7 @@ Para comenzar con cada uno de los ejemplos tendremos que abrir la terminal de nu
 
 .. container:: nota
 
-  |  Si al escribir el código de Latino se hace uso de un editor de texto, al guardar el documento se requiere guardalos con la extención **.lat**.
+  |  Si al escribir el código de Latino se hace uso de un editor de texto, al guardar el documento se requiere guardalos con la extensión **.lat**.
   |  ~Ejemplo: **archivo.lat**
 
 .. tabs::
