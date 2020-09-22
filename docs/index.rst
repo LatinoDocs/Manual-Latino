@@ -130,7 +130,7 @@ Si desea colaborar, mire el articulo de `guía de colaboración`_
 
 .. Enlaces
 
-.. _Latino: https://lenguaje-latino.org
+.. _Latino: https://lenguajelatino.org
 .. _Melvin Guerrero: https://melvinguerrero.blogspot.com
 .. _Latino 1.2.0: https://github.com/lenguaje-latino/Latino/releases/tag/v1.2.0
 .. _Latino API: https://manuallatinoapi.blogspot.com

@@ -33,9 +33,9 @@ Una vez concluido esto, pasamos a instalar propiamente Latino en nuestro sistema
 
 **... y listo!** para ejecutar Latino solo escribimos en nuestra terminal el comando **latino**
 
-.. note:: Si en el proceso de instalar **Latino** en **Debian o Ubuntu** causa algún problema o conflicto, no dude en buscar las soluciones en el `foro oficial Aquí`_
+.. note:: Si en el proceso de instalar **Latino** en **Debian o Ubuntu** causa algún problema o conflicto, no dude en buscar las soluciones en el `foro Aquí`_
 
 
 .. Enlaces
 
-.. _foro oficial Aquí: https://lenguaje-latino.org/foro/debian-ubuntu/
+.. _foro Aquí: https://es.stackoverflow.com/questions/tagged/latino

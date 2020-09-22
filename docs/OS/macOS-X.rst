@@ -25,8 +25,8 @@ macOS-X
    :figwidth: 100%
    :target: ../_static/_media/OS-Instalacion/Apple/installLatinoMac.gif
 
-.. note:: Si en el proceso de instalar **Latino** en **Mac** causa algún problema o conflicto, no dude en buscar las soluciones en el `foro oficial Aquí`_
+.. note:: Si en el proceso de instalar **Latino** en **Mac** causa algún problema o conflicto, no dude en buscar las soluciones en el `foro Aquí`_
 
 .. Enlaces
 
-.. _foro oficial Aquí: https://lenguaje-latino.org/foro/mac/
+.. _foro Aquí: https://es.stackoverflow.com/questions/tagged/latino

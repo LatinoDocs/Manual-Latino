@@ -29,9 +29,9 @@ La instalación de *Latino* en Windows no difiere de otros programas ya que el p
    :figwidth: 100%
    :target: ../_static/_media/OS-Instalacion/Win32/installLatinoWin.gif
 
-.. note:: Si en el proceso de instalar **Latino** en **MS-Windows** causa algún problema o conflicto, no dude en buscar las soluciones en el `foro oficial Aquí`_
+.. note:: Si en el proceso de instalar **Latino** en **MS-Windows** causa algún problema o conflicto, no dude en buscar las soluciones en el `foro Aquí`_
 
 .. Enlaces
 
 .. _haz clic Aquí: https://es.ccm.net/faq/9548-como-saber-si-mi-windows-es-de-32-o-64-bits
-.. _foro oficial Aquí: https://lenguaje-latino.org/foro/windows/
+.. _foro Aquí: https://es.stackoverflow.com/questions/tagged/latino
