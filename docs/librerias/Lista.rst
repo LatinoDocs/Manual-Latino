@@ -36,6 +36,10 @@ La librería **lista** contiene las funciones para el manejo de :ref:`lista <lis
 +----------------------+------------+--------------------------------------------------------+
 | longitud\( \)        | 1          | Devuelve la cantidad de elementos de una lista         |
 +----------------------+------------+--------------------------------------------------------+
+| insertar\( \)        | 3          | Inserta un nuevo elemento a una lista                  |
++----------------------+------------+--------------------------------------------------------+
+| separador\( \)       | 2          | Separa los elementos de una lista                      |
++----------------------+------------+--------------------------------------------------------+
 
 ----
 
@@ -208,27 +212,23 @@ Este comando devuelve la cantidad de elementos de una lista.
    <pre><code class="language-latino line-numbers">mensaje = ["Hola", "mundo", "Latino"]
    escribir(lista.longitud(mensaje))     //Devolverá "3"</code></pre>
 
-.. ----
+----
 
-.. lista.insertar\( \)
-.. --------------------
-.. Con este comando podemos insertar un elementos en cualquier indice deseado de una lista.
+lista.insertar\( \)
+--------------------
+Con este comando podemos insertar un elementos en cualquier indice deseado de una lista.
 
-.. **Ejemplo de sintaxis**
+**Ejemplo de sintaxis**
 
-.. .. code-block:: bash
+.. code-block:: bash
    
-..    lista.insertar(listaOriginal, elementoNuevo, indice)
+   lista.insertar(listaOriginal, elementoNuevo, indice)
 
-.. .. raw:: html
+.. raw:: html
 
-..    <pre><code class="language-latino line-numbers">mensaje = ["Hola", "mundo", "Latino"]
-..    lista.insertar(mensaje, "Lenguaje", 2)
-..    escribir(mensaje)                          //Devolverá ["Hola", "mundo", "Lenguaje", "Latino"]
-..    error, escribe cfun en ves de la cadena deseada</code></pre>
-
-.. | insertar\( \)        | 3          | Inserta un nuevo elemento a una lista                  |
-.. +----------------------+------------+--------------------------------------------------------+
+   <pre><code class="language-latino line-numbers">mensaje = ["Hola", "mundo", "Latino"]
+   lista.insertar(mensaje, "Lenguaje", 2)
+   escribir(mensaje)                          //Devolverá ["Hola", "mundo", "Lenguaje", "Latino"]</code></pre>
 
 .. ----
 
@@ -246,4 +246,29 @@ Este comando devuelve la cantidad de elementos de una lista.
 .. | concatenar\( \)      | 2          | Uné todos los elementos de dos listas en una sola      |
 .. +----------------------+------------+--------------------------------------------------------+
 
-.. error:: Por el momento en Latino 1.2.0 en la librería **lista** funciones como **lista.insertar\( \)** y **lista.concatenar\( \)** no funcionan apropiadamente. Espere a futuros lanzamientos en Latino para ver sus novedades.
+----
+
+lista.separar\( \)
+--------------------
+El comando **lista.separar\( \)** nos permite separar cada elemento de la lista con un separador asignado.
+
+El separador debe ser declarado dentro de comillas.
+
+Por defecto si no se indica un separador este será sustituido por un espacio en blanco.
+
+**Ejemplo de sintaxis**
+
+.. code-block:: bash
+   
+   lista.insertar(lista, separador)
+
+.. raw:: html
+
+   <pre><code class="language-latino line-numbers">mensaje = ["Hola", "mundo", "Latino"]
+   escribir(lista.separar(mensaje, "-"))                          //Devolverá Hola-mundo-Latino
+   escribir(lista.separar(mensaje, ".."))                         //Devolverá Hola..mundo..Latino
+   escribir(lista.separar(mensaje, "_"))                          //Devolverá Hola_mundo_Latino
+   escribir(lista.separar(mensaje, ""))                           //Devolverá HolamundoLatino
+   escribir(lista.separar(mensaje))                               //Devolverá Hola mundo Latino]</code></pre>
+
+.. error:: Por el momento en Latino 1.2.0 en la librería **lista** funcion **lista.concatenar\( \)** no funciona apropiadamente. Espere a futuros lanzamientos en Latino para ver sus novedades.

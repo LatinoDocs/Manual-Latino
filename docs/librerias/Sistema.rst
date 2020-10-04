@@ -160,9 +160,6 @@ Este comando es similar al comando **gotoxy\( \)** en C.
    sis.iraxy(2,3)     //Moverá el cursor al sitio deseado
    x = leer()</code></pre>
 
-.. error:: Por el momento en Latino 1.2.0 en la librería **sis**, la función **sis.iraxy()** no funciona en MS-Windows. Espere a futuros lanzamientos de Latino para ver sus novedades.
-
-
 ----
 
 sis.tiempo\( \)
@@ -267,5 +264,3 @@ Estés comando solo admite los siguientes comandos (en mayúsculas):
    sino
        escribir("El sistema no es reconosido por Latino")
    fin</code></pre>
-
-.. error:: Por el momento en Latino 1.2.0 en la librería **sis**, las funciones **sis.pipe\( \)**, **sis.avisar\( \)** y **sis.iraxy\( \)** no funcionan correctamente. Espere a futuros lanzamientos de Latino para ver sus novedades.
