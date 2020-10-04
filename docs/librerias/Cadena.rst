@@ -159,7 +159,7 @@ Este comando nos permite **ejecutar** una cadeta de texto de tenga código de La
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">x = 'escribir("Hola mundo")'     //Almacenamos en una variable el código en Latino como una cadena
-   cadena.ejecutar(x)     //Devolverá Hola mundo</code></pre>
+   cadena.ejecutar(x)               //Devolverá Hola mundo</code></pre>
 
 ----
 
