@@ -24,6 +24,8 @@ La librería **cadena** nos permite trabajar y manipular las :ref:`cadenas (stri
 +-------------------------+------------+--------------------------------------------------------------------------+
 | contiene\( \)           | 2          | Devuelve un valor buleano si encuentra la palabra o cadena especificada  |
 +-------------------------+------------+--------------------------------------------------------------------------+
+| ejecutar\( \)           | 1          | Ejecuta una cadena que tenga código de latino                            |
++-------------------------+------------+--------------------------------------------------------------------------+
 | eliminar\( \)           | 2          | Elimina la primera considencia en una cadena                             |
 +-------------------------+------------+--------------------------------------------------------------------------+
 | encontrar\( \)          | 2          | Regresa la posición de la primera considencia encuentra                  |
@@ -148,19 +150,16 @@ Este comando nos permite **verificar** si existe una **coincidencia** del texto 
    y = "Latino"
    escribir(cadena.contiene(x, y))     //Devolverá verdadero</code></pre>
 
-.. ----
+----
 
-.. cadena.ejecutar\( \)
-.. -------------------------------------------
-.. Este comando nos permite **ejecutar** una cadeta de texto de tenga código de Latino.
+cadena.ejecutar\( \)
+-------------------------------------------
+Este comando nos permite **ejecutar** una cadeta de texto de tenga código de Latino.
 
-.. .. raw:: html
+.. raw:: html
 
-..    <pre><code class="language-latino line-numbers">x = "escribir(\"Hola mundo\")"
-..    escribir(cadena.ejecutar(x))     //Devolverá Hola mundo</code></pre>
-
-.. | ejecutar\( \)           | 1          | Ejecuta una cadena que tenga código de latino                            |
-.. +-------------------------+------------+--------------------------------------------------------------------------+
+   <pre><code class="language-latino line-numbers">x = 'escribir("Hola mundo")'     //Almacenamos en una variable el código en Latino como una cadena
+   cadena.ejecutar(x)     //Devolverá Hola mundo</code></pre>
 
 ----
 
@@ -543,7 +542,7 @@ Este comando comienza a contar desde el número **cero (0)** en adelante.
    <pre><code class="language-latino line-numbers">x = "Hola mundo"
    escribir(cadena.ultimo_indice(x, "u"))     //Devolverá 6</code></pre>
 
-.. error:: Por el momento en Latino 1.2.0 en la librería **cadena**, las funciones **cadena.ejecutar\( \)**, **cadena.reemplazar\( \)** no funcionan correctamente. Espere a futuros lanzamientos de Latino para ver sus novedades.
+.. error:: Por el momento en Latino 1.2.0 en la librería **cadena**, la función **cadena.reemplazar\( \)** no funciona correctamente. Espere a futuros lanzamientos de Latino para ver sus novedades.
 
 .. Enlaces
 
