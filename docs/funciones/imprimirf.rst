@@ -21,6 +21,9 @@ El comando **imprimirf\( \)** opera con los siguientes formatos:
   * **\%i**, convierte a un número enteros.
   * **\%f**, convierte a un número decimal.
   * **\%d**, convierte a un número.
+  * **\%o**, convierte a un valor octal.
+  * **\%x**, convierte a un hexadecimal.
+  * **\%e**, convierte a una expresión científica.
   * **\%s**, convierte a carácter o ha una cadena de texto.
   * **\%%**, Devuelve el simbolo de **porcentage (\%)**.
 
@@ -35,5 +38,3 @@ El comando **imprimirf\( \)** opera con los siguientes formatos:
    imprimirf("%%\n",x)                //Devolverá %
    imprimirf("%c\n",75)               //Devolverá K
    imprimirf("%c%c%c\n",75,76,77)     //Devolverá KLM</code></pre>
-
-.. error:: Por el momento en Latino 1.2.0 el comando **imprimirf\( \)** no funciona en MS-Windows. Espere a futuros lanzamientos de Latino para ver sus novedades.
