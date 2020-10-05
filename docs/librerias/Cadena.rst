@@ -267,6 +267,9 @@ El comando **cadena.formato\( \)** opera con los siguientes formatos:
   * **\%i**, convierte a un número enteros.
   * **\%f**, convierte a un número decimal.
   * **\%d**, convierte a un número.
+  * **\%o**, convierte a un valor octal.
+  * **\%x**, convierte a un hexadecimal.
+  * **\%e**, convierte a una expresión científica.
   * **\%s**, convierte a carácter o ha una cadena de texto.
   * **\%%**, Devuelve el simbolo de **porcentage (\%)**.
 
@@ -281,8 +284,6 @@ El comando **cadena.formato\( \)** opera con los siguientes formatos:
    escribir(cadena.formato("%%",x))                //Devolverá %
    escribir(cadena.formato("%c",75))               //Devolverá K
    escribir(cadena.formato("%c%c%c",75,76,77))     //Devolverá KLM</code></pre>
-
-.. error:: Por el momento en Latino 1.2.0 en la librería **cadena**, la función **cadena.formato\(\)** no funciona en MS-Windows. Espere a futuros lanzamientos de Latino para ver sus novedades.
 
 ----
 
@@ -388,7 +389,7 @@ Este comando **elimina** cualquier **carácter de espacio** al inicio y al final
    <pre><code class="language-latino line-numbers">x = "     Hola mundo"
    escribir(cadena.recortar(x))     //Devolverá Hola mundo</code></pre>
 
-.. error:: Por el momento en Latino 1.2.0 en la librería **cadena**, la función cadena.recortar() no funciona correctamente en MS-Windows. Espere a futuros lanzamientos de Latino para ver sus novedades.
+.. error:: Por el momento en Latino 1.2.0 en la librería **cadena**, la función **cadena.recortar()** no funciona correctamente en MS-Windows. Espere a futuros lanzamientos de Latino para ver sus novedades.
 
 .. ----
 
