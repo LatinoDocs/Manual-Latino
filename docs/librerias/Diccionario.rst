@@ -16,6 +16,8 @@ La librería **dic** nos permite trabajar y manipular los :ref:`diccionarios <di
 +===============+============+============================================+
 | contiene\( \) | 2          | Devuelve verdadero si el elemento existe   |
 +---------------+------------+--------------------------------------------+
+| eliminar\( \) | 2          | Elimina la llave asignada y su valor       |
++---------------+------------+--------------------------------------------+
 | llaves\( \)   | 1          | Devuelve el nombre de la propiedad (llave) |
 +---------------+------------+--------------------------------------------+
 | longitud\( \) | 1          | Devuelve la longitud de texto              |
@@ -37,6 +39,20 @@ Este comando es sensible a las mayúsculas y minúsculas.
    
    <pre><code class="language-latino line-numbers">persona = {"nombre":"Melvin", "apellido":"Guerrero", "edad":50, "etimología":"Latino"}
    escribir(dic.contiene(persona, "edad"))     //Devolverá verdadero</code></pre>
+
+----
+
+dic.eliminar\( \)
+---------------------
+Este comando nos permite **eliminar** una **llave** o **propiedad** existente de un diccionario.
+
+Este comando es sensible a las mayúsculas y minúsculas.
+
+.. raw:: html
+   
+   <pre><code class="language-latino line-numbers">persona = {"nombre":"Melvin", "apellido":"Guerrero", "edad":50, "etimología":"Latino"}
+   dic.eliminar(persona, "edad")     //Eliminamos la propiedad llamada edad
+   escribir(persona)                 //Devolverá {"nombre": "Melvin", "apellido": "Guerrero", "etimologa": "Latino"}</code></pre>
 
 ----
 
