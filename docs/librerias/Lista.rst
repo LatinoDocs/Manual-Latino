@@ -18,13 +18,15 @@ La librería **lista** contiene las funciones para el manejo de :ref:`lista <lis
 +----------------------+------------+--------------------------------------------------------+
 | comparar\( \)        | 2          | Comprueba el orden y tamaño de letras de los elementos |
 +----------------------+------------+--------------------------------------------------------+
+| concatenar\( \)      | 2          | Uné todos los elementos de dos listas en una sola      |
++----------------------+------------+--------------------------------------------------------+
 | contiene\( \)        | 2          | Devuelve verdadero si el elemento existe en la lista   |
 +----------------------+------------+--------------------------------------------------------+
 | crear\( \)           | 1          | Crea una lista con el nombre especificado              |
 +----------------------+------------+--------------------------------------------------------+
-| eliminar_indice\( \) | 2          | Elimina un elemento de la lista por posición           |
-+----------------------+------------+--------------------------------------------------------+
 | eliminar\( \)        | 2          | Elimina solo la primera coincidencia de la lista       |
++----------------------+------------+--------------------------------------------------------+
+| eliminar_indice\( \) | 2          | Elimina un elemento de la lista por posición           |
 +----------------------+------------+--------------------------------------------------------+
 | encontrar\( \)       | 2          | Devuelve el índice del elemento buscado                |
 +----------------------+            |                                                        |
@@ -32,11 +34,11 @@ La librería **lista** contiene las funciones para el manejo de :ref:`lista <lis
 +----------------------+------------+--------------------------------------------------------+
 | extender\( \)        | 2          | Agrega los elementos de una lista en otra lista        |
 +----------------------+------------+--------------------------------------------------------+
+| insertar\( \)        | 3          | Inserta un nuevo elemento a una lista                  |
++----------------------+------------+--------------------------------------------------------+
 | invertir\( \)        | 1          | Invierte el orden de la lista                          |
 +----------------------+------------+--------------------------------------------------------+
 | longitud\( \)        | 1          | Devuelve la cantidad de elementos de una lista         |
-+----------------------+------------+--------------------------------------------------------+
-| insertar\( \)        | 3          | Inserta un nuevo elemento a una lista                  |
 +----------------------+------------+--------------------------------------------------------+
 | separador\( \)       | 2          | Separa los elementos de una lista                      |
 +----------------------+------------+--------------------------------------------------------+
@@ -83,6 +85,19 @@ Este comando devolverá los siguientes valor según el resultado:
 
 ----
 
+lista.concatenar\( \)
+-----------------------
+Con este comando podremos unir **dos listas** en una **nueva lista**.
+
+.. raw:: html
+   
+   <pre><code class="language-latino line-numbers">lista1 = ["Hola", "mundo"]
+   lista2 = ["como", "estan?"]
+   lista3 = lista.concatenar(lista1, lista2)
+   escribir(lista3)     //Devolverá ["Hola", "mundo", "como", "estan?"]</code></pre>
+
+----
+
 lista.contiene\( \)
 ---------------------
 Este comando nos permite comprobar si un elemento **existe en la lista**.
@@ -119,22 +134,6 @@ Este comando admite un valor número positivo, de ser asignado cualquier número
 
 ----
 
-lista.eliminar_indice\( \)
-----------------------------
-Este comando nos permite **eliminar** un elemento de la lista asignada por medio de su **número de índice**.
-
-En una lista los elementos de esta están organizados por índices y estos índices inicial desde el número **cero ( 0 )** en adelante.
-
-Este comando NO admite números negativos.
-
-.. raw:: html
-
-   <pre><code class="language-latino line-numbers">mensaje = ["Hola", "mundo", "Latino", "es lo máximo"]
-   lista.eliminar_indice(mensaje, 3)     //Aquí asignamos la librería y el índice del elemento a eliminar
-   escribir(mensaje)                     //Devolverá ["Hola", "mundo", "Latino"]</code></pre>
-
-----
-
 lista.eliminar\( \)
 --------------------
 A diferencia de **lista.eliminar_indice\( \)** el comando **lista.eliminar\( \)** elimina la primera coincidencia de la lista.
@@ -154,6 +153,22 @@ A diferencia de **lista.eliminar_indice\( \)** el comando **lista.eliminar\( \)*
    
    lista.eliminar(mensaje, "Hola")     //Eliminará el segundo "Hola"
    escribir(mensaje)                   //Devolverá ["hola", "xHola"]</code></pre>
+
+----
+
+lista.eliminar_indice\( \)
+----------------------------
+Este comando nos permite **eliminar** un elemento de la lista asignada por medio de su **número de índice**.
+
+En una lista los elementos de esta están organizados por índices y estos índices inicial desde el número **cero ( 0 )** en adelante.
+
+Este comando NO admite números negativos.
+
+.. raw:: html
+
+   <pre><code class="language-latino line-numbers">mensaje = ["Hola", "mundo", "Latino", "es lo máximo"]
+   lista.eliminar_indice(mensaje, 3)     //Aquí asignamos la librería y el índice del elemento a eliminar
+   escribir(mensaje)                     //Devolverá ["Hola", "mundo", "Latino"]</code></pre>
 
 ----
 
@@ -192,6 +207,24 @@ El comando **lista.extender\( \)** copiará los elementos de una lista para ser 
 
 ----
 
+lista.insertar\( \)
+--------------------
+Con este comando podemos insertar un elementos en cualquier indice deseado de una lista.
+
+**Ejemplo de sintaxis**
+
+.. code-block:: bash
+   
+   lista.insertar(listaOriginal, elementoNuevo, indice)
+
+.. raw:: html
+
+   <pre><code class="language-latino line-numbers">mensaje = ["Hola", "mundo", "Latino"]
+   lista.insertar(mensaje, "Lenguaje", 2)
+   escribir(mensaje)                          //Devolverá ["Hola", "mundo", "Lenguaje", "Latino"]</code></pre>
+
+----
+
 lista.invertir\( \)
 ---------------------
 Para invertir el orden de una lista, utilizamos el comando **lista.invertir\( \)**.
@@ -211,40 +244,6 @@ Este comando devuelve la cantidad de elementos de una lista.
 
    <pre><code class="language-latino line-numbers">mensaje = ["Hola", "mundo", "Latino"]
    escribir(lista.longitud(mensaje))     //Devolverá "3"</code></pre>
-
-----
-
-lista.insertar\( \)
---------------------
-Con este comando podemos insertar un elementos en cualquier indice deseado de una lista.
-
-**Ejemplo de sintaxis**
-
-.. code-block:: bash
-   
-   lista.insertar(listaOriginal, elementoNuevo, indice)
-
-.. raw:: html
-
-   <pre><code class="language-latino line-numbers">mensaje = ["Hola", "mundo", "Latino"]
-   lista.insertar(mensaje, "Lenguaje", 2)
-   escribir(mensaje)                          //Devolverá ["Hola", "mundo", "Lenguaje", "Latino"]</code></pre>
-
-.. ----
-
-.. lista.concatenar\( \)
-.. -----------------------
-.. Con este comando podremos unir dos listas en una nueva variable para ser utlizada despues.
-
-.. .. raw:: html
-   
-..    <pre><code class="language-latino line-numbers">lista1 = ["Hola", "mundo"]
-..    lista2 = ["Como", "estan?"]
-..    lista3 = lista.concatenar(lista1, lista2)
-..    escribir(lista3)</code></pre>
-
-.. | concatenar\( \)      | 2          | Uné todos los elementos de dos listas en una sola      |
-.. +----------------------+------------+--------------------------------------------------------+
 
 ----
 
@@ -270,5 +269,3 @@ Por defecto si no se indica un separador este será sustituido por un espacio en
    escribir(lista.separar(mensaje, "_"))                          //Devolverá Hola_mundo_Latino
    escribir(lista.separar(mensaje, ""))                           //Devolverá HolamundoLatino
    escribir(lista.separar(mensaje))                               //Devolverá Hola mundo Latino]</code></pre>
-
-.. error:: Por el momento en Latino 1.2.0 en la librería **lista** funcion **lista.concatenar\( \)** no funciona apropiadamente. Espere a futuros lanzamientos en Latino para ver sus novedades.
