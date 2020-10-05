@@ -41,15 +41,10 @@ El menú de ayuda de Latino lo podemos ejecutar con el siguiente comando:
 .. code-block:: bash
    
    latino -a
+   latino --ayuda
    latino --help
 
 .. image:: ../_static/_media/comandos-Consola/latinoAyudaTerminal.gif
-
-.. note:: Desde la versión **1.3.0 de Latino**, también se puede acceder al menú con el siguiente comando:
-   
-   .. code-block:: bash
-      
-      latino --ayuda
 
 Ejecutar un comando
 +++++++++++++++++++++
@@ -68,14 +63,9 @@ Para mostrar la versión de Latino que se tiene instalada en nuestro sistema, po
 .. code-block:: bash
    
    latino -v
+   latino --version
 
 .. image:: ../_static/_media/comandos-Consola/latinoVersionTerminal.gif
-
-.. note:: Desde la versión **1.3.0 de Latino** también se puede usar el siguiente comando:
-   
-   .. code-block:: bash
-      
-      latino --version
 
 .. _atajoConsolaLink:
 
