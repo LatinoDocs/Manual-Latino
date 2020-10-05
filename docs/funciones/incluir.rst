@@ -21,8 +21,6 @@ Cuando escribimos el módulo o librería, este debe ser escrito entre **comillas
 
 .. note:: Esta función solo puede incluir archivos con extensión **\.lat** o archivos de librerías que hayan sido escritas para Latino y que usen su API.
 
-.. error:: Por el momento en Latino 1.2.0 no se puede incluir módulos en el sistema operativo macOS-X, solo librerías. Espere a futuros lanzamientos de Latino para ver sus novedades.
-
 ----
 
 Subdirectorio
