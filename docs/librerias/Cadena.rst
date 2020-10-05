@@ -59,6 +59,8 @@ La librería **cadena** nos permite trabajar y manipular las :ref:`cadenas (stri
 +-------------------------+------------+--------------------------------------------------------------------------+
 | recortar\( \)           | 1          | Elimina los espacios al inicio y al final de la cadena                   |
 +-------------------------+------------+--------------------------------------------------------------------------+
+| reemplazar\( \)         | 4          | Cambiar una palabra por otra en una cadena                               |
++-------------------------+------------+--------------------------------------------------------------------------+
 | regex\( \)              | 2          | Regresa un valor buelano si encuentra la coincidencia                    |
 +-------------------------+------------+--------------------------------------------------------------------------+
 | rellenar_derecha\( \)   | 3          | Agrega n caracteres al final de la cadena especificada                   |
@@ -391,19 +393,28 @@ Este comando **elimina** cualquier **carácter de espacio** al inicio y al final
 
 .. error:: Por el momento en Latino 1.2.0 en la librería **cadena**, la función **cadena.recortar()** no funciona correctamente en MS-Windows. Espere a futuros lanzamientos de Latino para ver sus novedades.
 
-.. ----
+----
 
-.. cadena.reemplazar\( \)
-.. -----------------------
-.. Cambiar una palabra por otra en una cadena (cadena_original, texto_a_reemplazar, texto_nuevo, posición)
+cadena.reemplazar\( \)
+-----------------------
+Este comanod nos permite **cambiar** una palabra por otra en una cadena
 
-.. .. raw:: html
+**Ejemplo de sintaxis**
 
-..    <pre><code class="language-latino line-numbers"></code></pre>
+.. code-block:: bash
+   
+   (cadena_original, texto_a_reemplazar, texto_nuevo, posición)
 
-.. | reemplazar\( \)         | 4          | Cambiar una palabra por otra en una cadena                               |
-.. +-------------------------+------------+--------------------------------------------------------------------------+
+.. note:: Este comando cambia el texto seleccionado por el nuevo texto asignado, **mas no lo guarda**.
 
+   Para guardar el cambio es recomendable asignarlo a una variable.
+
+.. raw:: html
+
+   <pre><code class="language-latino line-numbers">x = "Hola mundo HTML"
+   y = cadena.reemplazar(x, "HTML", "Latino", 12)     //Asignamos en una variable el nuevo texto
+   escribir(x)                                        //Devolverá Hola mundo HTML
+   escribir(y)                                        //Devolverá Hola mundo Latino</code></pre>
 
 ----
 
@@ -542,8 +553,6 @@ Este comando comienza a contar desde el número **cero (0)** en adelante.
 
    <pre><code class="language-latino line-numbers">x = "Hola mundo"
    escribir(cadena.ultimo_indice(x, "u"))     //Devolverá 6</code></pre>
-
-.. error:: Por el momento en Latino 1.2.0 en la librería **cadena**, la función **cadena.reemplazar\( \)** no funciona correctamente. Espere a futuros lanzamientos de Latino para ver sus novedades.
 
 .. Enlaces
 
