@@ -14,6 +14,8 @@ La librería **dic** nos permite trabajar y manipular los :ref:`diccionarios <di
 +---------------+------------+--------------------------------------------+
 | Comando       | Parámetros | Descripción                                |
 +===============+============+============================================+
+| contiene\( \) | 2          | Devuelve verdadero si el elemento existe   |
++---------------+------------+--------------------------------------------+
 | llaves\( \)   | 1          | Devuelve el nombre de la propiedad (llave) |
 +---------------+------------+--------------------------------------------+
 | longitud\( \) | 1          | Devuelve la longitud de texto              |
@@ -22,6 +24,19 @@ La librería **dic** nos permite trabajar y manipular los :ref:`diccionarios <di
 +---------------+            |                                            |
 | vals\( \)     |            |                                            |
 +---------------+------------+--------------------------------------------+
+
+----
+
+dic.contiene\( \)
+---------------------
+Este comando nos permite comprobar si una **llave** o **propiedad** existe en un diccionario.
+
+Este comando es sensible a las mayúsculas y minúsculas.
+
+.. raw:: html
+   
+   <pre><code class="language-latino line-numbers">persona = {"nombre":"Melvin", "apellido":"Guerrero", "edad":50, "etimología":"Latino"}
+   escribir(dic.contiene(persona, "edad"))     //Devolverá verdadero</code></pre>
 
 ----
 
@@ -55,5 +70,3 @@ Para obtener los **valores** almacenados en las propiedades de un diccionario us
 
    <pre><code class="language-latino line-numbers">persona = {"nombre":"Melvin", "apellido":"Guerrero", "edad":50, "etimología":"Latino"}
    escribir(dic.vals(persona))     //Devolverá ["Melvin", "Guerrero", 50, "Latino"]</code></pre>
-
-.. note:: Por el momento en Latino 1.2.0 en la librería **dic** funciones como **dic.copiar( )**, **dic.eliminar( )** y **dic.existe( )** no están disponibles. Espere a futuros lanzamientos de Latino para ver sus novedades.
