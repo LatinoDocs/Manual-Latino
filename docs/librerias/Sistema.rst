@@ -246,7 +246,7 @@ Estés comando solo admite los siguientes comandos (en mayúsculas):
 
 * **WIN32** : para MS-Windows
 * **APPLE** : para macOS-X
-* **LINIX** : para Linux
+* **LINUX** : para Linux
 
 .. raw:: html
 
