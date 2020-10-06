@@ -26,6 +26,8 @@ La librería **mate** contiene las funciones de **matemáticas** en Latino.
 +----------------+------------+-------------------------------------------------------------------------------+
 | atan2\( \)     | 2          | Devuelve el arcotangente del cociente de sus argumentos                       |
 +----------------+------------+-------------------------------------------------------------------------------+
+| base\( \)      | 2          | Devuelve la base de la operación                                              |
++----------------+------------+-------------------------------------------------------------------------------+
 | cos\( \)       | 1          | Devuelve el coseno                                                            |
 +----------------+------------+-------------------------------------------------------------------------------+
 | cosh\( \)      | 1          | Devuelve el coseno hiperbólico                                                |
@@ -40,9 +42,17 @@ La librería **mate** contiene las funciones de **matemáticas** en Latino.
 +----------------+------------+-------------------------------------------------------------------------------+
 | log10\( \)     | 1          | Devuelve el logaritmo natural en base diez                                    |
 +----------------+------------+-------------------------------------------------------------------------------+
+| parte\( \)     | 2          | Devuelve la parte de la operación                                             |
++----------------+------------+-------------------------------------------------------------------------------+
 | pi\( \)        | 0          | Devuelve el valor de PI                                                       |
 +----------------+------------+-------------------------------------------------------------------------------+
 | piso\( \)      | 1          | Devuelve el número redondeado hacia abajo al número entero más cercano        |
++----------------+------------+-------------------------------------------------------------------------------+
+| porc\( \)      | 2          | Devuelve el porcentaje de la operación                                        |
++----------------+            |                                                                               |
+| porciento\( \) |            |                                                                               |
++----------------+            |                                                                               |
+| porcentaje\( \)|            |                                                                               |
 +----------------+------------+-------------------------------------------------------------------------------+
 | pot\( \)       | 2          | Devuelve el valor de un número elevado a la potencia                          |
 +----------------+------------+-------------------------------------------------------------------------------+
@@ -138,6 +148,33 @@ El número devuelto representa el ángulo en el sentido contrario de las agujas 
    */
    
    escribir(mate.atan2(8,4))     //Devolverá 1.10714...</code></pre>
+
+----
+
+.. _base:
+
+mate.base\( \)
+---------------
+Este comando devuelve la **base** de un porciento.
+
+Para el porcentaje **NO es necesario** digitarlo en número decimal sino en **porcentaje**.
+
+Este comando está relacionado con los comandos :ref:`mate.parte\( \) <parte>` y :ref:`mate.porc\( \) <porc>`  
+
+**Ejemplo de sintaxis**
+
+.. code-block:: bash
+   
+   base = parte / porciento
+
+.. raw:: html
+
+   <pre><code class="language-latino line-numbers">/*
+   En este ejemplo buscaremos la base.
+   Ejemplo: ¿30 es una parte que representa el 40% de cuál número?
+   */
+   
+   escribir(mate.base(30,40))     //Devolverá 75</code></pre>
 
 ----
 
@@ -239,6 +276,33 @@ Si el parámetro es **cero (0)**, devolverá **infinito**.
 
 ----
 
+.. _parte:
+
+mate.parte\( \)
+---------------
+Este comando devuelve la **parte** de un porciento.
+
+Para el porcentaje **NO es necesario** digitarlo en número decimal sino en **porcentaje**.
+
+Este comando está relacionado con los comandos :ref:`mate.base\( \) <base>` y :ref:`mate.porc\( \) <porc>`  
+
+**Ejemplo de sintaxis**
+
+.. code-block:: bash
+   
+   parte = base * porciento
+
+.. raw:: html
+
+   <pre><code class="language-latino line-numbers">/*
+   En este ejemplo buscaremos la parte.
+   Ejemplo: ¿cuanto es el 35% de 200?
+   */
+   
+   escribir(mate.parte(35,200))     //Devolverá 70</code></pre>
+
+----
+
 mate.pi\( \)
 --------------
 Este comando devuelve el valor de **PI**.
@@ -263,6 +327,35 @@ Si el argumento pasado es un número entero, el valor NO se redondeará.
    escribir(mate.piso(5.1))      //Devolverá 5
    escribir(mate.piso(-5.1))     //Devolverá -6
    escribir(mate.piso(-5.9))     //Devolverá -6</code></pre>
+
+----
+
+.. _porc:
+
+mate.porc\( \)
+---------------
+Este comando devuelve la **porcentaje** de un porciento.
+
+Este comando también dispone de alias como **mate.porciento\( \)** y **mate.porcentaje\( \)**.
+
+Para el porcentaje **NO es necesario** digitarlo en número decimal sino en **porcentaje**.
+
+Este comando está relacionado con los comandos :ref:`mate.base\( \) <base>` y :ref:`mate.parte\( \) <parte>`  
+
+**Ejemplo de sintaxis**
+
+.. code-block:: bash
+   
+   porcentaje = parte / base
+
+.. raw:: html
+
+   <pre><code class="language-latino line-numbers">/*
+   En este ejemplo buscaremos el porcentaje.
+   Ejemplo: ¿45 es cual porcentaje de 70?
+   */
+   
+   escribir(mate.porc(45,70))     //Devolverá 0.6428571428571429</code></pre>
 
 ----
 
