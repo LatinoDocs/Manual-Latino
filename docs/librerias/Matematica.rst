@@ -309,7 +309,7 @@ Este comando devuelve el valor de **PI**.
 
 .. raw:: html
 
-   <pre><code class="language-latino line-numbers">escribir(mate.pi())     //Devolverá 3.141592653589793</pre>
+   <pre><code class="language-latino line-numbers">escribir(mate.pi())     //Devolverá 3.141592653589793</code></pre>
 
 ----
 
