@@ -37,7 +37,8 @@ Novedades
   * Se ha añadido el comando **dic.eliminar()**
   * Se ha añadido el comando **dic.contiene()**
   * Se ha añadido el comando **lista.separar()**
+  * Se ha añadido el comando **mate.pi()**
   * Se ha añadido el comando **archivo.anexar()**
   * Se ha añadido un alias al comando **archivo.eliminar()**, y su nuevo alias es **archivo.borrar()**
   * Se ha renombrado el comando **archivo.poner()** por **archivo.escribir()**
-  * Se ha renombrado el comanod **archivo.copiar()** por **archivo.duplicar()**
+  * Se ha renombrado el comanod **archivo.copiar()** por **archivo.duplicar()*

@@ -40,6 +40,8 @@ La librería **mate** contiene las funciones de **matemáticas** en Latino.
 +----------------+------------+-------------------------------------------------------------------------------+
 | log10\( \)     | 1          | Devuelve el logaritmo natural en base diez                                    |
 +----------------+------------+-------------------------------------------------------------------------------+
+| pi\( \)        | 0          | Devuelve el valor de PI                                                       |
++----------------+------------+-------------------------------------------------------------------------------+
 | piso\( \)      | 1          | Devuelve el número redondeado hacia abajo al número entero más cercano        |
 +----------------+------------+-------------------------------------------------------------------------------+
 | pot\( \)       | 2          | Devuelve el valor de un número elevado a la potencia                          |
@@ -234,6 +236,16 @@ Si el parámetro es **cero (0)**, devolverá **infinito**.
    escribir(mate.log10(0.001))     //Devolverá -3
    escribir(mate.log10(0))         //Devolverá -inf
    escribir(mate.log10(-1))        //Devolverá NaN</code></pre>
+
+----
+
+mate.pi\( \)
+--------------
+Este comando devuelve el valor de **PI**.
+
+.. raw:: html
+
+   <pre><code class="language-latino line-numbers">escribir(mate.pi())     //Devolverá 3.141592653589793</pre>
 
 ----
 
