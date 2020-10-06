@@ -30,11 +30,14 @@ El comando **imprimirf\( \)** opera con los siguientes formatos:
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">x = "hola"
-   imprimirf("%c\n",x)                //Devolverá h
-   imprimirf("%i\n",x)                //Devolverá 104
-   imprimirf("%f\n",x)                //Devolverá 104.000000
-   imprimirf("%d\n",x)                //Devolverá 104
-   imprimirf("%s\n",x)                //Devolverá hola
-   imprimirf("%%\n",x)                //Devolverá %
-   imprimirf("%c\n",75)               //Devolverá K
-   imprimirf("%c%c%c\n",75,76,77)     //Devolverá KLM</code></pre>
+   escribir(cadena.formato("%c",x))                //Devolverá h
+   escribir(cadena.formato("%i",x))                //Devolverá 104
+   escribir(cadena.formato("%f",x))                //Devolverá 104.000000
+   escribir(cadena.formato("%d",x))                //Devolverá 104
+   escribir(cadena.formato("%o",x))                //Devolverá 150
+   escribir(cadena.formato("%x",x))                //Devolverá 68
+   escribir(cadena.formato("%e",x))                //Devolverá 5.556763e-307
+   escribir(cadena.formato("%s",x))                //Devolverá hola
+   escribir(cadena.formato("%%",x))                //Devolverá %
+   escribir(cadena.formato("%c",75))               //Devolverá K
+   escribir(cadena.formato("%c%c%c",75,76,77))     //Devolverá KLM</code></pre>

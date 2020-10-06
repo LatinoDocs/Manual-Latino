@@ -282,6 +282,9 @@ El comando **cadena.formato\( \)** opera con los siguientes formatos:
    escribir(cadena.formato("%i",x))                //Devolverá 104
    escribir(cadena.formato("%f",x))                //Devolverá 104.000000
    escribir(cadena.formato("%d",x))                //Devolverá 104
+   escribir(cadena.formato("%o",x))                //Devolverá 150
+   escribir(cadena.formato("%x",x))                //Devolverá 68
+   escribir(cadena.formato("%e",x))                //Devolverá 5.556763e-307
    escribir(cadena.formato("%s",x))                //Devolverá hola
    escribir(cadena.formato("%%",x))                //Devolverá %
    escribir(cadena.formato("%c",75))               //Devolverá K
