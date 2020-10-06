@@ -486,8 +486,6 @@ El comando **cadena.rellenar_izquierda\( \)** nos permite indicar la cantidad de
    y = "hola "
    escribir(cadena.rellenar_izquierda(x,y,14))     //Devolverá hola hola mundo, Latino</code></pre>
 
-.. error:: Por el momento en Latino 1.2.0 en la librería **cadena**, la función **cadena.rellenar_izquierda()** no funciona correctamente en MS-Windows. Espere a futuros lanzamientos de Latino para ver sus novedades.
-
 ----
 
 cadena.separar\( \)
