@@ -394,7 +394,7 @@ Este comando **elimina** cualquier **carácter de espacio** al inicio y al final
    <pre><code class="language-latino line-numbers">x = "     Hola mundo"
    escribir(cadena.recortar(x))     //Devolverá Hola mundo</code></pre>
 
-.. error:: Por el momento en Latino 1.2.0 en la librería **cadena**, la función **cadena.recortar()** no funciona correctamente en MS-Windows. Espere a futuros lanzamientos de Latino para ver sus novedades.
+.. .. error:: Por el momento en Latino 1.2.0 en la librería **cadena**, la función **cadena.recortar()** no funciona correctamente en MS-Windows. Espere a futuros lanzamientos de Latino para ver sus novedades.
 
 ----
 

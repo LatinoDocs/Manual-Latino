@@ -22,6 +22,7 @@ Mejoras
   * Se ha corregido el comando **sis.iraxy()** en MS-Windows
   * Se ha corregido el comando **archivo.renombrar()** en Unix y macOS
   * Se ha corregido el comando **cadena.reemplazar()**
+  * Se ha corregido el comando **cadena.recortar()** en MS-Windows
   * Se ha corregido el comando **cadena.rellenar_izquierda()** en MS-Windows
   * Se ha corregido el comando **lista.concatenar()**
   * Se ha corregido el comando **lista.insertar()**
