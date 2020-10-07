@@ -32,6 +32,8 @@ La librería **mate** contiene las funciones de **matemáticas** en Latino.
 +----------------+------------+-------------------------------------------------------------------------------+
 | cosh\( \)      | 1          | Devuelve el coseno hiperbólico                                                |
 +----------------+------------+-------------------------------------------------------------------------------+
+| e\( \)         | 0          | Devuelve el valor del número de Eular (Eular's number)                        |
++----------------+------------+-------------------------------------------------------------------------------+
 | exp\( \)       | 1          | Devuelve el valor de :math:`E^x`, donde E es un `número de Euler`_            |
 +----------------+------------+-------------------------------------------------------------------------------+
 | frexp\( \)     | 2          | Devuelve el número descompuesto y a una potencia integral de dos.             |
@@ -199,6 +201,16 @@ Este comando devuelve el **coseno hiperbólico** de un número.
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">escribir(mate.cosh(3))     //Devolverá 10.06766...</code></pre>
+
+----
+
+mate.e\( \)
+--------------
+Este comando devuelve el valor del **número de Eular**(*eular's number*).
+
+.. raw:: html
+
+   <pre><code class="language-latino line-numbers">escribir(mate.e())     //Devolverá 2.718281828459045</code></pre>
 
 ----
 
