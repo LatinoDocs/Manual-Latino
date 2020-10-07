@@ -66,6 +66,8 @@ La librería **mate** contiene las funciones de **matemáticas** en Latino.
 +----------------+------------+-------------------------------------------------------------------------------+
 | max\( \)       | 1,2,3...   | Devuelve el más alto valor de una lista                                       |
 +----------------+------------+-------------------------------------------------------------------------------+
+| min\( \)       | 1,2,3...   | Devuelve el más bajo valor de una lista                                       |
++----------------+------------+-------------------------------------------------------------------------------+
 | raiz\( \)      | 1          | Devuelve la raíz cuadrada                                                     |
 +----------------+------------+-------------------------------------------------------------------------------+
 | raizc\( \)     | 1          | Devuelve la raíz cúbica de un número                                          |
@@ -458,6 +460,16 @@ Este comando devuelve el más **alto valor** de una lista.
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">escribir(mate.max(1,5,10,2))      //Devolverá 10</code></pre>
+
+----
+
+mate.min\( \)
+---------------
+Este comando devuelve el más **bajo valor** de una lista.
+
+.. raw:: html
+
+   <pre><code class="language-latino line-numbers">escribir(mate.min(1,5,10,2))      //Devolverá 1</code></pre>
 
 ----
 
