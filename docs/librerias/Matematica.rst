@@ -72,6 +72,8 @@ La librería **mate** contiene las funciones de **matemáticas** en Latino.
 +----------------+------------+-------------------------------------------------------------------------------+
 | techo\( \)     | 1          | Devuelve el número redondeado hacia arriba al número entero más cercano       |
 +----------------+------------+-------------------------------------------------------------------------------+
+| trunc\( \)     | 1          | Devuelve las partes enteras truncadas de diferentes números                   |
++----------------+------------+-------------------------------------------------------------------------------+
 
 ----
 
@@ -471,6 +473,22 @@ Si el argumento pasado es un número entero, el valor NO se redondeará.
    escribir(mate.techo(5.1))      //Devolverá 6
    escribir(mate.techo(-5.1))     //Devolverá -5
    escribir(mate.techo(-5.9))     //Devolverá -5</code></pre>
+
+----
+
+mate.trunc\( \)
+-----------------
+Este comando devuelve la parte **entera truncada** de un número.
+
+Este comando NO redondea el número al más cercado entero, sino **remueve su punto decimal**.
+
+.. raw:: html
+
+   <pre><code class="language-latino line-numbers">escribir(mate.trunc(2.77))       //Devolverá 2
+   escribir(mate.trunc(8.32))       //Devolverá 8
+   escribir(mate.trunc(-99.29))     //Devolverá -99</code></pre>
+
+----
 
 .. Enlaces
 
