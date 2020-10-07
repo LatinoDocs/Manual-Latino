@@ -206,7 +206,7 @@ Este comando devuelve el **coseno hiperbólico** de un número.
 
 mate.e\( \)
 --------------
-Este comando devuelve el valor del **número de Eular**(*eular's number*).
+Este comando devuelve el valor del **número de Eular** (*eular's number*).
 
 .. raw:: html
 
