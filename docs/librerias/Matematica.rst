@@ -66,6 +66,8 @@ La librería **mate** contiene las funciones de **matemáticas** en Latino.
 +----------------+------------+-------------------------------------------------------------------------------+
 | tanh\( \)      | 1          | Devuelve la tangente hiperbólico de un número                                 |
 +----------------+------------+-------------------------------------------------------------------------------+
+| tau\( \)       | 0          | Devuelve el valor de TAU                                                      |
++----------------+------------+-------------------------------------------------------------------------------+
 | techo\( \)     | 1          | Devuelve el número redondeado hacia arriba al número entero más cercano       |
 +----------------+------------+-------------------------------------------------------------------------------+
 
@@ -430,6 +432,16 @@ Este comando devuelve la **tangente hiperbólica** de un número.
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">escribir(mate.tanh(1))     //Devolverá 0.76159...</code></pre>
+
+----
+
+mate.tau\( \)
+--------------
+Este comando devuelve el valor de **TAU**.
+
+.. raw:: html
+
+   <pre><code class="language-latino line-numbers">escribir(mate.tau())     //Devolverá 6.283185307179586</code></pre>
 
 ----
 

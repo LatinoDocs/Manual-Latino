@@ -38,6 +38,7 @@ Novedades
   * Se ha añadido el comando **dic.contiene()**
   * Se ha añadido el comando **lista.separar()**
   * Se ha añadido el comando **mate.pi()**
+  * Se ha añadido el comando **mate.tau()**
   * Se ha añadido los comandos **mate.base()**, **mate.parte()** y **mate.porc()**
   * Se ha añadido el comando **archivo.anexar()**
   * Se ha añadido un alias al comando **archivo.eliminar()**, y su nuevo alias es **archivo.borrar()**
