@@ -60,6 +60,10 @@ La librería **mate** contiene las funciones de **matemáticas** en Latino.
 +----------------+------------+-------------------------------------------------------------------------------+
 | raiz\( \)      | 1          | Devuelve la raíz cuadrada                                                     |
 +----------------+------------+-------------------------------------------------------------------------------+
+| redondear\( \) | 1          | Devuelve el número redondeado                                                 |
++----------------+            |                                                                               |
+| rnd\( \)       |            |                                                                               |
++----------------+------------+-------------------------------------------------------------------------------+
 | sen\( \)       | 1          | Devuelve el seno                                                              |
 +----------------+------------+-------------------------------------------------------------------------------+
 | senh\( \)      | 1          | Devuelve el seno hiperbólico                                                  |
@@ -402,6 +406,19 @@ Este comando devuelve la **raíz cuadrada** de un número.
    escribir(mate.raiz(1))      //Devolverá 1
    escribir(mate.raiz(64))     //Devolverá 8
    escribir(mate.raiz(-9))     //Devolverá NaN</code></pre>
+
+----
+
+mate.redondear\( \)
+---------------------
+Este comando **redondea** el número a su mas cercano entero.
+
+Este comando también dispone de un alias **mate.rnd\( \)**.
+
+.. raw:: html
+
+   <pre><code class="language-latino line-numbers">escribir(mate.redondear(5.4))     //Devolverá 5
+   escribir(mate.rnd(5.6)            //Devolverá 6)</code></pre>
 
 ----
 

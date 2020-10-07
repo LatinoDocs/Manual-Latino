@@ -41,6 +41,7 @@ Novedades
   * Se ha añadido el comando **mate.tau()**
   * Se ha añadido el comando **mate.e()**
   * Se ha añadido el comando **mate.trunc()**
+  * Se ha añadido el comando **mate.redondear()** y su alias **mate.rnd()**
   * Se ha añadido los comandos **mate.base()**, **mate.parte()** y **mate.porc()**
   * Se ha añadido el comando **archivo.anexar()**
   * Se ha añadido un alias al comando **archivo.eliminar()**, y su nuevo alias es **archivo.borrar()**
