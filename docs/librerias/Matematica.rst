@@ -24,6 +24,8 @@ La librería **mate** contiene las funciones de **matemáticas** en Latino.
 +----------------+------------+-------------------------------------------------------------------------------+
 | asen\( \)      | 1          | Devuelve el arcoseno en radianes                                              |
 +----------------+------------+-------------------------------------------------------------------------------+
+| asenh\( \)     | 1          | Devuelve el arcoseno hiperbólico inverso de un número                             |
++----------------+------------+-------------------------------------------------------------------------------+
 | atan\( \)      | 1          | Devuelve el arcotangente como un valor numérico entrew -PI/2 y PI/2 radianes  |
 +----------------+------------+-------------------------------------------------------------------------------+
 | atan2\( \)     | 2          | Devuelve el arcotangente del cociente de sus argumentos                       |
@@ -117,8 +119,7 @@ Si el número asignado está **fuera** es menor que 1, el comando devolverá **N
 
 .. raw:: html
 
-   <pre><code class="language-latino line-numbers">
-   escribir(mate.acosh(7))        //Devolverá 2.633915793849634
+   <pre><code class="language-latino line-numbers">escribir(mate.acosh(7))        //Devolverá 2.633915793849634
    escribir(mate.acosh(56))       //Devolverá 4.71841914237288
    escribir(mate.acosh(2.45))     //Devolverá 1.544713117870739
    escribir(mate.acosh(1))        //Devolverá 0</code></pre>
@@ -148,6 +149,21 @@ El valor de **1** devolverá el valor de PI/2 y el valor de **-1** devolverá el
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">escribir(mate.asen(0.5))     //Devolverá 0.52359...</code></pre>
+
+----
+
+mate.asenh\( \)
+-----------------
+Este comando devuelve el **arcoseno hiperbólico inverso** de un número.
+
+.. raw:: html
+
+   <pre><code class="language-latino line-numbers">escribir(mate.asenh(7))        //Devolverá 2.644120761058629
+   escribir(mate.asenh(56))       //Devolverá 4.718578581151767
+   escribir(mate.asenh(2.45))     //Devolverá 1.6284998192841909
+   escribir(mate.asenh(1))        //Devolverá 0.881373587019543
+   escribir(mate.asenh(0.5))      //Devolverá 0.48121182505960347
+   escribir(mate.asenh(-10))      //Devolverá -2.99822295029797</code></pre>
 
 ----
 
