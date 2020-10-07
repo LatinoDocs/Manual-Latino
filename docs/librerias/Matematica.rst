@@ -66,6 +66,8 @@ La librería **mate** contiene las funciones de **matemáticas** en Latino.
 +----------------+------------+-------------------------------------------------------------------------------+
 | raiz\( \)      | 1          | Devuelve la raíz cuadrada                                                     |
 +----------------+------------+-------------------------------------------------------------------------------+
+| raizc\( \)     | 1          | Devuelve la raíz cúbica de un número                                          |
++----------------+------------+-------------------------------------------------------------------------------+
 | redondear\( \) | 1          | Devuelve el número redondeado                                                 |
 +----------------+            |                                                                               |
 | rnd\( \)       |            |                                                                               |
@@ -458,6 +460,16 @@ Este comando devuelve la **raíz cuadrada** de un número.
    escribir(mate.raiz(1))      //Devolverá 1
    escribir(mate.raiz(64))     //Devolverá 8
    escribir(mate.raiz(-9))     //Devolverá NaN</code></pre>
+
+----
+
+mate.raizc\( \)
+---------------
+Este comando devuelve la **raíz cúbica** de un número.
+
+.. raw:: html
+
+   <pre><code class="language-latino line-numbers">escribir(mate.raizc(6))      //Devolverá 1.817120592832139</code></pre>
 
 ----
 
