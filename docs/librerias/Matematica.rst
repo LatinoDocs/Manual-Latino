@@ -18,6 +18,8 @@ La librería **mate** contiene las funciones de **matemáticas** en Latino.
 +----------------+------------+-------------------------------------------------------------------------------+
 | acos\( \)      | 1          | Devuelve el arcocoseno en radianes                                            |
 +----------------+------------+-------------------------------------------------------------------------------+
+| acosh\( \)     | 1          | Devuelve el coseno hiperbólico inverso de un número                           |
++----------------+------------+-------------------------------------------------------------------------------+
 | aleatorio\( \) | 2          | Devuelve un número aleatorio                                                  |
 +----------------+------------+-------------------------------------------------------------------------------+
 | asen\( \)      | 1          | Devuelve el arcoseno en radianes                                              |
@@ -102,6 +104,24 @@ El valor de **-1** devolverá el valor de PI, y el valor de **1** devolverá el 
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">escribir(mate.acos(0.5))     //Devolverá 1.04719...</code></pre>
+
+----
+
+mate.acosh\( \)
+---------------
+Este comando devuelve el **coseno hiperbólico inverso** de un número.
+
+Este comando admite números igual o mayor que 1 **(x >= 1)**.
+
+Si el número asignado está **fuera** es menor que 1, el comando devolverá **NaN**.
+
+.. raw:: html
+
+   <pre><code class="language-latino line-numbers">
+   escribir(mate.acosh(7))        //Devolverá 2.633915793849634
+   escribir(mate.acosh(56))       //Devolverá 4.71841914237288
+   escribir(mate.acosh(2.45))     //Devolverá 1.544713117870739
+   escribir(mate.acosh(1))        //Devolverá 0</code></pre>
 
 ----
 

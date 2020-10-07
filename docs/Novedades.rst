@@ -37,6 +37,7 @@ Novedades
   * Se ha añadido el comando **dic.eliminar()**
   * Se ha añadido el comando **dic.contiene()**
   * Se ha añadido el comando **lista.separar()**
+  * Se ha añadido el comando **mate.acosh()**
   * Se ha añadido el comando **mate.pi()**
   * Se ha añadido el comando **mate.tau()**
   * Se ha añadido el comando **mate.e()**
