@@ -64,6 +64,8 @@ La librería **mate** contiene las funciones de **matemáticas** en Latino.
 +----------------+------------+-------------------------------------------------------------------------------+
 | pot\( \)       | 2          | Devuelve el valor de un número elevado a la potencia                          |
 +----------------+------------+-------------------------------------------------------------------------------+
+| max\( \)       | 1,2,3...   | Devuelve el más alto valor de una lista                                       |
++----------------+------------+-------------------------------------------------------------------------------+
 | raiz\( \)      | 1          | Devuelve la raíz cuadrada                                                     |
 +----------------+------------+-------------------------------------------------------------------------------+
 | raizc\( \)     | 1          | Devuelve la raíz cúbica de un número                                          |
@@ -446,6 +448,16 @@ Este comando devuelve el valor(primer dígito) **elevado a la potencia** (segund
    escribir(mate.pot(3,3))      //Devolverá 27
    escribir(mate.pot(-3,3))     //Devolverá -27
    escribir(mate.pot(2,4))      //Devolverá 16</code></pre>
+
+----
+
+mate.max\( \)
+---------------
+Este comando devuelve el más **alto valor** de una lista.
+
+.. raw:: html
+
+   <pre><code class="language-latino line-numbers">escribir(mate.max(1,5,10,2))      //Devolverá 10</code></pre>
 
 ----
 

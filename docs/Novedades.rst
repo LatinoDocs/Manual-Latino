@@ -10,7 +10,7 @@ Novedades
 
 Versión de Latino |LATINO_VERSION|
 -----------------------------------
-Esta versión también es conocida por la versión de Latino v1.2.28
+Esta versión también es conocida por la versión de Latino v1.2.29
 
 Mejoras y novedades:
 +++++++++++++++++++++
@@ -41,6 +41,7 @@ Novedades
   * Se ha añadido el comando **mate.asenh()**
   * Se ha añadido el comando **mate.atanh()**
   * Se ha añadido el comando **mate.pi()**
+  * Se ha añadido el comando **mate.max()**
   * Se ha añadido el comando **mate.raizc()**
   * Se ha añadido el comando **mate.tau()**
   * Se ha añadido el comando **mate.e()**
