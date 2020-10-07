@@ -24,9 +24,11 @@ La librería **mate** contiene las funciones de **matemáticas** en Latino.
 +----------------+------------+-------------------------------------------------------------------------------+
 | asen\( \)      | 1          | Devuelve el arcoseno en radianes                                              |
 +----------------+------------+-------------------------------------------------------------------------------+
-| asenh\( \)     | 1          | Devuelve el arcoseno hiperbólico inverso de un número                             |
+| asenh\( \)     | 1          | Devuelve el arcoseno hiperbólico inverso de un número                         |
 +----------------+------------+-------------------------------------------------------------------------------+
 | atan\( \)      | 1          | Devuelve el arcotangente como un valor numérico entrew -PI/2 y PI/2 radianes  |
++----------------+------------+-------------------------------------------------------------------------------+
+| atanh\( \)     | 1          | Devuelve el arcotangente hiperbólico inverso de un número                     |
 +----------------+------------+-------------------------------------------------------------------------------+
 | atan2\( \)     | 2          | Devuelve el arcotangente del cociente de sus argumentos                       |
 +----------------+------------+-------------------------------------------------------------------------------+
@@ -174,6 +176,20 @@ Este comando devuelve el **arcotangente** de un número como un valor entre **-P
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">escribir(mate.atan(2))     //Devolverá 1.10714...</code></pre>
+
+----
+
+mate.atanh\( \)
+-----------------
+Este comando devuelve el **arcotangente hiperbólico inverso** de un número.
+
+El parámetro admitido por este comando debe estar entre -0.99 y 0.99.
+
+.. raw:: html
+
+   <pre><code class="language-latino line-numbers">escribir(mate.atanh(0.59))      //Devolverá 0.6776660677579618
+   escribir(mate.atanh(-0.12))     //Devolverá -0.120581028408444
+   escribir(mate.atanh(0.99))      //Devolverá 2.646652412362246</code></pre>
 
 ----
 
