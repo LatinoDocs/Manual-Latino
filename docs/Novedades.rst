@@ -20,7 +20,8 @@ Mejoras
   * Se ha corregido el comando **imprimirf()** en MS-Windows
   * Se ha corregido el comando **error()** en MS-Windows
   * Se ha corregido el comando **sis.iraxy()** en MS-Windows
-  * Se ha corregido el comando **archivo.renombrar()** en Unix y macOS
+  * Se ha corregido el comando **archivo.crear()**
+  * Se ha corregido el comando **archivo.renombrar()**
   * Se ha corregido el comando **cadena.reemplazar()**
   * Se ha corregido el comando **cadena.recortar()** en MS-Windows
   * Se ha corregido el comando **cadena.rellenar_izquierda()** en MS-Windows

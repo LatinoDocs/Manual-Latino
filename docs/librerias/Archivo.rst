@@ -17,20 +17,30 @@ El nombre de archivo o ruta del archivo deben ser escritas entre **comillas**.
 +----------------+------------+---------------------------------------------------------+
 | Comando        | Parámetros | Descripción                                             |
 +================+============+=========================================================+
+| anexar\( \ )   | 2          |                                                         |
++----------------+------------+---------------------------------------------------------+
+| borrar\( \)    | 1          | Elimina el archivo especificado                         |
++----------------+            |                                                         |
+| eliminar\( \)  |            |                                                         |
++----------------+------------+---------------------------------------------------------+
 | crear\( \)     | 1          | Crea un archivo con el nombre especificado              |
++----------------+------------+---------------------------------------------------------+
+| duplicar\( \)  | 2          |                                                         |
 +----------------+------------+---------------------------------------------------------+
 | ejecutar\( \)  | 1          | Ejecuta el archivo especificado                         |
 +----------------+------------+---------------------------------------------------------+
-| eliminar\( \)  | 1          | Elimina el archivo especificado                         |
+| escribir\( \)  | 2          |                                                         |
 +----------------+------------+---------------------------------------------------------+
 | leer\( \)      | 1          | Lee el contenido de un archivo y lo convierte en cadena |
 +----------------+------------+---------------------------------------------------------+
 | lineas\( \)    | 1          | Almacena en una lista cada línea del archivo            |
 +----------------+------------+---------------------------------------------------------+
+| renombrar\( \) | 2          | Renombra un archivo por un nuevo nombre asignado        |
++----------------+------------+---------------------------------------------------------+
 
 .. ----
 
-.. archivo.copiar\( \)
+.. archivo.duplicar\( \)
 .. --------------------
 .. Copia en el archivo especificado la cadena(texto) que deseamos añadir.
 
@@ -38,7 +48,7 @@ El nombre de archivo o ruta del archivo deben ser escritas entre **comillas**.
 
 .. El primer argumento adminte rutas mas no el segundo argumento de este comando.
 
-.. archivo.copiar("c:\user\archivo1.lat", "archivo2.lat")
+.. archivo.duplicar("c:\user\archivo1.lat", "archivo2.lat")
 .. //El comando no coincide con su funcion.
 ..    //Este comando pega al final del archivo la segunda cadena del comando.
 
@@ -47,7 +57,7 @@ El nombre de archivo o ruta del archivo deben ser escritas entre **comillas**.
 
 ..    <pre><code class="language-latino line-numbers"></code></pre>
 
-.. el comando "poner" es el comando "copiar"
+.. el comando "poner" es el comando "duplicar"
 
 .. +----------------+------------+---------------------------------------------------------+
 .. | poner\( \)     | 2          | Sobrescribe el archivo con el texto especificado        |
@@ -114,4 +124,20 @@ Para este comando es requerido asignarlo a una variable para almacenar el conten
    <pre><code class="language-latino line-numbers">x = archivo.lineas("C:\Users\prueba.lat")
    escribir(x)</code></pre>
 
-.. error:: Por el momento en Latino 1.2.0 en la librería **archivo** funciones como **archivo.copiar( )**, **archivo.poner( )** y **archivo.renombrar( )** no funcionan apropiadamente. Espere a futuros lanzamientos de Latino para ver sus novedades.
+----
+
+archivo.renombrar\( \)
+------------------------
+Este comando nos permite **renombrar** el nombre de un archivo.
+
+Este comando también adminte rutas.
+
+**Ejecuta de sintaxis**
+
+.. code-block:: bash
+    
+    archivo.renombrar(Nombre_viejo, Nombre_nuevo)
+
+.. raw:: html
+
+   <pre><code class="language-latino line-numbers">archivo.renombrar("hola.lat", "queTal.lat")     //Renombrará el archivo por queTal.lat</code></pre>
