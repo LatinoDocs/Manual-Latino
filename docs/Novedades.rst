@@ -26,6 +26,7 @@ Mejoras
   * Se ha corregido el comando **cadena.rellenar_izquierda()** en MS-Windows
   * Se ha corregido el comando **lista.concatenar()**
   * Se ha corregido el comando **lista.insertar()**
+  * Se ha mejorado el comando **mate.aleatorio()**
   * Se ha mejorado los comandos **imprimirf()** y **cadena.formato()**
     * Tiene soporte para reconocer valores octales, hexadecimales y expresiones científicas.
     * Los valores octales, hex y expresiones científicas deben de estar entre comillas (una cadena).
@@ -47,6 +48,7 @@ Novedades
   * Se ha añadido el comando **mate.tau()**
   * Se ha añadido el comando **mate.e()**
   * Se ha añadido el comando **mate.trunc()**
+  * Se ha añadido un nuevo alias en el comando **mate.aleatorio()** el cual es **mate.alt()**
   * Se ha añadido el comando **mate.redondear()** y su alias **mate.rnd()**
   * Se ha añadido los comandos **mate.base()**, **mate.parte()** y **mate.porc()**
   * Se ha añadido el comando **archivo.anexar()**

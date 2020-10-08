@@ -20,7 +20,9 @@ La librería **mate** contiene las funciones de **matemáticas** en Latino.
 +----------------+------------+-------------------------------------------------------------------------------+
 | acosh\( \)     | 1          | Devuelve el coseno hiperbólico inverso de un número                           |
 +----------------+------------+-------------------------------------------------------------------------------+
-| aleatorio\( \) | 2          | Devuelve un número aleatorio                                                  |
+| aleatorio\( \) | 0, 1 ó 2   | Devuelve un número aleatorio                                                  |
++----------------+            |                                                                               |
+| alt\( \)       |            |                                                                               |
 +----------------+------------+-------------------------------------------------------------------------------+
 | asen\( \)      | 1          | Devuelve el arcoseno en radianes                                              |
 +----------------+------------+-------------------------------------------------------------------------------+
@@ -136,13 +138,30 @@ Si el número asignado está **fuera** es menor que 1, el comando devolverá **N
 
 mate.aleatorio\( \)
 --------------------
-El comando **mate.aleatorio\( \)** devuelve un número dentro del rango numérico asignado.
+El comando **mate.aleatorio\( \)** devuelve un número.
+
+Este comando también dispone de un alias **mate.alt()**.
+
+Este comando puede admitir desde **cero (0)** parámetros, hasta un máximo de **dos (2)** parámetros.
 
 En este comando se puede asignar números positivos como negativos.
 
+.. note:: Los parámetros se definen de la siguiente manera:
+    
+    * Cero o ningún parámetro:
+        Devolverá un valor aleatorio entre **cero (0)** y **uno (1)**.
+
+    * Un parámetro:
+        Se tomará como el número máximo, y devolverá entre **cero (0)** hasta el número asignado.
+
+    * Dos parámetros:
+        Devolverá un número aleatorio dentro del rango numérico asignado.
+
 .. raw:: html
 
-   <pre><code class="language-latino line-numbers">escribir(mate.aleatorio(-25,5))     //Devolverá un número aleatorio entre -25 a 5</code></pre>
+   <pre><code class="language-latino line-numbers">escribir(mate.alt())                //Devolverá un número aleatorio entre 0 y 1
+   escribir(mate.aleatorio(25))        //Devolverá un número aleatorio entre 0 y 25
+   escribir(mate.aleatorio(-25,5))     //Devolverá un número aleatorio entre -25 a 5</code></pre>
 
 ----
 
