@@ -457,9 +457,13 @@ mate.max\( \)
 ---------------
 Este comando devuelve el más **alto valor** de una lista.
 
+Este comando también trabaja con números **negativos**.
+
+Este comando NO tiene cantidad máxima de parámetros, lo que significa que se puede hacer una comparación entre 2 a 1000 números si se desea.
+
 .. raw:: html
 
-   <pre><code class="language-latino line-numbers">escribir(mate.max(1,5,10,2))      //Devolverá 10</code></pre>
+   <pre><code class="language-latino line-numbers">escribir(mate.max(-4,-15,1,5,10,2))      //Devolverá 10</code></pre>
 
 ----
 
@@ -467,9 +471,13 @@ mate.min\( \)
 ---------------
 Este comando devuelve el más **bajo valor** de una lista.
 
+Este comando también trabaja con números **negativos**.
+
+Este comando NO tiene cantidad máxima de parámetros, lo que significa que se puede hacer una comparación entre 2 a 1000 números si se desea.
+
 .. raw:: html
 
-   <pre><code class="language-latino line-numbers">escribir(mate.min(1,5,10,2))      //Devolverá 1</code></pre>
+   <pre><code class="language-latino line-numbers">escribir(mate.min(-20,1,5,-15,10,2))      //Devolverá -20</code></pre>
 
 ----
 
