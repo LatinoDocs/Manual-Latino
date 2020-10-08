@@ -514,7 +514,7 @@ Este comando también dispone de un alias **mate.rnd\( \)**.
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">escribir(mate.redondear(5.4))     //Devolverá 5
-   escribir(mate.rnd(5.6)            //Devolverá 6)</code></pre>
+   escribir(mate.rnd(5.6)            //Devolverá 6</code></pre>
 
 ----
 
