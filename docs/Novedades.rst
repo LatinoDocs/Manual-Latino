@@ -10,7 +10,7 @@ Novedades
 
 Versión de Latino |LATINO_VERSION|
 -----------------------------------
-Esta versión también es conocida por la versión de Latino v1.2.30
+Esta versión también es conocida por la versión de Latino v1.2.31
 
 Mejoras y novedades:
 +++++++++++++++++++++
