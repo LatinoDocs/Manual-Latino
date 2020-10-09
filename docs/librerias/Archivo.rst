@@ -17,7 +17,7 @@ El nombre de archivo o ruta del archivo deben ser escritas entre **comillas**.
 +----------------+------------+---------------------------------------------------------+
 | Comando        | Parámetros | Descripción                                             |
 +================+============+=========================================================+
-| anexar\( \ )   | 2          |                                                         |
+| anexar\( \ )   | 2          | Agrega un texto o dato al final del archivo             |
 +----------------+------------+---------------------------------------------------------+
 | borrar\( \)    | 1          | Elimina el archivo especificado                         |
 +----------------+            |                                                         |
@@ -37,6 +37,31 @@ El nombre de archivo o ruta del archivo deben ser escritas entre **comillas**.
 +----------------+------------+---------------------------------------------------------+
 | renombrar\( \) | 2          | Renombra un archivo por un nuevo nombre asignado        |
 +----------------+------------+---------------------------------------------------------+
+
+----
+
+archivo.anexar\( \)
+----------------------
+Este comando nos permite **agregar** texto al final del documento especificado.
+
+A diferencia del comando **archivo.escribir\( \)** que sobrescribe los datos existentes en el documento, el comando **archivo.anexar\( \)** añade el texto al final del documento.
+
+.. raw:: html
+
+   <pre><code class="language-latino line-numbers">/*
+   Para este ejemplo supondremos que tenemos
+   un archivo llamado "prueba.lat" el cual
+   ya contiene un texto adentro "Hola mundo"
+   */
+   
+   /*
+   Devolverá:
+   Hola mundo, Latino
+
+   Hoy será un hermoso día.
+   */
+
+   archivo.anexar("c:\user\prueba.lat", ", Latino\n\nHoy será un hermoso día.")</code></pre>
 
 .. ----
 
