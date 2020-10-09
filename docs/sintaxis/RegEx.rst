@@ -14,8 +14,8 @@ Una RegEx puede ser utilizada para comprobar si una cadena(string) contiene un p
 Para hacer uso de las expresiones regulares se pueden utilizar los siguientes comandos:
 
 * **~=** de este operador relacional también se hace mención en :ref:`este artículo <opregexLink>`.
-* **cadena.regex\( \)** el cual devuelve un valor buleano.
-* **cadena.match\( \)** el cual devuelve una lista de todas las coincidencias.
+* **cadena.regexl\( \)** el cual devuelve un valor buleano.
+* **cadena.regex\( \)** el cual devuelve una lista de todas las coincidencias.
 
 ----
 
@@ -47,13 +47,13 @@ Operador ~=
 
 ----
 
-cadena.regex\( \)
+cadena.regexl\( \)
 -------------------
 **Ejemplo de sintaxis**
 
 .. code-block:: bash
    
-   cadena.regex(texto, expresión)
+   cadena.regexl(texto, expresión)
 
 .. raw:: html
    
@@ -66,18 +66,18 @@ cadena.regex\( \)
    */
 
    txt = "Las manzanas son verdes"
-   x = cadena.regex(txt, "u")
+   x = cadena.regexl(txt, "u")
    escribir(x)</code></pre>
 
 ----
 
-cadena.match\( \)
+cadena.regex\( \)
 -------------------
 **Ejemplo de sintaxis**
 
 .. code-block:: bash
    
-   cadena.match(texto, expresión)
+   cadena.regex(texto, expresión)
 
 **Ejemplo 1**
 
@@ -85,7 +85,7 @@ cadena.match\( \)
 
    <pre><code class="language-latino line-numbers">/*
    En este ejemplo la variable TXT contendrá el texto principal
-   la variable X contendrá el resultado de cadena.match
+   la variable X contendrá el resultado de cadena.regex
    y su resultado se escribirá en pantalla.
 
    Devolverá una lista de cada coincidencia encontrada:
@@ -93,7 +93,7 @@ cadena.match\( \)
    */
 
    txt = "El agua es vida"
-   x = cadena.match(txt, "a")
+   x = cadena.regex(txt, "a")
    escribir(x)</code></pre>
 
 **Ejemplo 2**
@@ -106,7 +106,7 @@ cadena.match\( \)
    */
 
    txt = "El agua es vida"
-   x = cadena.match(txt, "^El.*vida$")
+   x = cadena.regex(txt, "^El.*vida$")
    escribir(x)</code></pre>
 
 **Ejemplo 3**
@@ -122,7 +122,7 @@ cadena.match\( \)
    */
 
    txt = "El agua es vida"
-   x = cadena.match(txt, "^El.*vida$")
+   x = cadena.regex(txt, "^El.*vida$")
    
    si x
      escribir ("Eureka! la expresión ha sido encontrada")
@@ -245,7 +245,7 @@ Los brackets son utilizados para buscar caracteres en un rango asignado.
    */
 
    txt = "El agua es vida"
-   x = cadena.match(txt, "[a-m]")
+   x = cadena.regex(txt, "[a-m]")
    escribir (x)</code></pre>
 
 ----

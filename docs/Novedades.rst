@@ -57,3 +57,5 @@ Novedades
   * Se ha añadido un alias al comando **archivo.eliminar()**, y su nuevo alias es **archivo.borrar()**
   * Se ha renombrado el comando **archivo.poner()** por **archivo.escribir()**
   * Se ha renombrado el comanod **archivo.copiar()** por **archivo.duplicar()**
+  * Se ha renombrar el comando **cadena.regex()** por **cadena.regexl()**
+  * Se ha renombrar el comando **cadena.match()** por **cadena.regex()**

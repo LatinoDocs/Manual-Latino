@@ -51,8 +51,6 @@ La librería **cadena** nos permite trabajar y manipular las :ref:`cadenas (stri
 +-------------------------+------------+--------------------------------------------------------------------------+
 | longitud\( \)           | 1          | Regresa el tamaño de la cadena                                           |
 +-------------------------+------------+--------------------------------------------------------------------------+
-| match\( \)              | 2          | Utiliza RegEx y regresa una lista de las coincidencias                   |
-+-------------------------+------------+--------------------------------------------------------------------------+
 | mayusculas\( \)         | 1          | Combierte toda la cadena en mayúsculas                                   |
 +-------------------------+------------+--------------------------------------------------------------------------+
 | minusculas\( \)         | 1          | Combierte toda la cadena en minúsculas                                   |
@@ -61,7 +59,9 @@ La librería **cadena** nos permite trabajar y manipular las :ref:`cadenas (stri
 +-------------------------+------------+--------------------------------------------------------------------------+
 | reemplazar\( \)         | 4          | Cambiar una palabra por otra en una cadena                               |
 +-------------------------+------------+--------------------------------------------------------------------------+
-| regex\( \)              | 2          | Regresa un valor buelano si encuentra la coincidencia                    |
+| regex\( \)              | 2          | Utiliza RegEx y regresa una lista de las coincidencias                   |
++-------------------------+------------+--------------------------------------------------------------------------+
+| regexl\( \)             | 2          | Regresa un valor buelano si encuentra la coincidencia                    |
 +-------------------------+------------+--------------------------------------------------------------------------+
 | rellenar_derecha\( \)   | 3          | Agrega n caracteres al final de la cadena especificada                   |
 +-------------------------+------------+--------------------------------------------------------------------------+
@@ -350,19 +350,6 @@ El comando comienza a contar desde el número **uno (1)** como primer número en
 
 ----
 
-cadena.match\( \)
-------------------
-Este comando hace uso de las **Expresiones Regulares** o **RegEx** para hacer una **búsqueda avanzada** y retorna una lista con cada una de las coincidencias.
-
-Para aprender más sobre este comando y las expresiones regulares, mire el artículo de RegEx, :ref:`aquí <regexLink>`.
-
-.. raw:: html
-
-   <pre><code class="language-latino line-numbers">x = "Hola mundo, Latino"
-   escribir(cadena.match(x, "o"))     //Devolverá [["o"], ["o"], ["o"]]</code></pre>
-
-----
-
 cadena.mayusculas\( \)
 -----------------------
 Este comando nos permite **transformar** toda nuestra cadena a letras **mayúsculas**.
@@ -423,7 +410,22 @@ Este comanod nos permite **cambiar** una palabra por otra en una cadena
 
 cadena.regex\( \)
 ------------------
-Este comando hace use de las **Expresiones Regulares** o **RegEx** para hacer una **búsqueda avanzada** y retorna verdadero si encuentra la coincidencia y falso si no la encontró.
+Este comando hace uso de las **Expresiones Regulares** o **RegEx** para hacer una **búsqueda avanzada** y retorna una lista con cada una de las coincidencias.
+
+Para aprender más sobre este comando y las expresiones regulares, mire el artículo de RegEx, :ref:`aquí <regexLink>`.
+
+.. raw:: html
+
+   <pre><code class="language-latino line-numbers">x = "Hola mundo, Latino"
+   escribir(cadena.regex(x, "o"))     //Devolverá [["o"], ["o"], ["o"]]</code></pre>
+
+----
+
+cadena.regexl\( \)
+--------------------
+Este comando es conocido como **regex lógico**.
+
+Este comando hace use de las **Expresiones Regulares** o **RegEx** para hacer una **búsqueda avanzada** y retorna **verdadero** si encuentra la coincidencia y **falso** si no la encontró.
 
 Para aprender más sobre este comando y las expresiones regulares, mire el artículo de RegEx, :ref:`aquí <regexLink>`.
 
@@ -432,7 +434,7 @@ Para aprender más sobre este comando y las expresiones regulares, mire el artí
    <pre><code class="language-latino line-numbers">//Busca si la cadena termina con "Latino"
    
    x = "Hola mundo, Latino"
-   escribir(cadena.regex(x, "Latino$"))     //Devolverá verdadero</code></pre>
+   escribir(cadena.regexl(x, "Latino$"))     //Devolverá verdadero</code></pre>
 
 ----
 
