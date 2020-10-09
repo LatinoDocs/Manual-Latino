@@ -29,7 +29,7 @@ El nombre de archivo o ruta del archivo deben ser escritas entre **comillas**.
 +----------------+------------+---------------------------------------------------------+
 | ejecutar\( \)  | 1          | Ejecuta el archivo especificado                         |
 +----------------+------------+---------------------------------------------------------+
-| escribir\( \)  | 2          |                                                         |
+| escribir\( \)  | 2          | Escribe y/o Sobrescribe en el archivo                   |
 +----------------+------------+---------------------------------------------------------+
 | leer\( \)      | 1          | Lee el contenido de un archivo y lo convierte en cadena |
 +----------------+------------+---------------------------------------------------------+
@@ -99,6 +99,20 @@ Este comando nos ayuda a **eliminar** un archivo especificado.
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">archivo.eliminar("c:\user\prueba.lat")</code></pre>
+
+----
+
+archivo.escribir\( \)
+-----------------------
+Este comando nos permite **escribir** y **sobrescribe** un archivo especificado.
+
+.. important:: Si deseamos añadir más información al archivo usar el comando **archivo.anexar\( \)**
+    
+    Si se usa este comando en un archivo **NO vacío** este será completamente sobrescribe con la nueva información.
+
+.. raw:: html
+
+   <pre><code class="language-latino line-numbers">archivo.escribir("c:\user\prueba.lat", "Hola mundo")</code></pre>
 
 ----
 
