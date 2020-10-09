@@ -25,7 +25,7 @@ El nombre de archivo o ruta del archivo deben ser escritas entre **comillas**.
 +----------------+------------+---------------------------------------------------------+
 | crear\( \)     | 1          | Crea un archivo con el nombre especificado              |
 +----------------+------------+---------------------------------------------------------+
-| duplicar\( \)  | 2          |                                                         |
+| duplicar\( \)  | 2          | Hace un duplicado del archivo especificado              |
 +----------------+------------+---------------------------------------------------------+
 | ejecutar\( \)  | 1          | Ejecuta el archivo especificado                         |
 +----------------+------------+---------------------------------------------------------+
@@ -40,11 +40,13 @@ El nombre de archivo o ruta del archivo deben ser escritas entre **comillas**.
 
 ----
 
+.. _anexar:
+
 archivo.anexar\( \)
 ----------------------
 Este comando nos permite **agregar** texto al final del documento especificado.
 
-A diferencia del comando **archivo.escribir\( \)** que sobrescribe los datos existentes en el documento, el comando **archivo.anexar\( \)** añade el texto al final del documento.
+A diferencia del comando :ref:`archivo.escribir\( \) <escr>`  que sobrescribe los datos existentes en el documento, el comando **archivo.anexar\( \)** añade el texto al final del documento.
 
 .. raw:: html
 
@@ -63,29 +65,27 @@ A diferencia del comando **archivo.escribir\( \)** que sobrescribe los datos exi
 
    archivo.anexar("c:\user\prueba.lat", ", Latino\n\nHoy será un hermoso día.")</code></pre>
 
-.. ----
+----
 
-.. archivo.duplicar\( \)
-.. --------------------
-.. Copia en el archivo especificado la cadena(texto) que deseamos añadir.
+archivo.duplicar\( \)
+------------------------
+Este comando crea un **duplicado** de un archivo especificado.
 
-.. Los textos en el segundo argumento en el también podemos usar los :ref:`caracteres especiales <cCaracterEspLink>`.
+**Ejemplo de sintaxis**
 
-.. El primer argumento adminte rutas mas no el segundo argumento de este comando.
+.. code-block:: bash
 
-.. archivo.duplicar("c:\user\archivo1.lat", "archivo2.lat")
-.. //El comando no coincide con su funcion.
-..    //Este comando pega al final del archivo la segunda cadena del comando.
+    archivo.duplicar("archivo_Original", "archivo_Copia")
 
+.. raw:: html
 
-.. .. raw:: html
-
-..    <pre><code class="language-latino line-numbers"></code></pre>
-
-.. el comando "poner" es el comando "duplicar"
-
-.. +----------------+------------+---------------------------------------------------------+
-.. | poner\( \)     | 2          | Sobrescribe el archivo con el texto especificado        |
+   <pre><code class="language-latino line-numbers">/*
+   En este ejemplo se creará un duplicado del archivo
+   en la carpeta Desktop y se cambiará el nombre del archivo
+   por "hola.lat"
+   */
+   
+   archivo.duplicar("c:\user\prueba.lat", "c:\user\desktop\hola.lat")</code></pre>
 
 ----
 
@@ -127,13 +127,15 @@ Este comando nos ayuda a **eliminar** un archivo especificado.
 
 ----
 
+.. _escr:
+
 archivo.escribir\( \)
 -----------------------
 Este comando nos permite **escribir** y **sobrescribe** un archivo especificado.
 
-.. important:: Si deseamos añadir más información al archivo usar el comando **archivo.anexar\( \)**
+.. important:: Si deseamos añadir más información al archivo usar el comando :ref:`archivo.anexar\( \) <anexar>`
     
-    Si se usa este comando en un archivo **NO vacío** este será completamente sobrescribe con la nueva información.
+    Si se usa este comando en un archivo **NO vacío** este será completamente **sobrescribe** con la nueva información.
 
 .. raw:: html
 
