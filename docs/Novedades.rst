@@ -27,6 +27,7 @@ Mejoras
   * Se ha corregido el comando **cadena.rellenar_izquierda()** en MS-Windows
   * Se ha corregido el comando **lista.concatenar()**
   * Se ha corregido el comando **lista.insertar()**
+  * Se ha mejorado el comando **archivo.duplicar()**
   * Se ha mejorado el comando **mate.aleatorio()**
   * Se ha mejorado los comandos **imprimirf()** y **cadena.formato()**
     * Tiene soporte para reconocer valores octales, hexadecimales y expresiones científicas.
