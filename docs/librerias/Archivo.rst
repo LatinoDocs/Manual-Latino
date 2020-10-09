@@ -11,6 +11,9 @@ Cada uno de estos comandos puede recibir el **nombre** como también la **ruta**
 
 El nombre de archivo o ruta del archivo deben ser escritas entre **comillas**.
 
+.. important:: Al marcar las rutas es importante utilizar doble slash \\ \\ en MS-Windows
+    
+    Y en macOS o Linux utilizar slash invertido \/
 
 **Lista de comando**
 
@@ -63,7 +66,7 @@ A diferencia del comando :ref:`archivo.escribir\( \) <escr>`  que sobrescribe lo
    Hoy será un hermoso día.
    */
 
-   archivo.anexar("c:\user\prueba.lat", ", Latino\n\nHoy será un hermoso día.")</code></pre>
+   archivo.anexar("c:\\user\\prueba.lat", ", Latino\n\nHoy será un hermoso día.")</code></pre>
 
 ----
 
@@ -85,7 +88,7 @@ Este comando crea un **duplicado** de un archivo especificado.
    por "hola.lat"
    */
    
-   archivo.duplicar("c:\user\prueba.lat", "c:\user\desktop\hola.lat")</code></pre>
+   archivo.duplicar("c:\\user\\prueba.lat", "c:\\user\\desktop\\hola.lat")</code></pre>
 
 ----
 
@@ -101,7 +104,7 @@ Este comando nos permite **crear un archivo** con un nombre especificado en cual
    en la ruta "C:\Users\"
    */
 
-   archivo.crear("C:\Users\prueba.lat")</code></pre>
+   archivo.crear("C:\\Users\\prueba.lat")</code></pre>
 
 .. note:: Si al especificar la ruta del archivo a crear escribimos un nombre de alguna carpeta que no existe, este no hará nada, ya que este comando solo puede crear archivos y no carpetas.
 
@@ -113,7 +116,7 @@ Este comando nos permite la **ejecución** de un archivo que contenga código de
 
 .. raw:: html
 
-   <pre><code class="language-latino line-numbers">archivo.ejecutar("c:\user\prueba.lat")</code></pre>
+   <pre><code class="language-latino line-numbers">archivo.ejecutar("c:\\user\\prueba.lat")</code></pre>
 
 ----
 
@@ -123,7 +126,7 @@ Este comando nos ayuda a **eliminar** un archivo especificado.
 
 .. raw:: html
 
-   <pre><code class="language-latino line-numbers">archivo.eliminar("c:\user\prueba.lat")</code></pre>
+   <pre><code class="language-latino line-numbers">archivo.eliminar("c:\\user\\prueba.lat")</code></pre>
 
 ----
 
@@ -139,7 +142,7 @@ Este comando nos permite **escribir** y **sobrescribe** un archivo especificado.
 
 .. raw:: html
 
-   <pre><code class="language-latino line-numbers">archivo.escribir("c:\user\prueba.lat", "Hola mundo")</code></pre>
+   <pre><code class="language-latino line-numbers">archivo.escribir("c:\\user\\prueba.lat", "Hola mundo")</code></pre>
 
 ----
 
@@ -149,7 +152,7 @@ Para este comando se requiere **almacenar en una variable** el contenido del arc
 
 .. raw:: html
 
-   <pre><code class="language-latino line-numbers">x = archivo.leer("C:\Users\prueba.lat")
+   <pre><code class="language-latino line-numbers">x = archivo.leer("C:\\Users\\prueba.lat")
    escribir(x)</code></pre>
 
 ----
@@ -162,7 +165,7 @@ Para este comando es requerido asignarlo a una variable para almacenar el conten
 
 .. raw:: html
 
-   <pre><code class="language-latino line-numbers">x = archivo.lineas("C:\Users\prueba.lat")
+   <pre><code class="language-latino line-numbers">x = archivo.lineas("C:\\Users\\prueba.lat")
    escribir(x)</code></pre>
 
 ----
