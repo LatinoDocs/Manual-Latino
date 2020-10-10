@@ -23,7 +23,7 @@ copyright = '2015-2020, Lenguaje Latino.'
 author = 'Melvin Guerrero'
 
 # The full version, including alpha/beta/rc tags
-latino_version = '1.3.0-RC'
+latino_version = '1.3.0'
 
 
 # -- General configuration ---------------------------------------------------

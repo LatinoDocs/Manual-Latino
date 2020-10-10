@@ -50,7 +50,7 @@ Latino es un lenguaje que ha recibido el cariño y apoyo de usuarios hispanos al
 
 Este lenguaje fue creado por Primitivo Roman en el 2015 con la versión v0.1-alpha hasta su versión v1.0 que fue lanzada en el 2017.
 
-En la actualidad, este lenguaje sigue su desarrollo bajo la dirección de Melvin Guerrero con las versiones v1.1.0 y v1.2.0 en adelante.
+En la actualidad, este lenguaje sigue su desarrollo bajo la dirección de Melvin Guerrero con las versiones v1.1.0, v1.2.0, v1.3.0 en adelante.
 
 ----
 
