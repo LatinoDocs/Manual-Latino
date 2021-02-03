@@ -153,7 +153,7 @@ Este comando es similar al comando **gotoxy\( \)** en C.
    para luego mover el cursor dentro de ella
    */
    
-   escribir("Ente su número en la caja
+   escribir("Ingrese su número en la caja
    +----------+
    |          |
    +----------+")
@@ -262,5 +262,5 @@ Estés comando solo admite los siguientes comandos (en mayúsculas):
    osi sis.op("LINUX")
        escribir("Linux for Humand")
    sino
-       escribir("El sistema no es reconosido por Latino")
+       escribir("El sistema no es reconocido por Latino")
    fin</code></pre>
