@@ -15,7 +15,7 @@ Esta documentación está destinada a todas las personas que tengan o no, conoci
 
 Aprende con ejemplos
 --------------------
-Un buen ejemplo vale más que 1,000 palabras. Esta documentación tiene como objetivo poder enseñar por medio de ejemplos que sean fáciles de entender y recordar, ayudando así al aprendizaje y compresión de este lenguaje de programación llamado Latino.
+Un buen ejemplo vale más que 1,000 palabras. Esta documentación tiene como objetivo poder enseñar por medio de ejemplos que sean fáciles de entender y recordar, ayudando así al aprendizaje y comprensión de este lenguaje de programación llamado Latino.
 
 Aprende a tu ritmo
 ------------------
