@@ -205,12 +205,17 @@ Para comenzar con cada uno de los ejemplos tendremos que abrir la terminal de nu
          
          <pre><code class="language-latino line-numbers">escribir("Entre un alfabeto:")
          alfa=leer()
-         vocales=("a"||"A"||"e"||"E"||"i"||"I"||"o"||"O"||"u"||"U")    //Declaración de vocales
-         si (alfa==vocales)
-           escribir(alfa..", es una vocal")
-         sino
-           escribir(alfa..", no es una vocal")
-         fin</code></pre>
+         vocales=["a","A","e","E","i","I","o","O","u","U"]    //Declaración de vocales
+
+         resp = alfa..", NO es una vocal"
+
+         desde (i=0; i<lista.longitud(vocales); i++)
+            si (alfa==vocales[i])
+               resp = alfa..", SI es una vocal"
+            fin
+         fin
+
+         escribir (resp)</code></pre>
       
       El resultado será:
 
