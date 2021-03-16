@@ -209,7 +209,7 @@ Para comenzar con cada uno de los ejemplos tendremos que abrir la terminal de nu
 
          resp = alfa..", NO es una vocal"
 
-         desde (i=0; i<lista.longitud(vocales); i++)
+         desde (i=0; i < lista.longitud(vocales); i++)
             si (alfa==vocales[i])
                resp = alfa..", SI es una vocal"
             fin
