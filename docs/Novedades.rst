@@ -63,6 +63,8 @@ Novedades:
 
 ----
 
+.. nuevo::
+
 Lib "archivo"
 **************
   * Se ha añadido el comando **archivo.anexar()**

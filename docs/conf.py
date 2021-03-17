@@ -10,20 +10,21 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-#import os
-#import sys
+import os
+import sys
 #sys.path.insert(0, os.path.abspath('.'))
+sys.path.append(os.path.abspath("./_static/_py/"))
 
 import sphinx_rtd_theme
 
 # -- Project information -----------------------------------------------------
 
 project = 'Manual Latino'
-copyright = '2015-2020, Lenguaje Latino.'
+copyright = '2015-2021, Lenguaje Latino.'
 author = 'Melvin Guerrero'
 
 # The full version, including alpha/beta/rc tags
-latino_version = '1.3.0'
+latino_version = '1.4.0'
 
 
 # -- General configuration ---------------------------------------------------
@@ -34,6 +35,7 @@ latino_version = '1.3.0'
 extensions = [
     "sphinx_rtd_theme",
     "sphinx_tabs.tabs",
+    "nuevo",
 ]
 
 rst_epilog = """
