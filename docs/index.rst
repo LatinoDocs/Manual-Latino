@@ -19,7 +19,7 @@ Bienvenidos al manual de Latino_, un lenguaje de programación con sintaxis en E
   `Melvin Guerrero`_
 
 :Versión:
-  `Latino 1.3.0`_
+  `Latino 1.4.0`_
 
 Empezando
 ----------
@@ -132,7 +132,7 @@ Si desea colaborar, mire el articulo de `guía de colaboración`_
 
 .. _Latino: https://lenguajelatino.org
 .. _Melvin Guerrero: https://melvinguerrero.blogspot.com
-.. _Latino 1.3.0: https://github.com/lenguaje-latino/Latino/releases/tag/v1.3.0
+.. _Latino 1.4.0: https://github.com/lenguaje-latino/Latino/releases/tag/v1.4.0
 .. _Latino API: https://manuallatinoapi.blogspot.com
 .. _guía de colaboración: https://github.com/LatinoDocs/Manual-Latino/blob/master/.readme/CONTRIBUTING.md
 .. _Canal en Youtube: https://www.youtube.com/channel/UCLVTJpQn-TDbBSwR732kvnQ/featured
@@ -155,6 +155,7 @@ Si desea colaborar, mire el articulo de `guía de colaboración`_
    OS/MS-Windows
    OS/Debian-Ubuntu
    OS/Fedora-CentOS
+   OS/ArchLinux-Manjaro
    OS/macOS-X
 
 .. toctree::

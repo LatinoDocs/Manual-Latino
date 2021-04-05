@@ -13,20 +13,15 @@ Para instalar Latino en Debian y Ubuntu, primero abrimos la consola (Terminal) y
 
    sudo apt-get update
    sudo apt-get install git bison flex cmake gcc g++
-   sudo apt-get install libcurl4-openssl-dev libhiredis-dev libjansson-dev
-   sudo apt-get install redis-server curl libgtk-3-dev
    sudo apt-get install libreadline-dev libpthread-stubs0-dev
-
-.. note:: En el código de arriba es **LIBCURL4**, no LIBCUR14
 
 Una vez concluido esto, pasamos a instalar propiamente Latino en nuestro sistema
 
 .. code-block:: bash
 
   cd ~
-  sudo git clone --recursive https://github.com/lenguaje-latino/Latino
-  cd latino
-  sudo git submodule update --init --recursive
+  sudo git clone https://github.com/lenguaje-latino/latino-core
+  cd latino-core
   sudo cmake .
   sudo make
   sudo make install
