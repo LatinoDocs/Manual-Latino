@@ -9,33 +9,11 @@ Fedora - CentOS
 ================
 Para instalar Latino en Fedora o CentOS, primero abrimos la consola (Terminal) y ejecutamos los siguientes comandos:
 
-.. tabs::
-   
-   .. tab:: Fedora 26
-      
-      .. code-block:: bash
+.. code-block:: bash
 
-         sudo dnf update
-         sudo dnf install gcc-c++
-         sudo dnf install git bison flex cmake kernel-devel
-         sudo dnf install readline-devel
-
-   .. tab:: Fedora 25
-      
-      .. code-block:: bash
-      
-         sudo dnf update
-         sudo dnf install gcc-c++
-         sudo dnf install git bison flex cmake kernel-devel
-         sudo dnf install hiredis-devel
-         sudo dnf install readline-devel
-      
-   .. tab:: Fedora 24
-      
-      .. code-block:: bash
-      
-         sudo dnf update
-         sudo dnf install bison flex cmake gcc g++ libjansson-dev libcurl4-openssl-dev libhiredis-dev redis-server curl jansson-devel groupinstall "Development Tools" "Development Libraries" groupinstall "RPM Development Tools" redhat-lsb libgtk-3-dev gtk3-devel readline-devel
+   sudo dnf update
+   sudo dnf install gcc-c++ git cmake kernel-devel
+   sudo dnf install readline-devel
 
 Una vez concluido esto, pasamos a instalar propiamente Latino en nuestro sistema
 
