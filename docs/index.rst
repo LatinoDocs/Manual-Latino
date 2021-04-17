@@ -198,6 +198,7 @@ Si desea colaborar, mire el articulo de `guía de colaboración`_
    sintaxis/Condicion-Si
    sintaxis/Condicion-Elegir
    sintaxis/Condicion-Desde
+   sintaxis/Condicion-Rango
    sintaxis/Condicion-Mientras
    sintaxis/Condicion-Repetir
    sintaxis/Modulo
