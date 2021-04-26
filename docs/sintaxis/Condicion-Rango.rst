@@ -1,8 +1,8 @@
 .. _desdeLink:
 
 .. meta::
-   :description: Condición desde en Latino
-   :keywords: manual, documentacion, latino, sintaxis, desde, for
+   :description: Condición RANGO en Latino
+   :keywords: manual, documentacion, latino, sintaxis, rango, in range, for loop
 
 ===========================
 Condición Rango (For Loop)

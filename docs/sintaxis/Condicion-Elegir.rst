@@ -1,6 +1,6 @@
 .. meta::
    :description: Condición elegir en Latino
-   :keywords: manual, documentacion, latino, sintaxis, elegir, switch
+   :keywords: manual, documentacion, latino, sintaxis, elegir, switch, casos
 
 ==========================
 Condición Elegir (Switch)
