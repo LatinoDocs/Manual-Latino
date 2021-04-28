@@ -1,3 +1,5 @@
+.. _mientrasLink:
+
 .. meta::
    :description: Condición mientras en Latino
    :keywords: manual, documentacion, latino, sintaxis, mientras, while

@@ -1,3 +1,5 @@
+.. _elegirLink:
+
 .. meta::
    :description: Condición elegir en Latino
    :keywords: manual, documentacion, latino, sintaxis, elegir, switch, casos

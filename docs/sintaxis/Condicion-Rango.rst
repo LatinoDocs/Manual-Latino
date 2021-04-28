@@ -1,4 +1,4 @@
-.. _desdeLink:
+.. _rangoLink:
 
 .. meta::
    :description: Condición RANGO en Latino

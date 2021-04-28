@@ -1,4 +1,4 @@
-.. _siLink:
+.. _romperLink:
 
 .. meta::
    :description: Condición ROMPER en Latino
@@ -7,7 +7,7 @@
 =========================
 Condición Romper (Break)
 =========================
-La **condición o sentencia Romper (Break)** detiene las repeticiones (rompe) de los bucles **si**, **mientras**, **rango** y **desde**.
+La **condición o sentencia Romper (Break)** detiene las repeticiones (rompe) de los bucles :ref:`si <siLink>`, :ref:`mientras <mientrasLink>`, :ref:`rango <rangoLink>` y :ref:`desde <desdeLink>`.
 
 Es decir, la sentencia **romper** termina de forma abrupta un bucle.
 
@@ -15,11 +15,11 @@ Esta condicional evalúa una condición y si el resultado es verdadero ejecuta l
 
 Latino tiene las siguientes declaraciones condicionales:
 
-+------------+-------------------------------------------------------------------------------------------------+
-| Comandos   | Descripción                                                                                     |
-+============+=================================================================================================+
-| **romper** | Detiene la operación de un bucle y, el programa o función, continua con la siguiente operación. |
-+------------+-------------------------------------------------------------------------------------------------+
++------------+---------------------------------------------------------------------------------------+
+| Comandos   | Descripción                                                                           |
++============+=======================================================================================+
+| **romper** | Detiene la operación de un bucle y, el programa, continua con la siguiente operación. |
++------------+---------------------------------------------------------------------------------------+
 
 ----
 
