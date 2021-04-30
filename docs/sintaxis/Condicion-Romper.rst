@@ -55,6 +55,7 @@ Inicio de cualquier condicional que genere un bucle (**si**, **mientras**, **ran
 **Ejemplo de código**
 
 .. raw:: html
+  
    <pre><code class="lenguaje-latino line-numbers">/*
    Cuando la condición se cumple
    se detendrá la ejecución del código
