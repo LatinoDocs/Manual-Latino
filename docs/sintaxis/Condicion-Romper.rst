@@ -55,28 +55,29 @@ Inicio de cualquier condicional que genere un bucle (**si**, **mientras**, **ran
 **Ejemplo de código**
 
 .. raw:: html
-
-   <pre><code class="language-latino line-numbers">/*
+   <pre><code class="lenguaje-latino line-numbers">/*
    Cuando la condición se cumple
    se detendrá la ejecución del código
    y devolverá los valores obtenidos
    hasta antes de su finalización.
    */
+
    desde (i=0; i<10; i++)
-	   escribir(i)
-	     si (i == 5)
-		     romper
-	   fin
+     escribir(i)
+       si (i == 5)
+         romper
+       fin
+     fin
    fin
-   #salida: 0 1 2 3 4 5</code></pre>
+   #salida: 0 1 2 3 4 5</code></pre>   
 
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">i=0
    mientras (i < 10)
      escribir(i)
-     si (i == 5)
-	     romper
+       si (i == 5)
+         romper
      fin
      i++
    fin
