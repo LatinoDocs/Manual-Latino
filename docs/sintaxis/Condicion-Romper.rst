@@ -87,19 +87,6 @@ Inicio de cualquier condicional que genere un bucle (**si**, **mientras**, **ran
 
 .. raw:: html
 
-   <pre><code class="language-latino line-numbers">i=0
-   repetir
-     escribir(i)
-       si (i == 5)
-	       romper
-       fin
-     fin
-     i++
-   hasta (i == 10)
-   #salida: 0 1 2 3 4 5</code></pre>
-
-.. raw:: html
-
    <pre><code class="language-latino line-numbers">para i en rango(0, 10)
      escribir(i)
        si (i == 5)
