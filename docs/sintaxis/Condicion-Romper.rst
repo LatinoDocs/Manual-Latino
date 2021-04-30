@@ -78,8 +78,9 @@ Inicio de cualquier condicional que genere un bucle (**si**, **mientras**, **ran
      escribir(i)
        si (i == 5)
          romper
+       fin
+       i++
      fin
-     i++
    fin
    #salida: 0 1 2 3 4 5</code></pre>
 
