@@ -93,6 +93,7 @@ Inicio de cualquier condicional que genere un bucle (**si**, **mientras**, **ran
        si (i == 5)
 	       romper
        fin
+     fin
      i++
    hasta (i == 10)
    #salida: 0 1 2 3 4 5</code></pre>
@@ -102,7 +103,8 @@ Inicio de cualquier condicional que genere un bucle (**si**, **mientras**, **ran
    <pre><code class="language-latino line-numbers">para i en rango(0, 10)
      escribir(i)
        si (i == 5)
-	       romper
+         romper
        fin
      fin
+   fin
    #salida: 0 1 2 3 4 5</code></pre>
