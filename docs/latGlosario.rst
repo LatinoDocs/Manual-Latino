@@ -40,6 +40,8 @@ Palabras reservadas
 * si
 * sino
 * tipo
+* rango
+* ir
 
 Librerías
 ----------

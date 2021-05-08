@@ -10,7 +10,9 @@ Esta sección del manual está enfocada en dar al usuario una breve muestra de a
 
 Para comenzar con cada uno de los ejemplos tendremos que abrir la terminal de nuestro sistema operativo y tener ejecutado Latino.
 
-.. note:: Para ejecutar Latino en la terminal sólo tendemos que escribir **latino** y precionar la tecla Enter.
+.. note:: Para ejecutar Latino en la terminal sólo escribimos **latino** y presionamos la tecla Enter
+
+.. note:: Para ejecutar un archivo de **Latino** ingresamos a la ubicación del archivo desde la consola y escribimos **latino** y el nombre del archivo con su extensión. Por ejemplo: **latino miarchivo.lat**
 
 .. container:: nota
 
