@@ -21,7 +21,9 @@ Una vez concluido esto, pasamos a instalar propiamente Latino en nuestro sistema
   cd ~
   sudo git clone https://github.com/lenguaje-latino/latino-core
   cd latino-core
-  sudo ./gcc_compilar.sh
+  mkdir build && cd build
+  make
+  make install
 
 **... y listo!** para ejecutar Latino solo escribimos en nuestra terminal el comando **latino**
 
