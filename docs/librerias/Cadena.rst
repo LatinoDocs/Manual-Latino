@@ -156,7 +156,7 @@ Este comando nos permite **verificar** si existe una **coincidencia** del texto 
 
 cadena.ejecutar\( \)
 -------------------------------------------
-Este comando nos permite **ejecutar** una cadeta de texto de tenga código de Latino.
+Este comando nos permite **ejecutar** una cadena de texto que tenga código de Latino.
 
 .. raw:: html
 
