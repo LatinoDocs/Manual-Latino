@@ -154,7 +154,8 @@ Si desea colaborar, mire el articulo de `guía de colaboración`_
 
    OS/MS-Windows
    OS/Debian-Ubuntu
-   OS/Fedora-CentOS
+   OS/Fedora
+   OS/RHEL-CentOS
    OS/ArchLinux-Manjaro
    OS/macOS-X
 

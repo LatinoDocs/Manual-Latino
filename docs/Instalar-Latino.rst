@@ -11,6 +11,10 @@ Latino es un lenguaje portátil, el cual puede ser instalado en los sistemas ope
 
 :ref:`Instalar Latino en Debian/Ubuntu <debianLink>`
 
-:ref:`Instalar Latino en Fedora/CentOS <fedoraLink>`
+:ref:`Instalar Latino en Fedora <fedoraLink>`
 
-:ref:`Instalar Latino en macOSX <macLink>`
+:ref:`Instalar Latino en RHEL/CentOS <centosLink>`
+
+:ref:`Instalar Latino en ArchLinux/Manjaro <archlinuxLink>`
+
+:ref:`Instalar Latino en macOS-X <macLink>`
