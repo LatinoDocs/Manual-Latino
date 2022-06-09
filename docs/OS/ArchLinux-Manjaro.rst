@@ -40,6 +40,8 @@ Una vez concluido esto, pasamos a instalar propiamente Latino en nuestro sistema
 
 **... y listo!** para ejecutar Latino solo escribimos en nuestra terminal el comando **latino**
 
+.. note:: Si en el proceso de instalar **Latino** en **Arch Linux o Manjaro** causa algún problema o conflicto, no dude en buscar las soluciones en el `foro Aquí`_
+
 Desinstalar
 ------------
 Para desinstalar Latino de su sistema, necesitara el archivo "latino_desinstalacion-linux.sh" el cual puede conseguir desde el siguiente repositorio:
@@ -48,9 +50,6 @@ Para desinstalar Latino de su sistema, necesitara el archivo "latino_desinstalac
 .. code-block::bash
 
    sudo chmod +x latino_desinstalacion-linux.sh && ./latino_desinstalacion-linux.sh
-
-
-.. note:: Si en el proceso de instalar **Latino** en **Arch Linux o Manjaro** causa algún problema o conflicto, no dude en buscar las soluciones en el `foro Aquí`_
 
 
 .. Enlaces
